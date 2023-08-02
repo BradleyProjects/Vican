@@ -1,0 +1,106 @@
+.elementor-kit-5{--e-global-color-primary:#212121;--e-global-color-secondary:#009FFD;--e-global-color-text:#212121;--e-global-color-accent:#00D45B;--e-global-color-cdb0924:#F7F8FC;--e-global-color-d69796c:#7A7A7A;--e-global-color-0e1fd49:#61CE70;--e-global-color-f7629c5:#23A455;--e-global-color-7ae69a1:#FFFFFF;--e-global-color-108bc9a:#DDE3F3;--e-global-color-22f56e1:#63E79E;--e-global-color-f7f4370:#EF5F59;--e-global-color-df15ac1:#FFDD7C;--e-global-color-4ea682c:#5B5B5B;--e-global-color-f23ea0c:#222236;--e-global-color-cf808fd:#0482B4;--e-global-color-825be28:#00CFEF;--e-global-color-cd99165:#2778AF;--e-global-typography-primary-font-family:"Gotham";--e-global-typography-primary-line-height:1.1em;--e-global-typography-secondary-font-family:"Gotham";--e-global-typography-text-font-family:"Avenir";--e-global-typography-accent-font-family:"Gotham";color:var( --e-global-color-primary );font-family:"Avenir", Open-sans;font-size:16px;}.elementor-kit-5 a{color:var( --e-global-color-accent );font-family:"Avenir", Open-sans;line-height:1.3em;}.elementor-kit-5 h1{color:#212121;font-family:"Gotham", Open-sans;font-size:3.25rem;font-weight:600;text-transform:capitalize;line-height:1.2em;}.elementor-kit-5 h2{color:#212121;font-family:"Gotham", Open-sans;font-size:32px;font-weight:400;line-height:1.3em;}.elementor-kit-5 h3{color:#212121;font-family:"Gotham", Open-sans;font-size:24px;font-weight:400;line-height:1.3em;}.elementor-kit-5 h4{font-family:"Gotham", Open-sans;font-weight:600;line-height:1.3em;}.elementor-kit-5 h5{font-family:"Gotham", Open-sans;font-weight:500;line-height:1.3em;}.elementor-kit-5 h6{font-family:"Gotham", Open-sans;font-weight:500;line-height:1.3em;}.elementor-kit-5 button,.elementor-kit-5 input[type="button"],.elementor-kit-5 input[type="submit"],.elementor-kit-5 .elementor-button{color:#FFFFFF;background-color:var( --e-global-color-accent );box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.22) inset;border-style:solid;border-width:0px 0px 0px 0px;border-color:#0000001F;border-radius:4px 4px 4px 4px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Book_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Book_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BookItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BookItalic_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Bold_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Bold_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BoldItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BoldItalic_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Medium_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Medium_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-MediumItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-MediumItalic_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-XLightItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-XLight_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: 100;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-XLightItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-XLightItalic_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Light_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Light_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-LightItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-LightItalic_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Black_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-Black_Web.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: italic;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BlackItalic_Web.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/GothamSSm-BlackItalic_Web.woff') format('woff');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Avenir';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/Avenir-Book.woff2') format('woff2'),
+		url('https://www.digitalmarketer.com/wp-content/uploads/2021/08/Avenir-Book.woff') format('woff');
+}
+/* End Custom Fonts CSS */

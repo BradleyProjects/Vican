@@ -1,0 +1,2075 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.vican.co.za/',
+        AccountUUID: '52fffdd495354f418ecfa045717ee96d',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '6fef3c80',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Thu Jun 15 13:13:36 UTC 2023',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'about-us',
+        InitialPageUuid: '3c79f4333cb5412a8ef4187befbe8dbb',
+        InitialEncodedPageAlias: 'YWJvdXQtdXM=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '10110',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'vican',
+        HasCustomDomain: true,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div> <p class=\"rteBlock\">We use cookies to ensure that we give you the best experience on our website. To learn more, go to the <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">Privacy Page<\/a>.<\/p> \n<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.vican.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.vican.co.za/about-us">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp.cdn-website.com/6fef3c80/dms3rep/multi/291775415_721600592441840_3585788787141330744_n.jpeg"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/6fef3c80/site_favicon_16_1660143730200.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://lirp.cdn-website.com/" crossorigin />
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+<!-- loadCSS function -->
+<script>
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loaddCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page,
+ * and once all of them are loaded we convert the <link> tag into a valid stylesheet type
+ * which then appends the styles to the page.
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def(){this.promise=new Promise((function(a,b){this.resolve=a,this.reject=b}).bind(this))}
+    const defs={};
+    window.getDeferred=function(a){return null==defs[a]&&(defs[a]=new Def),defs[a]}
+    window.waitForDeferred = function (b, a, c) {
+      let d = window?.getDeferred?.(b);
+      d
+        ? d.promise.then(a)
+        : c && ["complete", "interactive"].includes(document.readyState)
+        ? setTimeout(a, 1)
+        : c
+        ? document.addEventListener("DOMContentLoaded", a)
+        : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function -->
+<script>
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loaddCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page,
+ * and once all of them are loaded we convert the <link> tag into a valid stylesheet type
+ * which then appends the styles to the page.
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css?family=Lobster+Two:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Amiko:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Lobster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Montserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Bebas+Neue:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Arvo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Oswald:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Droid+Serif:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Eater:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/production_3514/89f5337a3b208cb5d3e5f64165d315c4.css" id="widgetCSS" />
+
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="about-us"] #dm [data-show-on-page-only="about-us"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/6fef3c80/files/6fef3c80_1.min.css?v=159" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+    .widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1043153197
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody *.u_1743964366:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1743964366.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_OBSTETRICS:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_OBSTETRICS.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.u_OBSTETRICS:before
+{
+	background-color:rgba(246,246,246,1) !important;
+	opacity:0.27 !important;
+}
+*#dm *.dmBody div.u_OBSTETRICS.before
+{
+	background-color:rgba(246,246,246,1) !important;
+	opacity:0.27 !important;
+}
+*#dm *.dmBody div.u_OBSTETRICS
+{
+	background-color:rgba(0,0,0,0) !important;
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody div.u_SENIORCARE
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1743964366:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.6 !important;
+}
+*#dm *.dmBody div.u_1743964366.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.6 !important;
+}
+*#dm *.dmBody div.u_1743964366>.bgExtraLayerOverlay
+{
+	opacity:0.6 !important;
+}
+*#dm *.dmBody div.u_1131438034
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_PEDIATRICS
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1648006921
+{
+	background-color:rgba(248,248,248,1) !important;
+}
+*#dm *.dmBody div.u_1810388180
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1859382278
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1367908639
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody *.u_1888002327:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1888002327.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.u_1536650334 .shape-text
+{
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1407809811 .shape-text
+{
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1320682856 .shape-text
+{
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1959191539 .shape-text
+{
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1263012846
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/Screenshot+2022-08-25+at+11.57.08_auto_x2-2880w.jpg) !important;
+	background-size:cover !important;
+}
+*#dm *.dmBody div.u_1743964366
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/Screenshot-2022-08-25-at-11.48.59_auto_x2-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1888002327
+{
+	background-repeat:no-repeat !important;
+	background-image:url(https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/Screenshot+2022-08-25+at+11.50.41_auto_x2-2880w.jpg) !important;
+}
+*#dm *.dmBody div.u_1888002327:before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.66 !important;
+}
+*#dm *.dmBody div.u_1888002327.before
+{
+	background-color:rgba(0,0,0,1) !important;
+	opacity:0.66 !important;
+}
+*#dm *.dmBody div.u_1888002327>.bgExtraLayerOverlay
+{
+	opacity:0.66 !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody div.u_1043153197
+{
+	padding-left:0 !important;
+	padding-right:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+*#dm *.dmBody h1.u_1377208480
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1377208480
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:668px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody div.u_1858396818
+{
+	padding-top:50px !important;
+	padding-bottom:50px !important;
+	padding-left:50px !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1263012846
+{
+	background-position:50% 50% !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_OBSTETRICS
+{
+	padding-top:90px !important;
+	padding-bottom:70px !important;
+	padding-right:40px !important;
+	padding-left:40px !important;
+}
+*#dm *.dmBody div.u_1663615062
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:470px !important;
+	position:relative !important;
+	height:407px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:calc(100% - 0px) !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_SENIORCARE
+{
+	padding-top:70px !important;
+	padding-bottom:70px !important;
+	padding-right:40px !important;
+	padding-left:40px !important;
+}
+*#dm *.dmBody div.u_1432100351
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:999px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody h2.u_1131438034
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1131438034
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:482px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	display:block !important;
+}
+*#dm *.dmBody h2.u_1810388180
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1801969030
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1926716768
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 124px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:952px !important;
+	margin-top:19px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody h2.u_1859382278
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1969682358
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 172px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:856px !important;
+	margin-top:19px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1343457330
+{
+	padding-right:20px !important;
+	padding-left:20px !important;
+}
+*#dm *.dmBody div.u_1910084468
+{
+	padding-right:20px !important;
+	padding-left:20px !important;
+}
+*#dm *.dmBody div.u_1074547524
+{
+	padding-right:20px !important;
+	padding-left:20px !important;
+}
+*#dm *.dmBody div.u_1342231379
+{
+	padding-right:20px !important;
+	padding-left:20px !important;
+}
+*#dm *.dmBody div.u_1249677240
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1003587282
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 13px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:238px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1620220257
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 7px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:250px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1545565239
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 11px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:242px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1536650334
+{
+	width:80px !important;
+	height:80px !important;
+}
+*#dm *.dmBody div.u_1407809811
+{
+	width:80px !important;
+	height:80px !important;
+}
+*#dm *.dmBody div.u_1320682856
+{
+	width:80px !important;
+	height:80px !important;
+}
+*#dm *.dmBody div.u_1959191539
+{
+	width:80px !important;
+	height:80px !important;
+}
+*#dm *.dmBody div.u_1684685047
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:21px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1727968983
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:21px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1318665624
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:21px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1943793506
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:21px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1810388180
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:482px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody div.u_1859382278
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:482px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody div.u_PEDIATRICS
+{
+	padding-top:63.5px !important;
+	padding-bottom:63.5px !important;
+	padding-right:40px !important;
+	padding-left:40px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	max-width:100% !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1648006921
+{
+	margin-left:0px !important;
+	padding-top:33px !important;
+	padding-left:40px !important;
+	padding-bottom:33px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	margin-right:0px !important;
+	padding-right:40px !important;
+	width:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1367908639
+{
+	padding-top:29px !important;
+	padding-left:40px !important;
+	padding-bottom:29px !important;
+	padding-right:40px !important;
+	width:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	height:auto !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	max-width:100% !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1888002327
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:39px !important;
+	padding-left:40px !important;
+	padding-bottom:39px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	max-width:100% !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	background-attachment:fixed !important;
+	background-size:cover !important;
+	background-position:50% 100% !important;
+}
+*#dm *.dmBody div.u_1743964366
+{
+	padding-top:303.5px !important;
+	padding-bottom:183.5px !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	background-attachment:initial !important;
+	background-size:cover !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	background-position:50% 50% !important;
+	background-repeat:no-repeat !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-60, .size-60, .size-60 > font { font-size: 60px !important; }.font-size-60, .size-60, .size-60 > font { font-size: 60px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+<meta property="og:type" content="website">
+
+  <title>
+    Vican Manufacturing | About Us
+  </title>
+  <meta name="keywords" content="Vican, Auto industrial coating services Johanessburg, Auto industrial coating services in Johanessburg,  Auto industrial coating services, Automotive services Johanessburg, Automotive services in Johanessburg, refinishing products, Primes, Fillers, Basecoats, Charcoats, Toners, Enamels, Solvents, Hardeners,"/>
+  <meta name="description" content="We are fast becoming a specialist of choice in refinishing products. Our range of 2k’s, base-coats, QD’s, primers and accessories has given us a loyal client base throughout the country."/>
+
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KV4QS2H');
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <meta name="google-site-verification" content="JYcvwxGzr1a4wPR0npqSJ5Dxz0d4MCQgwf2CrjOH-_I"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Vican Manufacturing | About Us"/>
+  <meta name="twitter:description" content="We are fast becoming a specialist of choice in refinishing products. Our range of 2k’s, base-coats, QD’s, primers and accessories has given us a loyal client base throughout the country."/>
+  <meta name="twitter:image" content="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/291775415_721600592441840_3585788787141330744_n-1920w.jpeg"/>
+  <meta property="og:description" content="We are fast becoming a specialist of choice in refinishing products. Our range of 2k’s, base-coats, QD’s, primers and accessories has given us a loyal client base throughout the country."/>
+  <meta property="og:title" content="Vican Manufacturing | About Us"/>
+  <meta property="og:image" content="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/291775415_721600592441840_3585788787141330744_n-1920w.jpeg"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="about-us"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody " style="padding:0;margin:0;"
+      
+      >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1582363842" themewaschanged="true" desktop-global-classes="header-over-content" tablet-global-classes="header-over-content"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader rows-1200 inMiniHeaderMode hamburger-reverse header-over-content dmPageBody d-page-1683814473 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1683814473" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true" headerlayout="718" layout="3160be7e691447abbddc535d6cfafc7a===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="70%"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow fullBleedChanged fullBleedMode u_1274842921" style="text-align: center;" id="1274842921"> <div class="dmRespColsWrapper" id="1624750594"> <div class="u_1587188069 dmRespCol small-12 large-2 medium-2" id="1587188069"> <div class="u_1916495360 imageWidget align-center" data-widget-type="image" id="1916495360" data-element-type="image"> <a href="/" id="1619040417"><img src="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" id="1879196772" class="" data-dm-image-path="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" alt="Vican logo" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1051987174 dmRespCol small-12 large-8 medium-8" id="1051987174"> <nav class="u_1971715308 effect-top-bottom main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_3" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1971715308" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/about-us" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101723297  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+         About Us
+        " data-auto="page-text-style">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101579025  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Products
+        " data-auto="page-text-style">Products<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/primers-and-fillers" class="unifiednav__item  dmUDNavigationItem_010101980021  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Primers & Fillers
+          " data-auto="page-text-style">Primers &amp; Fillers<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/basecoats-clearcoats-toners-and-enamels" class="unifiednav__item  dmUDNavigationItem_010101767568  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Basecoats, Clearcoats, Toners & Enamels
+          " data-auto="page-text-style">Basecoats, Clearcoats, Toners &amp; Enamels<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hardeners-solvents-and-others" class="unifiednav__item  dmUDNavigationItem_010101568708  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hardeners, Solvents & Others
+          " data-auto="page-text-style">Hardeners, Solvents &amp; Others<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/gallery" class="unifiednav__item  dmUDNavigationItem_010101150690  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Gallery
+        " data-auto="page-text-style">Gallery<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Contactus" class="unifiednav__item  dmUDNavigationItem_010101582766  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact us
+        " data-auto="page-text-style">Contact us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1886640962 dmRespCol small-12 large-2 medium-2" id="1886640962"> <a class="u_1994063607 default dmDefaultGradient align-center dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:+27 11 493 2578" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'6fef3c80', this);" id="1994063607" dmle_extension="clicktocall" data-element-type="clicktocall" data-buttonstyle="FLAT_ROUND_ICON" wr="true" data-display-type="block" icon="true" surround="true" description="Call us Today" adwords="" icon-name="icon-phone" phone="+27 11 493 2578" text="" image=""> <span class="iconBg" aria-hidden="true"> <span class="icon hasFontIcon icon-phone"></span> 
+</span> 
+ <span class="text">Call us Today</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">About Us</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1582363842" themewaschanged="true" desktop-global-classes="header-over-content" tablet-global-classes="header-over-content" class="dmBody u_dmStyle_template_about-us"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="100" class="dmAboutusRespTmpl mainBorder" id="1683814473"> <div class="innerPageTmplBox dmRespRowsWrapper" id="1396310947"> <div class="u_1743964366 dmRespRow dmSectionNoParallax hasBackgroundOverlay" style="text-align: center;" id="1743964366"> <div class="dmRespColsWrapper" id="1345277632"> <div class="dmRespCol small-12 medium-12 large-12 u_1043153197" id="1043153197"> <div class="u_1377208480 dmNewParagraph" id="1377208480" style="transition: opacity 1s ease-in-out 0s; text-align: center;" data-element-type="paragraph" data-version="5"> <h2 class="text-align-center size-60 m-size-48" style="line-height: 1;"><span class="font-size-60 m-font-size-48" style="color: rgb(255, 255, 255); display: initial;">About us</span></h2> 
+</div></div> 
+</div> 
+</div> 
+ <div class="u_PEDIATRICS dmRespRow dmReadySection mobile-columns-reversed" dm:templateid="List" id="PEDIATRICS" data-anchor="PEDIATRICS"> <div class="dmRespColsWrapper ListSection" id="1950328283"> <div class="dmRespCol small-12 medium-6 large-6 u_1263012846" id="1263012846"> <div class="u_1663615062 dmSpacer" id="1663615062" data-element-type="spacer"></div> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6 u_1858396818" id="1858396818"> <div class="u_1131438034 dmNewParagraph" id="1131438034" style="text-align: left; display: block;" data-element-type="paragraph" data-version="5"> <h3 style="letter-spacing: 0.05em; line-height: 1;"><span style="display: initial;">A little bit about our story</span></h3> 
+</div> <div class="u_1432100351 dmNewParagraph" id="1432100351" style="transition: none 0s ease 0s; text-align: center; display: block;" data-version="5"><p class="text-align-left"><span class="" style="display: initial; font-weight: 300;"><span style="display: initial; font-weight: 300;">With a combined 80 years of retail and manufacturing experience and an educated understanding of the diversity of the market, the Vican team identified a huge gap in the Automotive Refinishing Market. Three years ago this powerful combination led to the establishment of Vican Manufacturing CC and has already established itself as one of the market leaders within each of the product segments it produces for.</span> 
+</span></p><p class="text-align-left"><br/></p><p class="text-align-left"><span style="display: initial; font-weight: 300;"><span class="ql-cursor">﻿</span>We are fast becoming a specialist of choice in refinishing products. Our range of 2k&rsquo;s, base-coats, QD&rsquo;s, primers and accessories has given us a loyal client base throughout the country as well as the Sub Saharan African region. It is through our genuine commitment to providing customers with multiple quality products, fair affordable pricing and outstanding service that this tremendous growth and market penetration has occurred, crafting out a unique and popular market position.</span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1648006921 dmRespRow" id="1648006921"> <div class="dmRespColsWrapper" id="1973916130"> <div class="dmRespCol large-12 medium-12 small-12" id="1799113579"> <div class="u_1810388180 dmNewParagraph" id="1810388180" style="text-align: left; display: block;" data-element-type="paragraph" data-version="5"> <h3 class="text-align-center" style="line-height: 1; letter-spacing: 0.05em;"><span style="display: initial;">Our Promise</span></h3> 
+</div> <div class="u_1801969030 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1801969030" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="display: unset; font-weight: bold; color: rgb(218, 68, 58);">To be committed to your satisfaction</span></p></div> 
+ <div class="u_1926716768 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1926716768" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center" style="line-height: 1.5;"><span style="display: unset;">We promise to provide you with a complete and comprehensive range of quality products at very competitive prices through excellent service and delivery and by continuing to be the point of reference for you our repairers who wish to achieve excellent results in the most simple and effective way.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1367908639 dmRespRow" id="1367908639"> <div class="dmRespColsWrapper" id="1145470188"> <div class="dmRespCol large-12 medium-12 small-12" id="1925090163"> <div class="u_1859382278 dmNewParagraph" id="1859382278" style="text-align: left; display: block;" data-element-type="paragraph" data-version="5"> <h3 class="text-align-center" style="line-height: 1; letter-spacing: 0.05em;"><span style="display: initial;">Who We Are?</span></h3> 
+</div> <div class="u_1969682358 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1969682358" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center" style="line-height: 1.5;"><span style="display: unset;">We listen, we discuss, we advise and then we develop. We love to learn and use the latest technologies and customer feedback to create new and more paints for every need.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1888002327 dmRespRow hasBackgroundOverlay fullBleedChanged fullBleedMode dmSectionNoParallax" style="text-align: center;" id="1888002327"> <div class="dmRespColsWrapper" id="1369926943"> <div class="dmRespCol small-12 u_1343457330 large-3 medium-3" id="1343457330" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbiIsInJldmVyc2UiOmZhbHNlfX0=" data-anim-desktop="fadeIn"> <span id="1173948445"></span> 
+ <div class="default u_1536650334 dmShape" id="1536650334" dmle_extension="shape" data-element-type="shape" text-position="center_center" wr="true" icon="true" surround="true" adwords="" shape-text="OTkl" shape-description="" shape-image="" alt-text="" tooltip="" shape-type="circle" show-text-on-shape="true" shape-color="rgba(0, 0, 0, 0)" border-color-shape="rgba(255, 255, 255, 1)" overlay-color="#ffffff" image-position="xMidYMid" shape-keep-proportion="true" shape-layout="layout1" border-width-shape="2" overlay-opacity="50" link-attrs="e30="> <a data-link-id="shape-link-container" id="1525969438"> <div class="container-text container-padding center_center" id="1367265721"> <h3 class="shape-text" id="1098236250">99%</h3> 
+</div> 
+ <svg width="100%" height="100%" viewbox="-1.00 -1.00 102 102" id="1865284228"> <g> <path d="M50, 50 m -50, 0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" style="fill:rgba(0, 0, 0, 0);" stroke="rgba(255, 255, 255, 1)" stroke-width="2"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+ <div class="u_1684685047 dmNewParagraph" id="1684685047" style="transition: opacity 1s ease-in-out 0s; display: block; line-height: initial; text-align: center;" data-element-type="paragraph" data-version="5"> <h4 class="text-align-center size-20 m-size-16"><span style="display: initial; text-transform: uppercase; color: rgb(255, 255, 255);" class="font-size-20 m-font-size-16">Quality Paints</span></h4> 
+</div> <div class="u_1545565239 dmNewParagraph" id="1545565239" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255); font-family: Montserrat; font-weight: 400;">We do this by producing a quality range of products at fair affordable prices under an umbrella of excellent service and delivery.</span></p></div></div> 
+ <div class="dmRespCol small-12 u_1074547524 large-3 medium-3" id="1074547524" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbiIsInJldmVyc2UiOmZhbHNlfX0=" data-anim-desktop="fadeIn"> <span id="1055368864"></span> 
+ <div class="default u_1407809811 dmShape" id="1407809811" dmle_extension="shape" data-element-type="shape" text-position="center_center" wr="true" icon="true" surround="true" adwords="" shape-text="ODAl" shape-description="" shape-image="" alt-text="" tooltip="" shape-type="circle" show-text-on-shape="true" shape-color="rgba(0, 0, 0, 0)" border-color-shape="rgba(255, 255, 255, 1)" overlay-color="#ffffff" image-position="xMidYMid" shape-keep-proportion="true" shape-layout="layout1" border-width-shape="2" overlay-opacity="50" link-attrs="e30="> <a data-link-id="shape-link-container" id="1931901032"> <div class="container-text container-padding center_center" id="1407953153"> <h3 class="shape-text" id="1196020253">80%</h3> 
+</div> 
+ <svg width="100%" height="100%" viewbox="-1.00 -1.00 102 102" id="1334033529"> <g> <path d="M50, 50 m -50, 0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" style="fill:rgba(0, 0, 0, 0);" stroke="rgba(255, 255, 255, 1)" stroke-width="2"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+ <div class="u_1727968983 dmNewParagraph" id="1727968983" style="transition:opacity 1s ease-in-out;line-height:initial;" data-element-type="paragraph" data-version="5"> <h4 class="size-20 m-size-16 text-align-center"><span style="display: initial; color: rgb(255, 255, 255); text-transform: uppercase;" class="font-size-20 m-font-size-16">Conversion Rate</span></h4> 
+</div> <div class="u_1249677240 dmNewParagraph" id="1249677240" style="transition: opacity 1s ease-in-out;" data-version="5"><p class="text-align-center"><span style="display: initial; font-family: Montserrat; font-weight: 400; color: rgb(255, 255, 255);">Many local and international customers have inquired about our products, with Vican coming away with an impressive 80% conversion rate.</span></p></div></div> 
+ <div class="dmRespCol small-12 u_1342231379 large-3 medium-3" id="1342231379" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbiIsInJldmVyc2UiOmZhbHNlfX0=" data-anim-desktop="fadeIn"> <span id="1594493514"></span> 
+ <div class="default u_1320682856 dmShape" id="1320682856" dmle_extension="shape" data-element-type="shape" text-position="center_center" wr="true" icon="true" surround="true" adwords="" shape-text="OTkl" shape-description="" shape-image="" alt-text="" tooltip="" shape-type="circle" show-text-on-shape="true" shape-color="rgba(0, 0, 0, 0)" border-color-shape="rgba(255, 255, 255, 1)" overlay-color="#ffffff" image-position="xMidYMid" shape-keep-proportion="true" shape-layout="layout1" border-width-shape="2" overlay-opacity="50" link-attrs="e30="> <a data-link-id="shape-link-container" id="1963463535"> <div class="container-text container-padding center_center" id="1418895427"> <h3 class="shape-text" id="1435006034">99%</h3> 
+</div> 
+ <svg width="100%" height="100%" viewbox="-1.00 -1.00 102 102" id="1612972027"> <g> <path d="M50, 50 m -50, 0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" style="fill:rgba(0, 0, 0, 0);" stroke="rgba(255, 255, 255, 1)" stroke-width="2"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+ <div class="u_1318665624 dmNewParagraph" id="1318665624" style="transition:opacity 1s ease-in-out;line-height:initial;" data-element-type="paragraph" data-version="5"> <h4 class="text-align-center size-20 m-size-16"><span style="color: rgb(255, 255, 255); text-transform: uppercase; display: initial;" class="font-size-20 m-font-size-16">Happy Clients</span></h4> 
+</div> <div class="u_1003587282 dmNewParagraph" id="1003587282" style="transition: opacity 1s ease-in-out;" data-version="5"><p class="text-align-center"><span style="display: initial; font-family: Montserrat; font-weight: 400; color: rgb(255, 255, 255);">That's because our products were crafted with you in mind and therefore our paints have satisfied up to 99% of our customers.</span><span style="color: rgb(255, 255, 255); display: initial;"><br/></span></p></div></div> 
+ <div class="dmRespCol small-12 u_1910084468 large-3 medium-3" id="1910084468" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbiIsInJldmVyc2UiOmZhbHNlfX0=" data-anim-desktop="fadeIn"> <span id="1901938980"></span> 
+ <div class="default u_1959191539 dmShape" id="1959191539" dmle_extension="shape" data-element-type="shape" text-position="center_center" wr="true" icon="true" surround="true" adwords="" shape-text="NjAl" shape-description="" shape-image="" alt-text="" tooltip="" shape-type="circle" show-text-on-shape="true" shape-color="rgba(0, 0, 0, 0)" border-color-shape="rgba(255, 255, 255, 1)" overlay-color="#ffffff" image-position="xMidYMid" shape-keep-proportion="true" shape-layout="layout1" border-width-shape="0" overlay-opacity="50" link-attrs="e30="> <a data-link-id="shape-link-container" id="1268061374"> <div class="container-text container-padding center_center" id="1751856969"> <h3 class="shape-text" id="1484368869">60%</h3> 
+</div> 
+ <svg width="100%" height="100%" viewbox="0.00 0.00 100 100" id="1484548267"> <g> <path d="M50, 50 m -50, 0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" style="fill:rgba(0, 0, 0, 0);"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+ <div class="u_1943793506 dmNewParagraph" id="1943793506" style="transition:opacity 1s ease-in-out;line-height:initial;" data-element-type="paragraph" data-version="5"> <h4 class="size-20 m-size-16 text-align-center"><span style="display: initial; color: rgb(255, 255, 255); text-transform: uppercase;" class="font-size-20 m-font-size-16">Paint Market Share</span></h4> 
+</div> <div class="u_1620220257 dmNewParagraph" id="1620220257" style="transition: opacity 1s ease-in-out;" data-version="5"><p class="text-align-center"><span style="display: initial; font-family: Montserrat; font-weight: 400; color: rgb(255, 255, 255);">Our national and SADEC Region distributors make us to one of the biggest automotive paint manufacturers and distributors.</span></p></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1757216649"> <div class="widget-5bd886 sticky-mobile-position-bottom-right u_1423108891 sticky-desktop-position-bottom-left dmCustomWidget" data-lazy-load="" data-title="" id="1423108891" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="224" data-widget-config="eyJ3YU51bWJlciI6IisyNyA4MiA1NjQgMDkxNyIsImJ0blRleHQiOiIgV2hhdHNBcHAgdXMiLCJkZWZhdWx0TWVzc2FnZSI6IiIsImFsdCI6Ik1lc3NhZ2UgdXMgb24gV2hhdHNBcHAiLCJ3YUxheW91dCI6Imljb25Pbmx5In0="> <a class="align-center full" target="_blank" data-display-type="block"> <span class="full iconBg"> <span class="full icon"><img class="full" src="https://dd-cdn.multiscreensite.com/editor/whatsApp/whatsapp_layout_5.svg" alt="Message us on WhatsApp" onerror="handleImageLoadError(this)"/></span> 
+</span> 
+</a> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1634281106 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1634281106"> <div class="dmRespColsWrapper" id="1660044154"> <div class="u_1665924535 dmRespCol small-12 large-4 medium-4" id="1665924535"> <div class="u_1979737529 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1979737529" style="transition: opacity 1s ease-in-out 0s;"><p><span style="text-transform: uppercase; font-weight: bold; color: rgb(255, 255, 255); display: initial;">products</span></p></div> 
+ <nav class="u_1418924704 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HOVER" id="1418924704" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/hardeners-solvents-and-others" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hardeners, Solvents & Others
+          " data-auto="page-text-style">Hardeners, Solvents &amp; Others<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/primers-and-fillers" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Primers & Fillers
+          " data-auto="page-text-style">Primers &amp; Fillers<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/basecoats-clearcoats-toners-and-enamels" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Basecoats, Clearcoats, Toners & Enamels
+          " data-auto="page-text-style">Basecoats, Clearcoats, Toners &amp; Enamels<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1717613156 dmRespCol small-12 large-4 medium-4" id="1717613156"> <div class="u_1124376896 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1124376896" style="transition: opacity 1s ease-in-out 0s;"><p><span style="display: unset; text-transform: uppercase; color: rgb(255, 255, 255); font-weight: bold;">contact info</span></p></div> 
+ <div class="dmNewParagraph u_1773842543" data-element-type="paragraph" data-version="5" id="1773842543" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-14 size-14" style="line-height: 1.5;"><a href="tel:+27 11 493 2578" target="_blank" type="call" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">+27 11 493 2578</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);" m-font-size-set="true">or</span><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><a href="tel:+27 11 493 8709" target="_blank" type="call" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">+27 11 493 8709</a></p><p class="m-size-14 size-14" style="line-height: 1.5;"><a href="mailto:sales@vican.co.za" target="_blank" type="email" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">sales@vican.co.za</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);" m-font-size-set="true">|</span><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><a href="mailto:orders@vican.co.za" target="_blank" type="email" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">orders@vican.co.za</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span></p><p style="line-height: 1.5;"><span class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial;"><br/></span></p><p class="m-size-14 size-14" style="line-height: 1.5;"><span class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">11 Mentz Street, Booysens, Johannesburg</span></p></div> 
+</div> 
+ <div class="u_1741134035 dmRespCol small-12 large-3 medium-3" id="1741134035"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1131913584" style="transition: opacity 1s ease-in-out 0s;"><p><span style="display: unset; text-transform: uppercase; color: rgb(255, 255, 255); font-weight: bold;">Quick Links</span></p></div> 
+ <div class="u_1738430390 default dmHoursOfOperation" id="1738430390" dmle_extension="open_hours" data-element-type="open_hours" time_format="12" wr="true" lang="" displaytitle="false" forcedisplay="false" icon="true" surround="true" adwords=""> <dl class="open-hours-data"> <div class="open-hours-item"> <dt day="0">Mon - Thu</dt> 
+ <dd> <time>7:30 am</time> 
+- <time>5:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="4">Friday</dt> 
+ <dd> <time>7:30 am</time> 
+- <time>4:30 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="5">Sat - Sun</dt> 
+ <dd>Closed</dd> 
+</div> 
+</dl> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1874982056" style="transition: opacity 1s ease-in-out 0s;"><p><span class="" style="display: initial; color: rgb(255, 255, 255);"><span style="display: initial; color: rgb(255, 255, 255);">Website Developed by</span> 
+</span><a href="https://www.webshure.com/" runtime_url="https://www.webshure.com/" type="url" style="display: initial; font-weight: bold;" target="_blank">WEBSHURE</a><span style="display: initial;"><br/></span></p></div> 
+</div> 
+ <div class="u_1946642827 dmRespCol small-12 large-1 medium-1" id="1946642827"> <div class="u_1296989690 align-center text-align-center dmSocialHub" id="1296989690" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://web.whatsapp.com/send?phone=+27 82 564 0917" target="_blank" dm_dont_rewrite_url="true" aria-label="whatsapp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Whatsapp&apos;)"> <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.facebook.com/VICAN.MFG" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/vican_manufacturing/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/vican-manufacturing" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://google.com/maps/place/" target="_blank" dm_dont_rewrite_url="true" aria-label="google_my_business" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;GoogleMyBusiness&apos;)"> <span class="dmSocialGoogleMyBusiness dm-social-icons-google-my-business oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow fullBleedChanged fullBleedMode u_1714935215" id="1714935215"> <div class="dmRespColsWrapper" id="1162580884"> <div class="dmRespCol large-12 medium-12 small-12" id="1796078721"> <div class="u_1003256866 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1003256866" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCBWaWNhbiBNYW51ZmFjdHVyaW5nIHwgPGEgdmFsdWU9XCJwcml2YWN5XCIgdHlwZT1cInBhZ2VcIiBocmVmPVwiL3ByaXZhY3lcIiBkYXRhLXJ1bnRpbWUtdXJsPVwiL3ByaXZhY3lcIj5Qcml2YWN5IFBvbGljeTwvYT48L3A+In0="> <div class="copyright"> <div>&copy; 2023&nbsp;</div> 
+ <div><p class="rteBlock">All Rights Reserved | Vican Manufacturing | <a value="privacy" type="page" href="/privacy" data-runtime-url="/privacy">Privacy Policy</a></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~224"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    
+    function handleClick(){
+        dm_gaq_push_event && dm_gaq_push_event('Whatsapp', 'click')
+        window.dmsnowplow && window.snowplow('trackStructEvent', 'Whatsapp-share','click')
+    }
+    
+    element.addEventListener("click", handleClick)
+
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "22..74";
+    var build = "2023-06-15T12_54_09";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2023-06-15T12_54_09";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div> <p class=\"rteBlock\">We use cookies to ensure that we give you the best experience on our website. To learn more, go to the <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">Privacy Page<\/a>.<\/p> \n<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.jQuery.migrateMute = true;
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/3514';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/3514';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["feature.flag.addTargetBlankToExternalLinks"] =true;
+    rtCommonProps["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtCommonProps["keyboard.navigation.enabled"] =true;
+    rtCommonProps["runtime.navigationWidget.menu.clipPath"] =true;
+    rtCommonProps["scripts.widgetCount.enabled"] =true;
+    rtCommonProps["maps.cookiebot.enabled"] =true;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtCommonProps["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtCommonProps["ecom.ecwid.fixFacebookLink"] = true;
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["runtime.save.restore.function.bind"] =true;
+    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+    rtCommonProps["new.store.accountPage.ecwid.signIn.fix"] =true;
+    rtCommonProps["fix.ecwid.sign.in.page.with.return.url"] =true;
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+    rtCommonProps["geocode.search.localize"] =false;
+    rtCommonProps["facebook.runtime.widgets.upgrade"] =true;
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.contact.form.fix.for.attribute"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["contact.form.date.format.enabled"] = true;
+    rtCommonProps["platform.monolith.personalization.userVisitsCondition.inClient.enabled"] = true;
+    rtCommonProps["ecom.widgets.menu.categories.toggles.enabled"] =  true;
+    rtCommonProps["filestack.uploadToTempBucket.enabled"] = true;
+    rtCommonProps["platform.monolith.loginBar.getUserLoggedIn.enabled"] = true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '6fef3c80'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 6fef3c80 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<script>
+    jQuery(window).on('load', function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+    });
+</script>
+<script>
+    dmAPI.loadScript(
+        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+        function () {
+            dmAPI.runOnReady('lozadInit', function () {
+                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                    img.addEventListener('load', function (event) {
+                        var img = event.target;
+                        img.style.filter = 'blur(0)';
+                        setTimeout(function () {
+                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+                        }, 250)
+                    });
+                });
+                lozad('.lazy', {
+                    threshold: 0.1,
+                    loaded: function (element) {
+                        if (element.getAttribute('data-background-image')) {
+                            element.style.setProperty(
+                                'background-image',
+                                "url('" + element.getAttribute('data-background-image') + "')",
+                                "important"
+                            );
+                        }
+                    }
+                }).observe();
+            });
+        }
+    );
+</script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV4QS2H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<meta name="google-site-verification" content="JYcvwxGzr1a4wPR0npqSJ5Dxz0d4MCQgwf2CrjOH-_I" /><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>

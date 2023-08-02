@@ -1,0 +1,1328 @@
+Uri: https://dd-cdn.multiscreensite.com/editor/whatsApp/whatsapp_layout_5.svg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\editor\whatsApp\whatsapp_layout_5-1.svg
+Content Type: image/svg+xml
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/107a32db89f1285b1.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\107a32db89f1285b1-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/107a32db89f1285b4.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\107a32db89f1285b4-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/1291d1e7f9fa7394.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\1291d1e7f9fa7394-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/1291d1e7f9fa73947.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\1291d1e7f9fa73947-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/1a31561daae4e6f5.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\1a31561daae4e6f5-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/1a31561daae4e6f6.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\1a31561daae4e6f6-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/28f652d19e80fbde1.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\28f652d19e80fbde1-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/28f652d19e80fbde11.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\28f652d19e80fbde11-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/31691cf572f5bde34.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\31691cf572f5bde34-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/31691cf572f5bde8.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\31691cf572f5bde8-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/325a0ea84e3a99.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\325a0ea84e3a99-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/325a0ea84e3a993.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\325a0ea84e3a993-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/3943a091ad116f3a1.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\3943a091ad116f3a1-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/3943a091ad116f3a3.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\3943a091ad116f3a3-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/3b8723a173ab23db6.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\3b8723a173ab23db6-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/3b8723a173ab23db9.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\3b8723a173ab23db9-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/47b9a7080319bd8b.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\47b9a7080319bd8b-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/47b9a7080319bd8b9.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\47b9a7080319bd8b9-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/48066a2ff839778c.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\48066a2ff839778c-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/48066a2ff839778c2.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\48066a2ff839778c2-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/5128cd07406988e2.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\5128cd07406988e2-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/5128cd07406988e3.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\5128cd07406988e3-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/53198ebebffbde21.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\53198ebebffbde21-1.woff
+Content Type: font/woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/53198ebebffbde25.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\53198ebebffbde25-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/6d3318b718754b78.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\6d3318b718754b78-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/6d3318b718754b781.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\6d3318b718754b781-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/9d22fae1754942f6.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\9d22fae1754942f6-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/9d22fae1754942f63.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\9d22fae1754942f63-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/9f2d68f1d69270015.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\9f2d68f1d69270015-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/9f2d68f1d69270018.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\9f2d68f1d69270018-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a38f38c55b7a57a.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a38f38c55b7a57a-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a4ba60ff9fc73cf85.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a4ba60ff9fc73cf85-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a4ba60ff9fc73cf87.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a4ba60ff9fc73cf87-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a7bbb29f8e80de7b.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a7bbb29f8e80de7b-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a7bbb29f8e80de7b4.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a7bbb29f8e80de7b4-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a81a5e6e6b2de22.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a81a5e6e6b2de22-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a81a5e6e6b2de224.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\a81a5e6e6b2de224-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/bac7cf2e21ae24d1.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\bac7cf2e21ae24d1-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/bc3ca414adf5d1d.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\bc3ca414adf5d1d-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/bc3ca414adf5d1d1.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\bc3ca414adf5d1d1-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/cd26fb9258467dc1b.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\cd26fb9258467dc1b-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/cd26fb9258467dcb2.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\cd26fb9258467dcb2-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/d843412155f4ee4b.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\d843412155f4ee4b-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/d843412155f4ee4b3.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\d843412155f4ee4b3-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/e2fc0b95199b08bc.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\e2fc0b95199b08bc-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/e5fc7a757e7988.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\e5fc7a757e7988-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/e5fc7a757e79881.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\e5fc7a757e79881-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/ec49acf58c10f8a9.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\ec49acf58c10f8a9-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/f5c444da86865f17.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\f5c444da86865f17-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/f5c444da86865f171.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\f5c444da86865f171-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/f889a07745b51249.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\f889a07745b51249-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/additionalfonts/f889a07745b512491.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\additionalfonts\f889a07745b512491-1.woff
+Content Type: application/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Alef-Bold.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Alef-Bold-1.woff2
+Content Type: binary/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Alef-Regular.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Alef-Regular-1.woff2
+Content Type: binary/octet-stream
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Museo_Slab_500.otf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Museo_Slab_500-1.otf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bold-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bold-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bold-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bold-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bold-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bold-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bold-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bold-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bolditalic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bolditalic-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bolditalic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bolditalic-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bolditalic-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bolditalic-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-bolditalic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-bolditalic-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-extrabold-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-extrabold-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-extrabold-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-extrabold-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-extrabold-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-extrabold-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-extrabold-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-extrabold-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-italic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-italic-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-italic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-italic-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-italic-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-italic-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-italic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-italic-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-light-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-light-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-light-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-light-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-light-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-light-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-light-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-light-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-lightitalic-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-lightitalic-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-lightitalic-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-lightitalic-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-lightitalic-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-lightitalic-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-lightitalic-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-lightitalic-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-regular-webfont.eot
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-regular-webfont-2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-regular-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-regular-webfont-3.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-regular-webfont.ttf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-regular-webfont-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://dd-cdn.multiscreensite.com/fonts/Opes_Sans_Hebrew/opensanshebrew-regular-webfont.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\Opes_Sans_Hebrew\opensanshebrew-regular-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/arrowBlackRight.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\arrowBlackRight-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/galleryLoader.gif
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\galleryLoader-1.gif
+Content Type: image/gif
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/imgPlaceholder1.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\imgPlaceholder1-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/imgPlaceholder2.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\imgPlaceholder2-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/imgPlaceholder3.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\imgPlaceholder3-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/restaurantMenu/menu-image1.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\restaurantMenu\menu-image1-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/runtime-img/yelpLogo.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\runtime-img\yelpLogo-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/aidsBg.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\aidsBg-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/click2Call.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\click2Call-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/halloween_call.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\halloween_call-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/holiday/cyberMondayBg.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\holiday\cyberMondayBg-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/holiday/holidaySnow.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\holiday\holidaySnow-1.png
+Content Type: image/png
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/holiday/smbSaturdayBg.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\holiday\smbSaturdayBg-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/holiday/thanksgivingBg.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\holiday\thanksgivingBg-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/sectionImg5.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\sectionImg5-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dd-cdn.multiscreensite.com/themes/sections/Trick-or-Treat.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\themes\sections\Trick-or-Treat-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dp-cdn.multiscreensite.com/bfsImages/sunset-hair.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\bfsImages\sunset-hair-1.jpg
+Content Type: image/jpeg
+
+Uri: https://dp-cdn.multiscreensite.com/gallery/bg_37.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\gallery\bg_37-1.png
+Content Type: image/png
+
+Uri: https://dp-cdn.multiscreensite.com/gallery/pink_pattern.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\gallery\pink_pattern-1.png
+Content Type: image/png
+
+Uri: https://irp.cdn-website.com/6fef3c80/dms3rep/multi/291775415_721600592441840_3585788787141330744_n.jpeg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\dms3rep\multi\291775415_721600592441840_3585788787141330744_n-1.jpeg
+Content Type: image/jpeg
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/6fef3c80_1.min.css?v=159
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\6fef3c80_1.min-1.css
+Content Type: text/css
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (10).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (10)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (11).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (11)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (12).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (12)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (13).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (13)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (8).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (8)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_Glaker_1K%2520ETCH%2520FILLER_PRIMER-1 (9).pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_Glaker_1K%20ETCH%20FILLER_PRIMER-1 (9)-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_TDS_NC_PRIMER.pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_TDS_NC_PRIMER-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_TDS_Softline_Body_Filler.pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_TDS_Softline_Body_Filler-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/files/uploaded/http___vican.co.za_Datasheets_TDS_Superlight_Body_Filler.pdf
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\files\uploaded\http___vican.co.za_Datasheets_TDS_Superlight_Body_Filler-1.pdf
+Content Type: application/pdf
+
+Uri: https://irp.cdn-website.com/6fef3c80/site_favicon_16_1660143730200.ico
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\site_favicon_16_1660143730200-1.ico
+Content Type: image/x-icon
+
+Uri: https://irp.cdn-website.com/fonts/css?family=Lobster+Two:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Amiko:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Lobster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Montserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Bebas+Neue:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Arvo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Oswald:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Droid+Serif:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Eater:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&subset=latin-ext&display=swap
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\css-2
+Content Type: text/css
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uIZXErCEIUwUQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uIZXErCEIUwUQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uIZXErDEIU.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uIZXErDEIU-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uIZXErNEIUwUQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uIZXErNEIUwUQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uJ9XUrCEIUwUQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uJ9XUrCEIUwUQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uJ9XUrDEIU.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uJ9XUrDEIU-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkdxPq1DFK04uJ9XUrNEIUwUQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkdxPq1DFK04uJ9XUrNEIUwUQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkQxPq1DFK04uqieV8.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkQxPq1DFK04uqieV8-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkQxPq1DFK04uqjeV_8MQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkQxPq1DFK04uqjeV_8MQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/amiko/v12/WwkQxPq1DFK04uqseV_8MQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\amiko\v12\WwkQxPq1DFK04uqseV_8MQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/arvo/v20/tDbD2oWUg0MKqScQ7Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\arvo\v20\tDbD2oWUg0MKqScQ7Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/arvo/v20/tDbM2oWUg0MKoZw1-LPK8w.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\arvo\v20\tDbM2oWUg0MKoZw1-LPK8w-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/arvo/v20/tDbN2oWUg0MKqSIg75Tv.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\arvo\v20\tDbN2oWUg0MKqSIg75Tv-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/arvo/v20/tDbO2oWUg0MKqSIoVLH68dr_.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\arvo\v20\tDbO2oWUg0MKqSIoVLH68dr_-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/bebasneue/v10/JTUSjIg69CK48gW7PXoo9Wdhyzbi.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\bebasneue\v10\JTUSjIg69CK48gW7PXoo9Wdhyzbi-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/bebasneue/v10/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\bebasneue\v10\JTUSjIg69CK48gW7PXoo9Wlhyw-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/creepster/v13/AlZy_zVUqJz4yMrniH4Rcn35.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\creepster\v13\AlZy_zVUqJz4yMrniH4Rcn35-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/droidserif/v19/tDbI2oqRg1oM3QBjjcaDkOr9rAU.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\droidserif\v19\tDbI2oqRg1oM3QBjjcaDkOr9rAU-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/droidserif/v19/tDbK2oqRg1oM3QBjjcaDkOr4nAfcHg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\droidserif\v19\tDbK2oqRg1oM3QBjjcaDkOr4nAfcHg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/droidserif/v19/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwE.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\droidserif\v19\tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwE-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/droidserif/v19/tDbX2oqRg1oM3QBjjcaDkOr4lLz5CwOnSA.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\droidserif\v19\tDbX2oqRg1oM3QBjjcaDkOr4lLz5CwOnSA-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/eater/v21/mtG04_FCK7bOvquxsXA.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\eater\v21\mtG04_FCK7bOvquxsXA-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/eater/v21/mtG04_FCK7bOvqu_sXBAsQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\eater\v21\mtG04_FCK7bOvqu_sXBAsQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobster/v28/neILzCirqoswsqX9zo-mM5Ez.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobster\v28\neILzCirqoswsqX9zo-mM5Ez-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobster/v28/neILzCirqoswsqX9zo2mM5Ez.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobster\v28\neILzCirqoswsqX9zo2mM5Ez-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobster/v28/neILzCirqoswsqX9zoamM5Ez.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobster\v28\neILzCirqoswsqX9zoamM5Ez-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobster/v28/neILzCirqoswsqX9zoKmMw.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobster\v28\neILzCirqoswsqX9zoKmMw-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobster/v28/neILzCirqoswsqX9zoymM5Ez.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobster\v28\neILzCirqoswsqX9zoymM5Ez-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobstertwo/v18/BngMUXZGTXPUvIoyV6yN5-fN5qU.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobstertwo\v18\BngMUXZGTXPUvIoyV6yN5-fN5qU-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobstertwo/v18/BngOUXZGTXPUvIoyV6yN5-fI1qeh5A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobstertwo\v18\BngOUXZGTXPUvIoyV6yN5-fI1qeh5A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobstertwo/v18/BngRUXZGTXPUvIoyV6yN5-92w7CGwR0.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobstertwo\v18\BngRUXZGTXPUvIoyV6yN5-92w7CGwR0-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/lobstertwo/v18/BngTUXZGTXPUvIoyV6yN5-fI3hyE8R-ifg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\lobstertwo\v18\BngTUXZGTXPUvIoyV6yN5-fI3hyE8R-ifg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUQjIg1_i6t8kCHKm459WxRxC7mw9c-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUQjIg1_i6t8kCHKm459WxRxi7mw9c-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUQjIg1_i6t8kCHKm459WxRxy7mw9c-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUQjIg1_i6t8kCHKm459WxRyS7m-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUQjIg1_i6t8kCHKm459WxRzS7mw9c-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUSjIg1_i6t8kCHKm459W1hyzbi-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUSjIg1_i6t8kCHKm459Wdhyzbi-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUSjIg1_i6t8kCHKm459Wlhyw-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUSjIg1_i6t8kCHKm459WRhyzbi-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\montserrat\v25\JTUSjIg1_i6t8kCHKm459WZhyzbi-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/oswald/v49/TK3iWkUHHAIjg752FD8Ghe4.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\oswald\v49\TK3iWkUHHAIjg752FD8Ghe4-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/oswald/v49/TK3iWkUHHAIjg752Fj8Ghe4.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\oswald\v49\TK3iWkUHHAIjg752Fj8Ghe4-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/oswald/v49/TK3iWkUHHAIjg752Fz8Ghe4.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\oswald\v49\TK3iWkUHHAIjg752Fz8Ghe4-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/oswald/v49/TK3iWkUHHAIjg752GT8G.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\oswald\v49\TK3iWkUHHAIjg752GT8G-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/oswald/v49/TK3iWkUHHAIjg752HT8Ghe4.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\oswald\v49\TK3iWkUHHAIjg752HT8Ghe4-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tCMPI.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiAyp8kv8JHgFVrJJLmE0tCMPI-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLBT5Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLBT5Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLBT5Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLCz7Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLCz7Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLCz7Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDD4Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDD4Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDD4Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDz8Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDz8Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLDz8Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLEj6Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLEj6Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLEj6Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLFj_Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLFj_Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLFj_Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLGT9Z11lFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLGT9Z1JlFc-K-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiByp8kv8JHgFVrLGT9Z1xlFQ-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm111VF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm111VF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm111VFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm111VFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm111VGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm111VGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm21lVF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm21lVFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm81xVF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm81xVFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm81xVFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmg1hVF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmr19VF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmr19VFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmv1pVF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmv1pVF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmy15VF9eO-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmy15VFteOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiEyp8kv8JHgFVrJJbecmNE-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiEyp8kv8JHgFVrJJfecg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiEyp8kv8JHgFVrJJnecmNE-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucHtA.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrJJLucHtA-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrJJLucXtAKPY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrJJLufntAKPY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrLPTucHtA.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrLPTucHtA-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrLPTucXtAKPY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrLPTucXtAKPY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/poppins/v20/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\poppins\v20\pxiGyp8kv8JHgFVrLPTufntAKPY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7jsDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7ksDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7osDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7psDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJT9g.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7rsDJT9g-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdg18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdg18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdh18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdh18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdi18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdi18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdj18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdj18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdo18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdo18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdv18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCdv18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdg18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdg18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdh18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdh18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdi18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdi18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdj18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdj18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdo18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdo18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSds18Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSds18Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdv18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZYokSdv18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdg18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdg18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdh18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdh18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdi18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdj18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdj18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdo18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdo18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdv18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSdv18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydg18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydg18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydh18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydh18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydi18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydi18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydj18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydj18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydo18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydo18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklyds18Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklyds18Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydv18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZklydv18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidg18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidg18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidh18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidh18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidi18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidi18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidj18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidj18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidv18Smxg.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidv18Smxg-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwkxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmhduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmRduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwmxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wkxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wkxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdu.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdu-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmhduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmRduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmRduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wmxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwkxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwkxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmBduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmBduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmhduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmhduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmRduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmRduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/fonts/s/sourcesanspro/v22/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmxduz8A.woff2
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\s\sourcesanspro\v22\6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwmxduz8A-1.woff2
+Content Type: font/woff2
+
+Uri: https://irp.cdn-website.com/WIDGET_CSS/production_3514/77b7938ed758dc97814e7fcda18fffde.css
+File Name: C:\Downloaded Web Sites\www.vican.co.za\WIDGET_CSS\production_3514\77b7938ed758dc97814e7fcda18fffde-1.css
+Content Type: text/css
+
+Uri: https://irp.cdn-website.com/_dm/s/rt/scripts/vendor/photoSwipe/icons@2x.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\_dm\s\rt\scripts\vendor\photoSwipe\icons@2x-1.png
+Content Type: image/png
+
+Uri: https://irp.cdn-website.com/_dm/s/rt/scripts/vendor/photoswipe4/icons/default-skin.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\_dm\s\rt\scripts\vendor\photoswipe4\icons\default-skin-3.png
+Content Type: image/png
+
+Uri: https://irp.cdn-website.com/_dm/s/rt/scripts/vendor/photoswipe4/icons/default-skin.svg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\_dm\s\rt\scripts\vendor\photoswipe4\icons\default-skin-1.svg
+Content Type: image/svg+xml
+
+Uri: https://irp.cdn-website.com/_dm/s/rt/scripts/vendor/photoswipe4/icons/preloader.gif
+File Name: C:\Downloaded Web Sites\www.vican.co.za\_dm\s\rt\scripts\vendor\photoswipe4\icons\preloader-1.gif
+Content Type: image/gif
+
+Uri: https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/pexels-photo-3255763-67817d78-2880w.jpeg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\dms3rep\multi\opt\pexels-photo-3255763-67817d78-2880w-1.jpeg
+Content Type: image/png
+
+Uri: https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/Screenshot+2022-08-25+at+11.57.48_auto_x2-2880w.jpg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\dms3rep\multi\opt\Screenshot 2022-08-25 at 11.57.48_auto_x2-2880w-1.jpg
+Content Type: image/jpg
+
+Uri: https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\dms3rep\multi\opt\VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w-1.png
+Content Type: image/png
+
+Uri: https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/WhatsApp+Image+2022-08-12+at+8.41.25+PM+(1)-2880w.jpeg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\6fef3c80\dms3rep\multi\opt\WhatsApp Image 2022-08-12 at 8.41.25 PM (1)-2880w-1.jpeg
+Content Type: image/jpg
+
+Uri: https://s3.amazonaws.com/dudamobile-themes/Icons/searchBtn.png
+File Name: C:\Downloaded Web Sites\www.vican.co.za\dudamobile-themes\Icons\searchBtn-1.png
+Content Type: image/png
+
+Uri: https://static.cdn-website.com/fonts/dm-common-icons.svg?5f0fg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-common-icons-1.svg
+Content Type: image/svg+xml
+
+Uri: https://static.cdn-website.com/fonts/dm-common-icons.ttf?5f0fg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-common-icons-1.ttf
+Content Type: application/octet-stream
+
+Uri: https://static.cdn-website.com/fonts/dm-common-icons.woff?5f0fg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-common-icons-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/fonts/dm-font.ttf?v=12
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-font-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://static.cdn-website.com/fonts/dm-font.woff?v=12
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-font-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/fonts/dm-social-font.ttf?mxo7pn
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-social-font-1.ttf
+Content Type: application/font-sfnt
+
+Uri: https://static.cdn-website.com/fonts/dm-social-font.woff?mxo7pn
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-social-font-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/fonts/dm-social-icons.svg?y1xkih
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-social-icons-1.svg
+Content Type: binary/octet-stream
+
+Uri: https://static.cdn-website.com/fonts/dm-social-icons.ttf?y1xkih
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-social-icons-1.ttf
+Content Type: font/ttf
+
+Uri: https://static.cdn-website.com/fonts/dm-social-icons.woff?y1xkih
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\dm-social-icons-1.woff
+Content Type: font/woff
+
+Uri: https://static.cdn-website.com/fonts/DudaSansVF.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\DudaSansVF-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/fonts/flexslider-icon.woff
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\flexslider-icon-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\fontawesome-webfont-3.eot
+Content Type: application/octet-stream
+
+Uri: https://static.cdn-website.com/fonts/fontawesome-webfont.eot?v=6
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\fontawesome-webfont-2.eot
+Content Type: application/octet-stream
+
+Uri: https://static.cdn-website.com/fonts/fontawesome-webfont.svg
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\fontawesome-webfont-1.svg
+Content Type: image/svg+xml
+
+Uri: https://static.cdn-website.com/fonts/fontawesome-webfont.ttf?v=6
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\fontawesome-webfont-1.ttf
+Content Type: application/octet-stream
+
+Uri: https://static.cdn-website.com/fonts/fontawesome-webfont.woff?v=6
+File Name: C:\Downloaded Web Sites\www.vican.co.za\fonts\fontawesome-webfont-1.woff
+Content Type: application/font-woff
+
+Uri: https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js
+File Name: C:\Downloaded Web Sites\www.vican.co.za\libs\jquery\jquery-3.7.0.min-1.js
+Content Type: binary/octet-stream
+
+Uri: https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css
+File Name: C:\Downloaded Web Sites\www.vican.co.za\mnlt\production\3514\_dm\s\rt\dist\css\d-css-runtime-desktop-one-package-structured-global.min-1.css
+Content Type: text/css
+
+Uri: https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js
+File Name: C:\Downloaded Web Sites\www.vican.co.za\mnlt\production\3514\_dm\s\rt\dist\scripts\d-js-jquery-migrate.min-1.js
+Content Type: application/javascript
+
+Uri: https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js
+File Name: C:\Downloaded Web Sites\www.vican.co.za\mnlt\production\3514\_dm\s\rt\dist\scripts\d-js-one-runtime-unified-desktop.min-1.js
+Content Type: application/javascript
+
+Uri: https://www.vican.co.za/primers-and-fillers
+File Name: C:\Downloaded Web Sites\www.vican.co.za\primers-and-fillers-1.html
+Content Type: text/html
+

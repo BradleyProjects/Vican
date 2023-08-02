@@ -1,0 +1,1742 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.vican.co.za/',
+        AccountUUID: '52fffdd495354f418ecfa045717ee96d',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '6fef3c80',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Thu Jun 15 13:13:36 UTC 2023',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'privacy',
+        InitialPageUuid: '36329521975e4f0f9249166e9cd18203',
+        InitialEncodedPageAlias: 'cHJpdmFjeQ==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '10110',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'vican',
+        HasCustomDomain: true,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div> <p class=\"rteBlock\">We use cookies to ensure that we give you the best experience on our website. To learn more, go to the <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">Privacy Page<\/a>.<\/p> \n<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.vican.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'PRIVACY_PAGE',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.vican.co.za/privacy">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp.cdn-website.com/6fef3c80/dms3rep/multi/291775415_721600592441840_3585788787141330744_n.jpeg"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/6fef3c80/site_favicon_16_1660143730200.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://lirp.cdn-website.com/" crossorigin />
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+<!-- loadCSS function -->
+<script>
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loaddCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page,
+ * and once all of them are loaded we convert the <link> tag into a valid stylesheet type
+ * which then appends the styles to the page.
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def(){this.promise=new Promise((function(a,b){this.resolve=a,this.reject=b}).bind(this))}
+    const defs={};
+    window.getDeferred=function(a){return null==defs[a]&&(defs[a]=new Def),defs[a]}
+    window.waitForDeferred = function (b, a, c) {
+      let d = window?.getDeferred?.(b);
+      d
+        ? d.promise.then(a)
+        : c && ["complete", "interactive"].includes(document.readyState)
+        ? setTimeout(a, 1)
+        : c
+        ? document.addEventListener("DOMContentLoaded", a)
+        : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function -->
+<script>
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loaddCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page,
+ * and once all of them are loaded we convert the <link> tag into a valid stylesheet type
+ * which then appends the styles to the page.
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+
+  function checkCss() {
+    if (cssLinks && cssLinks.runtime && cssLinks.global) {
+      loadCssLink(cssLinks.runtime);
+      loadCssLink(cssLinks.global);
+      cssLinks = null;
+    }
+  }
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      /* Never fail - this is just a tool for measurements */
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css?family=Lobster+Two:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Amiko:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Creepster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Lobster:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Montserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Bebas+Neue:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Arvo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Oswald:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Droid+Serif:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic|Eater:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/production_3514/6abe00bfcbd9bd1cde9e17b933a94319.css" id="widgetCSS" />
+
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="privacy"] #dm [data-show-on-page-only="privacy"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/6fef3c80/files/6fef3c80_1.min.css?v=159" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+    .widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody a.span.textonly { color:rgb(255,255,255) !important; }
+
+*#dm *.dmBody a.span.textonly { color:rgb(255,255,255) !important; }
+
+*#dm *.dmBody div.dmform-error { font-style:normal !important; }
+
+*#dm *.dmBody div.dmforminput textarea { font-style:italic !important; }
+
+*#dm *.dmBody div.dmforminput *.fileUploadLink { font-style:italic !important; }
+
+*#dm *.dmBody div.checkboxwrapper span { font-style:italic !important; }
+
+*#dm *.dmBody div.radiowrapper span { font-style:italic !important; }
+
+*#dm *.dmBody div.u_1083860406 { line-height:initial !important; }
+
+*#dm *.dmBody div.u_1243667655 { background-color:rgba(0,0,0,0) !important; }
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.d-page-1716942098 DIV.dmInner {
+  background-repeat:no-repeat !important;
+  background-size:cover !important;
+  background-attachment:fixed !important;
+  background-position:50% 50% !important;
+}
+
+*#dm *.d-page-1716942098 DIV#dmSlideRightNavRight {
+  background-repeat:no-repeat !important;
+  background-image:none !important;
+  background-size:cover !important;
+  background-attachment:fixed !important;
+  background-position:50% 50% !important;
+}
+
+*#dm *.dmBody div.u_1243667655 {
+  margin-left:auto !important;
+  padding-top:100px !important;
+  padding-left:40px !important;
+  padding-bottom:100px !important;
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+  padding-right:40px !important;
+  margin-right:auto !important;
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  max-width:none !important;
+  min-width:0 !important;
+  text-align:center !important;
+}
+
+*#dm *.dmBody div.u_1303079183 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  max-width:calc(100% - 0px) !important;
+  margin-top:30px !important;
+  margin-bottom:8px !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+}
+
+*#dm *.dmBody div.u_1127178348 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1902293774 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1970988313 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:10px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1848787429 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1992814609 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1095182628 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1507676094 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1604837267 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1943112316 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1691958799 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  max-width:calc(100% - 0px) !important;
+  margin-top:0px !important;
+  margin-bottom:8px !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+}
+
+*#dm *.dmBody div.u_1835719266 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1615284184 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1059000972 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1064661103 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1144216550 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1953255332 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:28px !important;
+  margin-bottom:8px !important;
+}
+
+*#dm *.dmBody div.u_1651675547 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:100% !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:calc(100% - 0px) !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  margin-top:9px !important;
+  margin-bottom:8px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+<meta property="og:type" content="website">
+
+  <title>
+    Vican Manufacturing
+  </title>
+  <meta name="keywords" content="Vican, Auto industrial coating services Johanessburg, Auto industrial coating services in Johanessburg,  Auto industrial coating services, Automotive services Johanessburg, Automotive services in Johanessburg, refinishing products, Primes, Fillers, Basecoats, Charcoats, Toners, Enamels, Solvents, Hardeners,"/>
+  <meta name="description" content="Vican Auto Industrial Coating. Your paint coatings specialist providing painting products at affordable prices."/>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KV4QS2H');
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <meta name="google-site-verification" content="JYcvwxGzr1a4wPR0npqSJ5Dxz0d4MCQgwf2CrjOH-_I"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Vican Manufacturing"/>
+  <meta name="twitter:description" content="Vican Auto Industrial Coating. Your paint coatings specialist providing painting products at affordable prices."/>
+  <meta name="twitter:image" content="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/291775415_721600592441840_3585788787141330744_n-1920w.jpeg"/>
+  <meta property="og:description" content="Vican Auto Industrial Coating. Your paint coatings specialist providing painting products at affordable prices."/>
+  <meta property="og:title" content="Vican Manufacturing"/>
+  <meta property="og:image" content="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/291775415_721600592441840_3585788787141330744_n-1920w.jpeg"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="privacy"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody " style="padding:0;margin:0;"
+      
+      >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader rows-1200 inMiniHeaderMode hamburger-reverse dmPageBody d-page-1716942098 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true" headerlayout="718" layout="3160be7e691447abbddc535d6cfafc7a===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="70%"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow fullBleedChanged fullBleedMode u_1274842921" style="text-align: center;" id="1274842921"> <div class="dmRespColsWrapper" id="1624750594"> <div class="u_1587188069 dmRespCol small-12 large-2 medium-2" id="1587188069"> <div class="u_1916495360 imageWidget align-center" data-widget-type="image" id="1916495360" data-element-type="image"> <a href="/" id="1619040417"><img src="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" id="1879196772" class="" data-dm-image-path="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" alt="Vican logo" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1051987174 dmRespCol small-12 large-8 medium-8" id="1051987174"> <nav class="u_1971715308 effect-top-bottom main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_3" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1971715308" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/about-us" class="unifiednav__item  dmUDNavigationItem_010101723297  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         About Us
+        " data-auto="page-text-style">About Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="#" class="unifiednav__item  dmUDNavigationItem_010101579025  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Products
+        " data-auto="page-text-style">Products<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/primers-and-fillers" class="unifiednav__item  dmUDNavigationItem_010101980021  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Primers & Fillers
+          " data-auto="page-text-style">Primers &amp; Fillers<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/basecoats-clearcoats-toners-and-enamels" class="unifiednav__item  dmUDNavigationItem_010101767568  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Basecoats, Clearcoats, Toners & Enamels
+          " data-auto="page-text-style">Basecoats, Clearcoats, Toners &amp; Enamels<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hardeners-solvents-and-others" class="unifiednav__item  dmUDNavigationItem_010101568708  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hardeners, Solvents & Others
+          " data-auto="page-text-style">Hardeners, Solvents &amp; Others<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/gallery" class="unifiednav__item  dmUDNavigationItem_010101150690  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Gallery
+        " data-auto="page-text-style">Gallery<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#Contactus" class="unifiednav__item  dmUDNavigationItem_010101582766  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact us
+        " data-auto="page-text-style">Contact us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1886640962 dmRespCol small-12 large-2 medium-2" id="1886640962"> <a class="u_1994063607 default dmDefaultGradient align-center dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:+27 11 493 2578" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'6fef3c80', this);" id="1994063607" dmle_extension="clicktocall" data-element-type="clicktocall" data-buttonstyle="FLAT_ROUND_ICON" wr="true" data-display-type="block" icon="true" surround="true" description="Call us Today" adwords="" icon-name="icon-phone" phone="+27 11 493 2578" text="" image=""> <span class="iconBg" aria-hidden="true"> <span class="icon hasFontIcon icon-phone"></span> 
+</span> 
+ <span class="text">Call us Today</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">privacy</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1901957768" class="dmBody u_dmStyle_template_privacy dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div class="u_1243667655 dmRespRow" style="text-align: center;" id="1243667655"> <div class="dmRespColsWrapper" id="1173148036"> <div class="dmRespCol small-12 medium-12 large-12 u_1620106714" id="1620106714"> <span id="1479169930"></span> 
+ <div class="dmNewParagraph" data-element-type="paragraph" id="1916090978" style="transition:opacity 1s ease-in-out;line-height:initial;" data-version="5"> <h3 class="size-24"><span class="font-size-24" style="font-weight: 700; color: rgb(221, 63, 54); display: initial;"><span class="font-size-24" style="font-weight: 700; color: rgb(221, 63, 54); display: initial;">Vican</span> 
+</span><span class="font-size-24" style="font-weight: 700; display: initial;"><span class="font-size-24" style="font-weight: 700; display: initial;">Privacy Policy</span> 
+</span><span style="font-weight: 700; display: initial;" class="font-size-20">&nbsp;</span></h3> 
+</div> <div class="dmNewParagraph u_1303079183" data-element-type="paragraph" id="1303079183" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Introduction</span></h4> 
+</div> <div class="dmNewParagraph" id="1133662932" style="transition:opacity 1s ease-in-out;line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">This Privacy Policy outlines</span> 
+</span><span class="font-size-15" style="display: initial; color: rgb(218, 68, 58); text-decoration: none; font-weight: bold;">vican</span><span single-space="true" class="font-size-15" style="display: initial; color: rgb(255, 0, 56); text-decoration: underline;"> <span class="font-size-15" style="display: initial; color: rgb(255, 0, 56); text-decoration: underline;"></span> 
+</span><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">(&quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">we</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&quot;, &quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">our</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&quot; or &quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">the Company</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&quot;) practices with respect to information collected from users who access our website at</span> 
+</span><a href="http://www.vican.co.za" runtime_url="http://www.vican.co.za" type="url" class="font-size-15" style="display: initial; font-weight: bold;">www.vican.co.za</a><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">(&quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">Site</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&quot;), or otherwise share personal information with us (collectively: &quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">Users</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&quot;).&nbsp;</span></span></p></div> <div class="u_1902293774 dmNewParagraph" data-element-type="paragraph" id="1902293774" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Grounds for data collection&nbsp;</span></h4> 
+</div> <div class="dmNewParagraph" id="1443934047" style="transition:opacity 1s ease-in-out;line-height:initial;" data-version="5"><p><span class="font-size-15" style="display: initial; font-weight: 300;"><span class="font-size-15" style="display: initial; font-weight: 300;">Processing of your personal information (meaning, any information which may potentially allow your identification with reasonable means; hereinafter &quot;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">Personal Information</span><span class="font-size-15" style="display: initial; font-weight: 300;"> <span class="font-size-15" style="display: initial; font-weight: 300;">&quot;)&nbsp;</span> 
+</span><span style="display: initial;">is necessary for the performance of our contractual obligations towards you and providing you with our services, to protect our legitimate interests and for compliance with legal and financial regulatory obligations to which we are subject.</span></p><p><span style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial; font-weight: 300;">When you use the Site, you consent to the collection, storage, use, disclosure and other uses of your Personal Information as described in this Privacy Policy.</span></p><p><span style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial; font-weight: 300;">We encourage our Users to carefully read the Privacy Policy and use it to make informed decisions.&nbsp;</span></p></div> <div class="u_1127178348 dmNewParagraph" data-element-type="paragraph" id="1127178348" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">What information we collect?</span></h4> 
+</div> <div class="dmNewParagraph" id="1284811032" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We collect two types of data and information from Users.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">The first type of information is un-identified and non-identifiable information pertaining to a User(s), which may be made available or gathered via your use of the Site (&ldquo;</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">Non-personal Information</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">&rdquo;). We are not aware of the identity of a User from which the Non-personal Information was collected. Non-personal Information which is being collected may include your aggregated usage information and technical information transmitted by your device, including certain software and hardware information (e.g. the type of browser and operating system your device uses, language preference, access time, etc.) in order to enhance the functionality of our Site. We may also collect information on your activity on the Site (e.g. pages viewed, online browsing, clicks, actions, etc.).</span></span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">The second type of information</span> 
+</span><span class="font-size-15" style="display: initial; font-weight: 700;">Personal Information</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">which is individually identifiable information, namely information that identifies an individual or may with reasonable effort identify an individual. Such information includes:</span></span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p> <ul class="defaultList"><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="display: initial; color: rgb(0, 0, 0);">Device Information: We collect Personal Information from your device. Such information includes geolocation data, IP address, unique identifiers (e.g. MAC address and UUID) and other information which relates to your activity through the Site.</span><span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);"><br/></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="display: initial; color: rgb(0, 0, 0); font-weight: 300;">Registration information: When you register to our Site you will be asked to provide us certain details such as: full name; e-mail or physical address, and other information.&nbsp;</span><span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);"><br/></span></li></ul> 
+<p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p></div> <div class="u_1651675547 dmNewParagraph" data-element-type="paragraph" id="1651675547" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">How do we receive information about you?</span></h4> 
+</div> <div class="dmNewParagraph u_1083860406" id="1083860406" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We receive your Personal Information from various sources:</span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p> <ul class="defaultList"><li class="size-15"><span class="font-size-15" style="display: initial;">When you voluntarily provide us your personal details in order to register on our Site;</span></li><li class="size-15"><span class="font-size-15" style="display: initial;">When you use or access our Site in connection with your use of our services;</span></li><li class="size-15"><span class="font-size-15" style="display: initial;">From third party providers, services and public registers (for example, traffic analytics vendors).</span></li></ul> 
+<p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p></div> <div class="u_1970988313 dmNewParagraph" data-element-type="paragraph" id="1970988313" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">What information we collect?</span></h4> 
+</div> <div class="dmNewParagraph" id="1332322979" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We do not rent, sell, or share Users&rsquo; information with third parties except as described in this Privacy Policy.</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">We may use the information for the following:</span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p> <ul class="defaultList"><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Communicating with you &ndash; sending you notices regarding our services, providing you with technical information and responding to any customer service issue you may have;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">To communicate with you and to keep you informed of our latest updates and services;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">To serve you advertisements when you use our Site (see more under &quot;Advertisements&quot;);&nbsp;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">To market our websites and products (see more under &quot;Marketing&quot;);&nbsp;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Conducting statistical and analytical purposes, intended to improve the Site.</span></span><span class="font-size-15" style="color: rgb(255, 0, 56); display: initial;"><br/></span></li></ul> 
+<p><span class="font-size-15" style="color: rgb(255, 0, 56); display: initial;"><br/></span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">In addition to the different uses listed above, we may transfer or disclose Personal Information to our subsidiaries, affiliated companies and subcontractors.</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">In addition to the purposes listed in this Privacy Policy, we may share Personal Information with our trusted third party providers, who may be located in different jurisdictions across the world, for any of the following purposes:&nbsp;</span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p> <ul class="defaultList"><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Hosting and operating our Site;</span><span class="font-size-15" style="color: rgb(255, 0, 56); display: initial;"><br/></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Providing you with our services, including providing a personalized display of our Site;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Storing and processing such information on our behalf;&nbsp;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Serving you with advertisements and assist us in evaluating the success of our advertising campaigns and help us retarget any of our users;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;"> <span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Providing you with marketing offers and promotional materials related to our Site and services;&nbsp;<br/></span></span></li><li class="size-15" style="color: rgb(0, 0, 0);"><span class="font-size-15" style="color: rgb(0, 0, 0); display: initial;">Performing research, technical diagnostics or analytics;</span></li></ul> 
+<p style="line-height: 15px;"><span style="color: rgb(0, 0, 0); display: initial;">&nbsp;</span><span style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">We may also disclose information if we have good faith to believe that disclosure of such information is helpful or reasonably necessary to: (i) comply with any applicable law, regulation, legal process or governmental request; (ii) enforce our policies (including our Agreement), including investigations of potential violations thereof; (iii) investigate, detect, prevent, or take action regarding illegal activities or other wrongdoing, suspected fraud or security issues; (iv) to establish or exercise our rights to defend against legal claims; (v) prevent harm to the rights, property or safety of us, our users, yourself or any third party; or (vi) for the purpose of collaborating with law enforcement agencies and/or in case we find it necessary in order to enforce intellectual property or other legal rights.</span></p></div> <div class="u_1848787429 dmNewParagraph" data-element-type="paragraph" id="1848787429" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">User Rights</span></h4> 
+</div> <div class="dmNewParagraph" id="1433828115" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">You may request to:&nbsp;</span></p><p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p> <ol class="defaultList"><li class="size-15"><span class="font-size-15" style="display: initial;">Receive confirmation as to whether or not personal information concerning you is being processed, and access your stored personal information, together with supplementary information.&nbsp;<br/></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Receive a copy of personal information you directly volunteer to us in a structured, commonly used and machine-readable format.&nbsp;<br/></span></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Request rectification of your personal information that is in our control.<br/></span></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Request erasure of your personal information.&nbsp;<br/></span></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Object to the processing of personal information by us.&nbsp;<br/></span></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Request to restrict processing of your personal information by us.<br/></span></span></li><li class="size-15"><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">Lodge a complaint with a supervisory authority.<br/></span></span></li></ol> 
+<p style="line-height: 15px;"><span style="display: initial;">&nbsp;<br/></span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">However, please note that these rights are not absolute, and may be subject to our own legitimate interests and regulatory requirements.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">If you wish to exercise any of the aforementioned rights, or receive more information, please contact our Data Protection Officer (&ldquo;DPO&rdquo;) using the details provided below:</span></p><p class="size-15"><a href="mailto:sales@vican.co.za" runtime_url="mailto:sales@vican.co.za" type="email" class="font-size-15" style="display: initial; font-weight: bold;">sales@vican.co.za</a><span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);"> <span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);">|</span> 
+</span><a href="mailto:orders@vican.co.za" runtime_url="mailto:orders@vican.co.za" type="email" class="font-size-15" style="display: initial; font-weight: bold;">orders@vican.co.za</a></p></div> <div class="u_1992814609 dmNewParagraph" data-element-type="paragraph" id="1992814609" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left"><div style=""><span style=""><span class="lh-1 font-size-16" style="">Retention</span></span></div></h4> 
+</div> <div class="dmNewParagraph" id="1728980736" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We will retain your personal information for as long as necessary to provide our services, and as necessary to comply with our legal obligations, resolve disputes, and enforce our policies. Retention periods will be determined taking into account the type of information that is collected and the purpose for which it is collected, bearing in mind the requirements applicable to the situation and the need to destroy outdated, unused information at the earliest reasonable time. Under applicable regulations, we will keep records containing client personal data, account opening documents, communications and anything else as required by applicable laws and regulations.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">We may rectify, replenish or remove incomplete or inaccurate information, at any time and at our own discretion.</span></p></div> <div class="u_1095182628 dmNewParagraph" data-element-type="paragraph" id="1095182628" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Cookies</span></h4> 
+</div> <div class="dmNewParagraph" id="1413986830" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We and our trusted partners use cookies and other technologies in our related services, including when you visit our Site or access our services.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">A &quot;cookie&quot; is a small piece of information that a website assign to your device while you are viewing a website. Cookies are very helpful and can be used for various different purposes. These purposes include allowing you to navigate between pages efficiently, enable automatic activation of certain features, remembering your preferences and making the interaction between you and our Services quicker and easier. Cookies are also used to help ensure that the advertisements you see are relevant to you and your interests and to compile statistical data on your use of our Services.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">The Site uses the following types of cookies:</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="font-weight: 700; display: initial;">a. 'session cookies'</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">which are stored only temporarily during a browsing session in order to allow normal use of the system and are deleted from your device when the browser is closed;&nbsp;</span></span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="font-weight: 700; display: initial;">b. 'persistent cookies</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">' which are read only by the Site, saved on your computer for a fixed period and are not deleted when the browser is closed. Such cookies are used where we need to know who you are for repeat visits, for example to allow us to store your preferences for the next sign-in;&nbsp;</span></span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="font-weight: 700; display: initial;">c. 'third party cookies'</span><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">which are set by other online services who run content on the page you are viewing, for example by third party analytics companies who monitor and analyze our web access.</span></span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">Cookies do not contain any information that personally identifies you, but Personal Information that we store about you may be linked, by us, to the information stored in and obtained from cookies. You may remove the cookies by following the instructions of your device preferences; however, if you choose to disable cookies, some features of our Site may not operate properly and your online experience may be limited.</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">We also use a tool called &ldquo;Google Analytics&rdquo; to collect information about your use of the Site. Google Analytics collects information such as how often users access the Site, what pages they visit when they do so, etc. We use the information we get from Google Analytics only to improve our Site and services. Google Analytics collects the IP address assigned to you on the date you visit sites, rather than your name or other identifying information. We do not combine the information collected through the use of Google Analytics with personally identifiable information. Google&rsquo;s ability to use and share information collected by Google Analytics about your visits to this Site is restricted by the Google Analytics</span> 
+</span><a href="/" class="font-size-15" style="display: initial; color: rgb(246, 246, 246);">Terms of Use</a><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">and the</span> 
+</span><a href="/" class="font-size-15" style="display: initial; color: rgb(246, 246, 246);">Google Privacy Policy</a><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">.</span></span></p></div> <div class="u_1507676094 dmNewParagraph" data-element-type="paragraph" id="1507676094" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Third party collection of information</span></h4> 
+</div> <div class="dmNewParagraph" id="1324523389" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">Our policy only addresses the use and disclosure of information we collect from you. To the extent you disclose your information to other parties or sites throughout the internet, different rules may apply to their use or disclosure of the information you disclose to them. Accordingly, we encourage you to read the terms and conditions and privacy policy of each third party that you choose to disclose information to.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">This Privacy Policy does not apply to the practices of companies that we do not own or control, or to individuals whom we do not employ or manage, including any of the third parties which we may disclose information as set forth in this Privacy Policy.&nbsp;</span></p></div> <div class="u_1604837267 dmNewParagraph" data-element-type="paragraph" id="1604837267" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">How do we safeguard your information?</span></h4> 
+</div> <div class="dmNewParagraph" id="1114044052" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">We take great care in implementing and maintaining the security of the Site and your information.</span> 
+</span><span class="font-size-15" style="display: initial; color: rgb(0, 0, 0);"> <span class="font-size-15" style="display: initial; color: rgb(0, 0, 0);">We employ industry standard procedures and policies to ensure the safety of the information we collect and retain, and prevent unauthorized use of any such information, and we require any third party to comply with similar security requirements, in accordance with this Privacy Policy</span></span><span class="font-size-15" style="display: initial;">. Although we take reasonable steps to safeguard information, we cannot be responsible for the acts of those who gain unauthorized access or abuse our Site, and we make no warranty, express, implied or otherwise, that we will prevent such access.</span></p></div> <div class="u_1943112316 dmNewParagraph" data-element-type="paragraph" id="1943112316" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Transfer of data outside the EEA&nbsp;</span></h4> 
+</div> <div class="dmNewParagraph" id="1185482021" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">Please note that some data recipients may be located outside the EEA. In such cases we will transfer your data only to such countries as approved by the European Commission as providing adequate level of data protection, or enter into legal agreements ensuring an adequate level of data protection.</span></p></div> <div class="u_1835719266 dmNewParagraph" data-element-type="paragraph" id="1835719266" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Advertisements</span></h4> 
+</div> <div class="dmNewParagraph u_1691958799" id="1691958799" style="transition:none;display:block;line-height:initial;" data-version="5"><p class="text-align-left size-15"><span class="font-size-15" style="display: initial;">&nbsp;We may use a third-party advertising technology to serve advertisements when you access the Site. This technology uses your information with regards to your use of the Services to serve advertisements to you (e.g., by placing third-party cookies on your web browser).&nbsp;</span></p><p class="text-align-left"><span style="display: initial;" class="font-size-15"><span class="ql-cursor">﻿</span></span></p><p class="text-align-left size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">You may opt-out of many third-party ad networks, including those operated by members of the Network Advertising Initiative (&quot;NAI&quot;) and the Digital Advertising Alliance (&quot;DAA&quot;). For more information about this practice by NAI and DAA members, and your choices regarding having this information used by these companies, including how to opt-out of third-party ad networks operated by NAI and DAA members, please visit their respective websites:</span> 
+</span><a href="http://optout.networkadvertising.org/#!/ and http://optout.aboutads.info/#!/" runtime_url="http://optout.networkadvertising.org/#!/ and http://optout.aboutads.info/#!/" class="font-size-15" style="display: initial; color: rgb(246, 246, 246);">http://optout.networkadvertising.org/#!/ and http://optout.aboutads.info/#!/</a><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">.</span></span></p></div> <div class="u_1615284184 dmNewParagraph" data-element-type="paragraph" id="1615284184" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Marketing</span></h4> 
+</div> <div class="dmNewParagraph" id="1245215339" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">We may use your Personal Information, such as your name, email address, telephone number, etc. ourselves or by using our third party subcontractors for the purpose of providing you with promotional materials, concerning our services, which we believe may interest you.&nbsp;</span> 
+</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">Out of respect to your right to privacy we provide you within such marketing materials with means to decline receiving further marketing offers from us. If you unsubscribe we will remove your email address or telephone number from our marketing distribution lists.&nbsp;</span></p><p><span class="font-size-15" style="display: initial;"><br/></span></p><p class="size-15"><span class="font-size-15" style="display: initial;">Please note that even if you have unsubscribed from receiving marketing emails from us, we may send you other types of important e-mail communications without offering you the opportunity to opt out of receiving them. These may include customer service announcements or administrative notices.</span></p></div> <div class="u_1059000972 dmNewParagraph" data-element-type="paragraph" id="1059000972" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Corporate transaction</span></h4> 
+</div> <div class="dmNewParagraph" id="1017714097" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We may share information in the event of a corporate transaction (e.g. sale of a substantial part of our business, merger, consolidation or asset sale). In the event of the above, the transferee or acquiring company will assume the rights and obligations as described in this Privacy Policy.</span></p></div> <div class="u_1064661103 dmNewParagraph" data-element-type="paragraph" id="1064661103" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Minors</span></h4> 
+</div> <div class="dmNewParagraph" id="1536463887" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;"><span class="font-size-15" style="display: initial;">We understand the importance of protecting children&rsquo;s privacy, especially in an online environment. The Site is not designed for or directed at children. Under no circumstances shall we allow use of our services by minors without prior consent or authorization by a parent or legal guardian. We do not knowingly collect Personal Information from minors. If a parent or guardian becomes aware that his or her child has provided us with Personal Information without their consent, he or she should contact us at</span> 
+</span><a href="mailto:sales@vican.co.za" runtime_url="mailto:sales@vican.co.za" type="email" class="font-size-15" style="display: initial; font-weight: bold;">sales@vican.co.za</a><span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);"> <span class="font-size-15" style="display: initial; color: rgb(255, 0, 56);">|</span> 
+</span><a href="mailto:orders@vican.co.za" runtime_url="mailto:orders@vican.co.za" type="email" class="font-size-15" style="display: initial; font-weight: bold;">orders@vican.co.za</a><span class="font-size-15" style="display: initial;"> <span class="font-size-15" style="display: initial;">.</span></span></p></div> <div class="u_1144216550 dmNewParagraph" data-element-type="paragraph" id="1144216550" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">Updates or amendments to this Privacy Policy</span></h4> 
+</div> <div class="dmNewParagraph" id="1216494406" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="display: initial;">We reserve the right to periodically amend or revise the Privacy Policy; material changes will be effective immediately upon the display of the revised Privacy policy. The last revision will be reflected in the &quot;Last modified&quot; section. Your continued use of the Platform, following the notification of such amendments on our website, constitutes your acknowledgment and consent of such amendments to the Privacy Policy and your agreement to be bound by the terms of such amendments.</span></p></div> <div class="u_1953255332 dmNewParagraph" data-element-type="paragraph" id="1953255332" style="transition:none;display:block;line-height:initial;" data-version="5"> <h4 class="text-align-left size-16"><span class="font-size-16" style="display: initial;">How to contact us</span></h4> 
+</div> <div class="dmNewParagraph" id="1048753436"><div><span style="" class="lh-1 font-size-15">If you have any general questions about the Site or the information we collect about you and how we use it, you can contact us at <font style="color: rgb(255, 0, 56);"><a href="mailto:sales@vican.co.za" runtime_url="mailto:sales@vican.co.za"><b>sales@vican.co.za</b></a> 
+| <a href="mailto:orders@vican.co.za" runtime_url="mailto:orders@vican.co.za"><b>orders@vican.co.za</b></a></font></span></div><div><br/></div><div><font style="color: rgb(255, 8, 76);" class="lh-1 font-size-15"><br/></font></div><div><span style="" class="lh-1 font-size-15"><font style="">Last Modified</font><b>&nbsp;<font style="color: rgb(221, 63, 54);">2022/09/19</font></b></span></div></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1757216649"> <div class="widget-5bd886 sticky-mobile-position-bottom-right u_1423108891 sticky-desktop-position-bottom-left dmCustomWidget" data-lazy-load="" data-title="" id="1423108891" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="224" data-widget-config="eyJ3YU51bWJlciI6IisyNyA4MiA1NjQgMDkxNyIsImJ0blRleHQiOiIgV2hhdHNBcHAgdXMiLCJkZWZhdWx0TWVzc2FnZSI6IiIsImFsdCI6Ik1lc3NhZ2UgdXMgb24gV2hhdHNBcHAiLCJ3YUxheW91dCI6Imljb25Pbmx5In0="> <a class="align-center full" target="_blank" data-display-type="block"> <span class="full iconBg"> <span class="full icon"><img class="full" src="https://dd-cdn.multiscreensite.com/editor/whatsApp/whatsapp_layout_5.svg" alt="Message us on WhatsApp" onerror="handleImageLoadError(this)"/></span> 
+</span> 
+</a> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1634281106 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1634281106"> <div class="dmRespColsWrapper" id="1660044154"> <div class="u_1665924535 dmRespCol small-12 large-4 medium-4" id="1665924535"> <div class="u_1979737529 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1979737529" style="transition: opacity 1s ease-in-out 0s;"><p><span style="text-transform: uppercase; font-weight: bold; color: rgb(255, 255, 255); display: initial;">products</span></p></div> 
+ <nav class="u_1418924704 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HOVER" id="1418924704" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://lirp.cdn-website.com/6fef3c80/dms3rep/multi/opt/VICAN-Logo-monotone_White-transparent-Background-254ff8b3-dbbf63a3-1920w.png" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/hardeners-solvents-and-others" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Hardeners, Solvents & Others
+          " data-auto="page-text-style">Hardeners, Solvents &amp; Others<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/primers-and-fillers" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Primers & Fillers
+          " data-auto="page-text-style">Primers &amp; Fillers<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/basecoats-clearcoats-toners-and-enamels" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Basecoats, Clearcoats, Toners & Enamels
+          " data-auto="page-text-style">Basecoats, Clearcoats, Toners &amp; Enamels<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1717613156 dmRespCol small-12 large-4 medium-4" id="1717613156"> <div class="u_1124376896 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1124376896" style="transition: opacity 1s ease-in-out 0s;"><p><span style="display: unset; text-transform: uppercase; color: rgb(255, 255, 255); font-weight: bold;">contact info</span></p></div> 
+ <div class="dmNewParagraph u_1773842543" data-element-type="paragraph" data-version="5" id="1773842543" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-14 size-14" style="line-height: 1.5;"><a href="tel:+27 11 493 2578" target="_blank" type="call" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">+27 11 493 2578</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);" m-font-size-set="true">or</span><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><a href="tel:+27 11 493 8709" target="_blank" type="call" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">+27 11 493 8709</a></p><p class="m-size-14 size-14" style="line-height: 1.5;"><a href="mailto:sales@vican.co.za" target="_blank" type="email" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">sales@vican.co.za</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);" m-font-size-set="true">|</span><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span><a href="mailto:orders@vican.co.za" target="_blank" type="email" class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">orders@vican.co.za</a><span single-space="true" class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"> <span class="m-font-size-14 font-size-14" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);"></span> 
+</span></p><p style="line-height: 1.5;"><span class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial;"><br/></span></p><p class="m-size-14 size-14" style="line-height: 1.5;"><span class="m-font-size-14 font-size-14" m-font-size-set="true" style="font-weight: 400; font-family: Montserrat; display: initial; color: rgb(255, 255, 255);">11 Mentz Street, Booysens, Johannesburg</span></p></div> 
+</div> 
+ <div class="u_1741134035 dmRespCol small-12 large-3 medium-3" id="1741134035"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1131913584" style="transition: opacity 1s ease-in-out 0s;"><p><span style="display: unset; text-transform: uppercase; color: rgb(255, 255, 255); font-weight: bold;">Quick Links</span></p></div> 
+ <div class="u_1738430390 default dmHoursOfOperation" id="1738430390" dmle_extension="open_hours" data-element-type="open_hours" time_format="12" wr="true" lang="" displaytitle="false" forcedisplay="false" icon="true" surround="true" adwords=""> <dl class="open-hours-data"> <div class="open-hours-item"> <dt day="0">Mon - Thu</dt> 
+ <dd> <time>7:30 am</time> 
+- <time>5:00 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="4">Friday</dt> 
+ <dd> <time>7:30 am</time> 
+- <time>4:30 pm</time> 
+</dd> 
+</div> 
+ <div class="open-hours-item"> <dt day="5">Sat - Sun</dt> 
+ <dd>Closed</dd> 
+</div> 
+</dl> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1874982056" style="transition: opacity 1s ease-in-out 0s;"><p><span class="" style="display: initial; color: rgb(255, 255, 255);"><span style="display: initial; color: rgb(255, 255, 255);">Website Developed by</span> 
+</span><a href="https://www.webshure.com/" runtime_url="https://www.webshure.com/" type="url" style="display: initial; font-weight: bold;" target="_blank">WEBSHURE</a><span style="display: initial;"><br/></span></p></div> 
+</div> 
+ <div class="u_1946642827 dmRespCol small-12 large-1 medium-1" id="1946642827"> <div class="u_1296989690 align-center text-align-center dmSocialHub" id="1296989690" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://web.whatsapp.com/send?phone=+27 82 564 0917" target="_blank" dm_dont_rewrite_url="true" aria-label="whatsapp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Whatsapp&apos;)"> <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.facebook.com/VICAN.MFG" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/vican_manufacturing/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/vican-manufacturing" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://google.com/maps/place/" target="_blank" dm_dont_rewrite_url="true" aria-label="google_my_business" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;GoogleMyBusiness&apos;)"> <span class="dmSocialGoogleMyBusiness dm-social-icons-google-my-business oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow fullBleedChanged fullBleedMode u_1714935215" id="1714935215"> <div class="dmRespColsWrapper" id="1162580884"> <div class="dmRespCol large-12 medium-12 small-12" id="1796078721"> <div class="u_1003256866 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1003256866" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCBWaWNhbiBNYW51ZmFjdHVyaW5nIHwgPGEgdmFsdWU9XCJwcml2YWN5XCIgdHlwZT1cInBhZ2VcIiBocmVmPVwiL3ByaXZhY3lcIiBkYXRhLXJ1bnRpbWUtdXJsPVwiL3ByaXZhY3lcIj5Qcml2YWN5IFBvbGljeTwvYT48L3A+In0="> <div class="copyright"> <div>&copy; 2023&nbsp;</div> 
+ <div><p class="rteBlock">All Rights Reserved | Vican Manufacturing | <a value="privacy" type="page" href="/privacy" data-runtime-url="/privacy">Privacy Policy</a></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~224"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    
+    function handleClick(){
+        dm_gaq_push_event && dm_gaq_push_event('Whatsapp', 'click')
+        window.dmsnowplow && window.snowplow('trackStructEvent', 'Whatsapp-share','click')
+    }
+    
+    element.addEventListener("click", handleClick)
+
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "22..74";
+    var build = "2023-06-15T12_54_09";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2023-06-15T12_54_09";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div> <p class=\"rteBlock\">We use cookies to ensure that we give you the best experience on our website. To learn more, go to the <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">Privacy Page<\/a>.<\/p> \n<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.jQuery.migrateMute = true;
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/3514';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/3514';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["feature.flag.addTargetBlankToExternalLinks"] =true;
+    rtCommonProps["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtCommonProps["keyboard.navigation.enabled"] =true;
+    rtCommonProps["runtime.navigationWidget.menu.clipPath"] =true;
+    rtCommonProps["scripts.widgetCount.enabled"] =true;
+    rtCommonProps["maps.cookiebot.enabled"] =true;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtCommonProps["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtCommonProps["ecom.ecwid.fixFacebookLink"] = true;
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["runtime.save.restore.function.bind"] =true;
+    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+    rtCommonProps["new.store.accountPage.ecwid.signIn.fix"] =true;
+    rtCommonProps["fix.ecwid.sign.in.page.with.return.url"] =true;
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+    rtCommonProps["geocode.search.localize"] =false;
+    rtCommonProps["facebook.runtime.widgets.upgrade"] =true;
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.contact.form.fix.for.attribute"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["contact.form.date.format.enabled"] = true;
+    rtCommonProps["platform.monolith.personalization.userVisitsCondition.inClient.enabled"] = true;
+    rtCommonProps["ecom.widgets.menu.categories.toggles.enabled"] =  true;
+    rtCommonProps["filestack.uploadToTempBucket.enabled"] = true;
+    rtCommonProps["platform.monolith.loginBar.getUserLoggedIn.enabled"] = true;
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/3514/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '6fef3c80'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 6fef3c80 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<script>
+    jQuery(window).on('load', function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+    });
+</script>
+<script>
+    dmAPI.loadScript(
+        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+        function () {
+            dmAPI.runOnReady('lozadInit', function () {
+                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                    img.addEventListener('load', function (event) {
+                        var img = event.target;
+                        img.style.filter = 'blur(0)';
+                        setTimeout(function () {
+                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+                        }, 250)
+                    });
+                });
+                lozad('.lazy', {
+                    threshold: 0.1,
+                    loaded: function (element) {
+                        if (element.getAttribute('data-background-image')) {
+                            element.style.setProperty(
+                                'background-image',
+                                "url('" + element.getAttribute('data-background-image') + "')",
+                                "important"
+                            );
+                        }
+                    }
+                }).observe();
+            });
+        }
+    );
+</script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV4QS2H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<meta name="google-site-verification" content="JYcvwxGzr1a4wPR0npqSJ5Dxz0d4MCQgwf2CrjOH-_I" /><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>

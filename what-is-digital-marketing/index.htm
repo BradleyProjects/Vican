@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"210be35459",applicationID:"130209192"};;(()=>{"use strict";var e,t,n={7442:(e,t,n)=>{n.d(t,{T:()=>r,p:()=>i});const r=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=r&&Boolean("undefined"==typeof SharedWorker)},5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>j,lF:()=>_,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>E});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(1720),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function E(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function _(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.235.0",i="PROD",o="CDN"},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=j()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=j();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!j()[c[e]]}function j(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(1720);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(1720);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1720:(e,t,n)=>{n.d(t,{FN:()=>a,_A:()=>o,il:()=>r,v6:()=>i});const r=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(r)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();const a=""+o.location},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(1720);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(1720),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const j=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,j,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),j}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"af5d1c80",147:"7ece083a",148:"03807465",193:"27e34592",242:"2a64278a",317:"dcb6ac07",348:"1c78d061",412:"0ba331d7",439:"d1647fbb",538:"1b18459f",590:"a5e677ba",675:"ae9f91a8",786:"a7935af6",860:"e997904f",873:"5c4318f2",898:"09a31ca7"}[e]+"-1.235.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=680,i.p="https://js-agent.newrelic.com/",(()=>{var e={680:0,617:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(7442),d=i(8e3),u=i(5938),l=i(3960),f=i(1720),g=i(50);class p extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=f.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r,o;this.onAggregateImported=new Promise(((e,t)=>{r=e,o=t}));const a=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,g.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r()}catch(e){(0,g.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),o()}};f.il?(0,l.b)((()=>a()),!0):a()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var h=i(7633),v=i(7894);class m extends p{static featureName=h.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,h.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.T)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[h.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[h.qw]=Math.max((0,v.z)()-r[h.Dz],0))),(0,l.b)((()=>{const t=(0,v.z)();r[h.OJ]=Math.max(t-r[h.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(1117),y=i(1284);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=A(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=A(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=A(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=D(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function A(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function D(e){return"object"!=typeof e?[]:(0,y.D)(e,j)}function j(e,t){return t}var E=i(8632),_=i(4402),k=i(4351);var T=i(7956),I=i(3239),N=i(9251);class P extends p{static featureName=N.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,N.t,r),f.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,T.N)((()=>(0,s.p)("docHidden",[(0,v.z)()],void 0,N.t,this.ee)),!0),(0,I.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,v.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var O=i(3081);class S extends p{static featureName=O.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,O.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,_.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,g.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,k.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,E.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,g.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,E.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[m,P,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+				<script>
+
+			dataLayer = [{
+									
+				"authenticatedUser": "No",
+									
+				"authenticatedSession": "No",
+						
+			}]
+			;
+
+		</script>
+		
+		<!-- Google Tag Manager -->
+		<script>(function (w,d,s,l,i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start': new Date().getTime(), event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', "GTM-T692SCK");</script>
+		<!-- End Google Tag Manager -->
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script>window._wca = window._wca || [];</script>
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v18.8 (Yoast SEO v20.5) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>What is Digital Marketing?</title>
+	<meta name="description" content="Marketing is the practice of identifying and satisfying customer needs. Learn how digital marketing efforts drive business success in the modern world." />
+	<link rel="canonical" href="https://www.ama.org/what-is-digital-marketing/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="What is Digital Marketing?" />
+	<meta property="og:description" content="Learn How Digital Marketing Efforts Drive Business Success in the Modern World Marketing is the practice of identifying and satisfying customer needs." />
+	<meta property="og:url" content="https://www.ama.org/what-is-digital-marketing/" />
+	<meta property="og:site_name" content="American Marketing Association" />
+	<meta property="article:publisher" content="https://www.facebook.com/AmericanMarketing/" />
+	<meta property="article:modified_time" content="2023-03-08T01:01:18+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content="https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?fit=16384%2C9219" />
+	<meta name="twitter:site" content="@ama_marketing" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.ama.org/what-is-digital-marketing/","url":"https://www.ama.org/what-is-digital-marketing/","name":"What is Digital Marketing?","isPartOf":{"@id":"https://www.ama.org/#website"},"primaryImageOfPage":{"@id":"https://www.ama.org/what-is-digital-marketing/#primaryimage"},"image":{"@id":"https://www.ama.org/what-is-digital-marketing/#primaryimage"},"thumbnailUrl":"https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?fit=16384%2C9219","datePublished":"2020-04-21T17:16:41+00:00","dateModified":"2023-03-08T01:01:18+00:00","description":"Marketing is the practice of identifying and satisfying customer needs. Learn how digital marketing efforts drive business success in the modern world.","breadcrumb":{"@id":"https://www.ama.org/what-is-digital-marketing/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.ama.org/what-is-digital-marketing/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.ama.org/what-is-digital-marketing/#primaryimage","url":"https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?fit=16384%2C9219","contentUrl":"https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?fit=16384%2C9219","width":16384,"height":9219},{"@type":"BreadcrumbList","@id":"https://www.ama.org/what-is-digital-marketing/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.ama.org/"},{"@type":"ListItem","position":2,"name":"What is Digital Marketing?"}]},{"@type":"WebSite","@id":"https://www.ama.org/#website","url":"https://www.ama.org/","name":"American Marketing Association","description":"Answers into Action","publisher":{"@id":"https://www.ama.org/#organization"},"alternateName":"AMA","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.ama.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.ama.org/#organization","name":"American Marketing Association","alternateName":"AMA","url":"https://www.ama.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.ama.org/#/schema/logo/image/","url":"https://www.ama.org/wp-content/uploads/2021/05/American-Marketing-Association-AMA-Logo-Blue.png?fit=788%2C118","contentUrl":"https://www.ama.org/wp-content/uploads/2021/05/American-Marketing-Association-AMA-Logo-Blue.png?fit=788%2C118","width":788,"height":118,"caption":"American Marketing Association"},"image":{"@id":"https://www.ama.org/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/AmericanMarketing/","https://twitter.com/ama_marketing","https://www.linkedin.com/company/american-marketing-association/"]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//platform-api.sharethis.com' />
+<link rel='dns-prefetch' href='//cdn.parsely.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="American Marketing Association &raquo; Feed" href="https://www.ama.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="American Marketing Association &raquo; Comments Feed" href="https://www.ama.org/comments/feed/" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'" rel="stylesheet" />
+		<noscript>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+		</noscript><script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.ama.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://www.ama.org/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='jetpack-videopress-video-block-view-css' href='https://www.ama.org/wp-content/mu-plugins/jetpack-12.2/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/blocks/video/view.css?minify=false&#038;ver=34ae973733627b74a14e' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.ama.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.ama.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://www.ama.org/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=10.2.3' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.ama.org/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=10.2.3' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://www.ama.org/wp-includes/css/classic-themes.min.css?ver=6.2.2' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--grey-900: #201C0E;--wp--preset--color--grey-700: #646464;--wp--preset--color--grey-500: #959090;--wp--preset--color--grey-300: #cccccc;--wp--preset--color--grey-100: #e4e4e4;--wp--preset--color--beige-100: #f3f2ee;--wp--preset--color--blue-900: #19314F;--wp--preset--color--blue-700: #0071A5;--wp--preset--color--blue-500: #43A9D4;--wp--preset--color--red-900: #8A2C27;--wp--preset--color--red-700: #B22B25;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bbp-default-css' href='https://www.ama.org/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.9' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo-css' href='https://www.ama.org/wp-content/plugins/responsive-lightbox/assets/nivo/nivo-lightbox.min.css?ver=2.4.5' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-nivo-default-css' href='https://www.ama.org/wp-content/plugins/responsive-lightbox/assets/nivo/themes/default/default.css?ver=2.4.5' media='all' />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//www.ama.org/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='jquery-dropdown-css-css' href='//www.ama.org/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='learndash_lesson_video-css' href='//www.ama.org/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.1.2' media='all' />
+<link rel='stylesheet' id='share-this-share-buttons-sticky-css' href='https://www.ama.org/wp-content/plugins/sharethis-share-buttons/css/mu-style.css?ver=1671044980' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.ama.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.8.0' media='all' />
+<style id='woocommerce-layout-inline-css'>
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.ama.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.8.0' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.ama.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.8.0' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='woocommerce-box-office-frontend-css' href='https://www.ama.org/wp-content/plugins/woocommerce-box-office/assets/css/frontend.css?ver=1.1.42' media='all' />
+<link rel='stylesheet' id='styles-css' href='https://www.ama.org/wp-content/themes/ama/dist/css/style.css?ver=2023.06.21-dc7ae1a3b191aa1a780c684de286cb46e708190b' media='all' />
+<link rel='stylesheet' id='learndash-front-css' href='//www.ama.org/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.1.2' media='all' />
+<style id='learndash-front-inline-css'>
+		.learndash-wrapper .ld-item-list .ld-item-list-item.ld-is-next,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+			border-color: #1f304f;
+		}
+
+		/*
+		.learndash-wrapper a:not(.ld-button):not(#quiz_continue_link):not(.ld-focus-menu-link):not(.btn-blue):not(#quiz_continue_link):not(.ld-js-register-account):not(#ld-focus-mode-course-heading):not(#btn-join):not(.ld-item-name):not(.ld-table-list-item-preview):not(.ld-lesson-item-preview-heading),
+		 */
+
+		.learndash-wrapper .ld-breadcrumbs a,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-reverse,
+		.learndash-wrapper .ld-icon-certificate,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+		#wpProQuiz_user_content a,
+		.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+		.learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+		.learndash-wrapper .ld-focus-comments__heading a,
+		.learndash-wrapper .ld-focus-comments .comment-respond a,
+		.learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			color: #1f304f !important;
+		}
+
+		.learndash-wrapper .ld-focus-comment.bypostauthor>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper {
+			background-color:rgba(31, 48, 79, 0.03) !important;
+		}
+
+
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+			background: #1f304f !important;
+		}
+
+
+
+		.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-status-incomplete,
+		.learndash-wrapper .ld-focus-comment.bypostauthor:not(.ptype-sfwd-assignment) >.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper>.ld-comment-avatar img {
+			border-color: #1f304f !important;
+		}
+
+
+
+		.learndash-wrapper .ld-loading::before {
+			border-top:3px solid #1f304f !important;
+		}
+
+		.learndash-wrapper .ld-button:hover:not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+		#learndash-tooltips .ld-tooltip:after,
+		#learndash-tooltips .ld-tooltip,
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .btn-join,
+		.learndash-wrapper #btn-join,
+		.learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent),
+		.learndash-wrapper .ld-expand-button,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit'],
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue,
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		#wpProQuiz_user_content table.wp-list-table thead th,
+		#wpProQuiz_overlay_close,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate .ld-icon {
+			background-color: #1f304f !important;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items:before {
+			border-bottom-color: #1f304f !important;
+		}
+
+		.learndash-wrapper .ld-button.ld-button-transparent:hover {
+			background: transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-alternate,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			background-color:transparent !important;
+		}
+
+		.learndash-wrapper .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		.learndash-wrapper .ld-button.ld-button-reverse:hover,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon.ld-icon-certificate,
+		.learndash-wrapper .ld-alert-warning .ld-button:not(.learndash-link-previous-incomplete),
+		.learndash-wrapper .ld-primary-background.ld-status {
+			color:white !important;
+		}
+
+		.learndash-wrapper .ld-status.ld-status-unlocked {
+			background-color: rgba(31,48,79,0.2) !important;
+			color: #1f304f !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_addToplist {
+			background-color: rgba(31,48,79,0.1) !important;
+			border: 1px solid #1f304f !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTable th {
+			background: #1f304f !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTrOdd {
+			background-color: rgba(31,48,79,0.1) !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewDiv li.wpProQuiz_reviewQuestionTarget {
+			background-color: #1f304f !important;
+		}
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+			background-color: #1f304f !important;
+		}
+		
+		.learndash-wrapper #quiz_continue_link,
+		.learndash-wrapper .ld-secondary-background,
+		.learndash-wrapper .learndash_mark_complete_button,
+		.learndash-wrapper #learndash_mark_complete_button,
+		.learndash-wrapper .ld-status-complete,
+		.learndash-wrapper .ld-alert-success .ld-button,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon {
+			background-color: #0071a5 !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content a#quiz_continue_link {
+			background-color: #0071a5 !important;
+		}
+
+		.learndash-wrapper .course_progress .sending_progress_bar {
+			background: #0071a5 !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:hover, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:hover {
+			background-color: #0071a5 !important;
+			opacity: 0.75;
+		}
+
+		.learndash-wrapper .ld-secondary-color-hover:hover,
+		.learndash-wrapper .ld-secondary-color,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+			color: #0071a5 !important;
+		}
+
+		.learndash-wrapper .ld-secondary-in-progress-icon {
+			border-left-color: #0071a5 !important;
+			border-top-color: #0071a5 !important;
+		}
+
+		.learndash-wrapper .ld-alert-success {
+			border-color: #0071a5;
+			background-color: transparent !important;
+			color: #0071a5;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionSolved,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionSolved {
+			background-color: #0071a5 !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Answer {
+			background-color: #0071a5 !important;
+		}
+
+		
+		.learndash-wrapper .ld-alert-warning {
+			background-color:transparent;
+		}
+
+		.learndash-wrapper .ld-status-waiting,
+		.learndash-wrapper .ld-alert-warning .ld-alert-icon {
+			background-color: #e87531 !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-color-hover:hover,
+		.learndash-wrapper .ld-tertiary-color,
+		.learndash-wrapper .ld-alert-warning {
+			color: #e87531 !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-background {
+			background-color: #e87531 !important;
+		}
+
+		.learndash-wrapper .ld-alert-warning {
+			border-color: #e87531 !important;
+		}
+
+		.learndash-wrapper .ld-tertiary-background,
+		.learndash-wrapper .ld-alert-warning .ld-alert-icon {
+			color:white !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_reviewQuestion li.wpProQuiz_reviewQuestionReview,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_box li.wpProQuiz_reviewQuestionReview {
+			background-color: #e87531 !important;
+		}
+
+		.learndash-wrapper .wpProQuiz_content  .wpProQuiz_reviewLegend span.wpProQuiz_reviewColor_Review {
+			background-color: #e87531 !important;
+		}
+
+				.learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content {
+			max-width: inherit;
+		}
+		
+</style>
+<link rel='stylesheet' id='jetpack_css-css' href='https://www.ama.org/wp-content/mu-plugins/jetpack-12.2/css/jetpack.css?ver=12.2.1' media='all' />
+<script type="text/javascript" src="https://www.ama.org/_static/??-eJydTdEOwiAQ+yHhoslkL8ZvmXDiTTiQg6l/r9Fl8UUfTJo2TZsWrlkR29AcCoxPXBqW+yw6EutRVvCrpCL5MlT8LNvEFblCDs0TCxSUnFhoQhXIn+oh3WAQwSrANKUXLcm318YOi9hU/r0iPhJTRbElhbBY9fY6n72bl/dxt972ZtN3nTHjA9YHbj8=" ></script><script id='responsive-lightbox-js-before'>
+var rlArgs = {"script":"nivo","selector":"lightbox","customEvents":"","activeGalleries":true,"effect":"fade","clickOverlayToClose":true,"keyboardNav":true,"errorMessage":"The requested content cannot be loaded. Please try again later.","woocommerce_gallery":false,"ajaxurl":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php","nonce":"5ff49008cc","preview":false,"postId":57503,"scriptExtension":false};
+</script>
+<script src='https://www.ama.org/wp-content/plugins/responsive-lightbox/js/front.js?ver=2.4.5' id='responsive-lightbox-js'></script>
+<script src='//platform-api.sharethis.com/js/sharethis.js?ver=1.5.7#property=5d1b5b2e5b5c0700129fbd24&#038;product=inline-buttons' id='share-this-share-buttons-mu-js'></script>
+<script defer src='https://stats.wp.com/s-202326.js' id='woocommerce-analytics-js'></script>
+<link rel="https://api.w.org/" href="https://www.ama.org/wp-json/" /><link rel="alternate" type="application/json" href="https://www.ama.org/wp-json/wp/v2/pages/57503" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.ama.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.ama.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<meta name="generator" content="WooCommerce 7.8.0" />
+<link rel='shortlink' href='https://wp.me/PaHmvo-eXt' />
+<link rel="alternate" type="application/json+oembed" href="https://www.ama.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ama.org%2Fwhat-is-digital-marketing%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.ama.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.ama.org%2Fwhat-is-digital-marketing%2F&#038;format=xml" />
+<script>  var el_i13_login_captcha=null; var el_i13_register_captcha=null; </script>	<style>img#wpstats{display:none}</style>
+		<meta name="parsely-title" content="What is Digital Marketing?" />
+<meta name="parsely-link" content="http://www.ama.org/what-is-digital-marketing/" />
+<meta name="parsely-type" content="index" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+		<!-- Start GPT Async Tag -->
+		<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+		<script type="text/javascript">
+			var gptadslots = [];
+			var googletag = googletag || {cmd: []};
+		</script>
+				<script type="text/javascript">
+			googletag.cmd.push(function () {
+				var bannerSizeMapping = googletag.sizeMapping()
+				.addSize([ 0, 0 ], [ 300, 250 ])
+				.addSize([ 468, 0 ], [ [468, 60], [300, 250] ])
+				.addSize([ 728, 0 ], [ 728, 90 ])
+				.addSize([970, 0 ], [ [728, 90], [970, 90], [970, 250] ])
+				.build();
+			gptadslots.push(googletag.defineSlot("/217482569/banner", [468, 60], "div-gpt-ad-banner")
+				.defineSizeMapping(bannerSizeMapping)
+				.addService(googletag.pubads()));
+							
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();			});
+		</script>
+		 
+        <!-- Google Tag Manager Datalayer - hotjar userAttributes -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            hotjarData = {"event":"hotjarUserAttributes","hotjarUserAttributes":{"has_sf_membership":"No","is_chapter_leader":"No","is_expired_member":"No","cohort":false,"authenticatedUser":"No","user_id":0,"sf_user_id":false,"email":false,"user_display_name":"","primary_community_name":false,"wp_email":""}};
+            window.dataLayer.push(hotjarData);
+        </script> 
+    <link rel="icon" href="https://www.ama.org/wp-content/uploads/2019/04/cropped-android-chrome-256x256.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://www.ama.org/wp-content/uploads/2019/04/cropped-android-chrome-256x256.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.ama.org/wp-content/uploads/2019/04/cropped-android-chrome-256x256.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://www.ama.org/wp-content/uploads/2019/04/cropped-android-chrome-256x256.png?fit=270%2C270" />
+				<script src="https://c523a75e714d4ab0b703cd5c6bcf2a50.js.ubembed.com" async></script>
+		<script src="https://platform-api.sharethis.com/js/sharethis.js#property=5cf80e8b6866f500123425d6-8b140120-87c2-11e9-b944-8fa1456ace63&product=gdpr-compliance-tool"></script>
+
+		<script async src='https://tag.simpli.fi/sifitag/562d9f70-a9a0-0138-7968-06b4c2516bae'></script>
+	</head>
+	<body class="page-template-default page page-id-57503 theme-ama woocommerce-no-js">
+
+						<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T692SCK"
+			        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		
+		
+		<div class="bypass screen-reader-text">
+			<a href="#site-content">Skip to Content</a>
+			<a href="#page-footer">Skip to Footer</a>
+		</div>
+
+		<!-- Page Header -->
+		<header id="page-header" class="page-header" role="banner">
+			<div class="page-header__main">
+				
+<div class="page-header__brand" itemscope itemtype="http://schema.org/Organization">
+
+	<a class="page-header__brand-link" itemprop="url" href="https://www.ama.org/">
+		<picture class="page-header__brand-image">
+			<source srcset="https://www.ama.org/wp-content/themes/ama/assets/images/ama-logo-trans.png" media="(min-width: 64rem)" />
+			<source srcset="https://www.ama.org/wp-content/themes/ama/assets/images/ama-logo-white-mobile.png" media="(min-width: 20rem)" />
+			<img src="https://www.ama.org/wp-content/themes/ama/assets/images/ama-logo-white-mobile.png" alt="American Marketing Association Logo">
+		</picture>
+	</a>
+
+</div>
+				
+<div id="header-search-user" class="page-header__search js-header-mobile-toggle" aria-expanded="false">
+
+	
+<form class="header-search__form" role="search" method="get" action="https://www.ama.org/search/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+	<meta itemprop="target" content="https://www.ama.org/?s={s}" />
+	<label for="q-lg" class="screen-reader-text">Search AMA</label>
+	<input class="header-search__input" itemprop="query-input" type="search" id="q-lg" value="" placeholder="Search ama.org" name="s" />
+	<button class="header-search__submit has-search-icon" type="submit" aria-label="Submit Search"></button>
+</form>
+
+
+	<div class="page-header__user">
+	<ul class="page-header__user-menu">
+		
+			<li class="page-header__user-menu-item">
+				<a class="page-header__user-menu-link" href="https://myama.force.com/services/oauth2/authorize?response_type=code&#038;client_id=3MVG9CEn_O3jvv0w2UhdWBwPSVH0HQeYkNhAufvhjDMNkScGyF_5ncMuk0mJQWZ9vOZtfcRT0uuSlO65nJjvW&#038;redirect_uri=https%3A%2F%2Fwww.ama.org%2Fsf%2Fredirect&#038;state=https%3A%2F%2Fwww.ama.org%2Fwhat-is-digital-marketing">Login</a>
+			</li>
+
+			<li class="page-header__user-menu-item">
+				<a class="page-header__user-menu-link page-header__user-menu-link--join" href="https://www.ama.org/ama-member-benefits/?return_url=https://www.ama.org/what-is-digital-marketing">Join AMA</a>
+			</li>
+
+			</ul>
+</div>
+
+</div>
+				
+<div class="page-header__toggle">
+	<button class="page-header__toggle-button js-header-toggle-button" aria-expanded="false" aria-label="Menu">
+
+		<div class="page-header__toggle-menu-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="34" height="21.1" viewBox="0 0 34 21.1"><path id="menu" d="M1.85,27.919a1.85,1.85,0,1,1,0-3.7h30.3a1.85,1.85,0,1,1,0,3.7Zm0-8.7a1.85,1.85,0,1,1,0-3.7h30.3a1.85,1.85,0,1,1,0,3.7Zm0-8.7a1.85,1.85,0,1,1,0-3.7h30.3a1.85,1.85,0,1,1,0,3.7Z" transform="translate(0 -6.819)"/></svg>
+		</div>
+
+		<div class="page-header__toggle-close-icon">
+			<svg viewbox="0 0 24 24" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.271 20.728a.928.928 0 001.31 0l7.42-7.419 7.419 7.42a.927.927 0 001.309-1.31l-7.42-7.42 7.42-7.418a.926.926 0 00-1.31-1.31l-7.42 7.42-7.418-7.42a.926.926 0 00-1.31 1.31L10.691 12l-7.42 7.419a.926.926 0 000 1.31z" fill="#000"/></svg>
+		</div>
+
+	</button>
+</div>
+			</div>
+
+			
+	<div class="page-header__nav js-header-mobile-toggle" aria-expanded="false">
+		<ul id="header-nav" class="page-header__nav-menu js-header-nav-menu"><li id="menu-item-162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-162"><a href="https://www.ama.org/ama-member-benefits/">Membership</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+<li id="menu-item-169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-169"><a href="https://www.ama.org/training-for-marketing/">Training &#038; Events</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg>
+<ul class="sub-menu">
+	<li id="menu-item-60229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60229"><a href="https://www.ama.org/training-for-marketing/">Training</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-116012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116012"><a href="https://www.ama.org/on-demand-training-for-marketing/">On-Demand Training</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-4516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4516"><a href="https://www.ama.org/events/?event_year=0&#038;event_month=0&#038;event_type=conference">Conferences</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-4515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4515"><a href="https://www.ama.org/events/?post_type=ama_event&#038;event_type=webinar">Webinars</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-102461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102461"><a href="https://www.ama.org/events/?event_year=0&#038;event_month=0&#038;event_type=academic">Academic</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-65711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65711"><a href="https://www.ama.org/pages/ama-professional-chapter-events/">Chapter Events</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-102462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102462"><a href="https://www.ama.org/events/?event_year=0&#038;event_month=0&#038;event_type=all">All Events</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-123878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123878"><a href="https://www.ama.org/ama-marketing-skills-framework/">AMA Marketing Skills Framework</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+</ul>
+</li>
+<li id="menu-item-60195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60195"><a href="https://www.ama.org/certifications/">Certifications</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg>
+<ul class="sub-menu">
+	<li id="menu-item-70963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70963"><a href="https://www.ama.org/digital-marketing-certification/">Digital Marketing Certification</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-70966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70966"><a href="https://www.ama.org/advanced-digital-marketing-certification/">Advanced Digital Marketing Certification</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-70964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70964"><a href="https://www.ama.org/content-marketing-certification/">Content Marketing Certification</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-70962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70962"><a href="https://www.ama.org/marketing-management-certification/">Marketing Management Certification</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+</ul>
+</li>
+<li id="menu-item-170" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-170"><a href="#">Publications</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg>
+<ul class="sub-menu">
+	<li id="menu-item-60196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60196"><a href="https://www.ama.org/marketing-news-home/">Marketing News</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-1553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1553"><a href="https://www.ama.org/ama-academic-journals/">Academic Journals</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-60197" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60197"><a href="https://www.ama.org/topics/white-paper/">Guides &#038; eBooks</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+</ul>
+</li>
+<li id="menu-item-171" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-171"><a href="#">Trending</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg>
+<ul class="sub-menu">
+	<li id="menu-item-12437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12437"><a href="https://www.ama.org/the-definition-of-marketing-what-is-marketing/">What Is Marketing?</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-13382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13382"><a href="https://www.ama.org/topics/marketing-strategy/">Marketing Strategy</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-18803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18803"><a target="_blank" rel="noopener" href="https://www.ama.org/topics/academic-research/">Academic Research</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-22782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22782"><a href="https://www.ama.org/topics/marcom/">Marketing Communications</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-22795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22795"><a href="https://www.ama.org/topics/customer-experience/">Customer Experience</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-60198" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60198"><a href="https://www.ama.org/topics/branding/">Branding</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-60199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60199"><a href="https://www.ama.org/topics/data-and-insights/">Data and Insights</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-60200" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60200"><a href="https://www.ama.org/topics/digital-marketing/">Digital Marketing</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-60201" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60201"><a href="https://www.ama.org/topics/career-growth/">Career Growth</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+</ul>
+</li>
+<li id="menu-item-172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-172"><a href="#">About</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg>
+<ul class="sub-menu">
+	<li id="menu-item-1046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1046"><a href="https://www.ama.org/about-ama/">About AMA</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-4512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4512"><a href="https://www.ama.org/about-ama-foundation/">AMA Foundation</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-68733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68733"><a href="https://www.ama.org/dei-diversity-equity-inclusion-marketing/">Diversity, Equity and Inclusion</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-108598" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108598"><a href="https://www.ama.org/pages/collegiate/">Collegiate Resources</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-118635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118635"><a href="https://www.ama.org/volunteer/">Volunteer</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-1093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1093"><a href="https://www.ama.org/awards/">Awards and Scholarships</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-1049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1049"><a href="https://myama.force.com/s/">Get Help</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-4511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4511"><a href="https://mediakit.ama.org/">Sponsorship Opportunities</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+	<li id="menu-item-77383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77383"><a href="https://www.ama.org/ama-strategic-partnerships/">Strategic Partnerships</a><svg class="page-header__nav-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M17.78 9.22a.75.75 0 0 0-1.06 0l-4.949 4.948L6.823 9.22a.75.75 0 0 0-1.06 1.06l5.478 5.479a.75.75 0 0 0 1.06 0l5.48-5.479a.75.75 0 0 0 0-1.06z" fill="#000"/></svg></li>
+</ul>
+</li>
+</ul>	</div>
+
+			<div class="page-header__search-mobile js-header-mobile-toggle" aria-expanded="false">
+				
+<form class="header-search__form" role="search" method="get" action="https://www.ama.org/search/" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+	<meta itemprop="target" content="https://www.ama.org/?s={s}" />
+	<label for="q-sm" class="screen-reader-text">Search AMA</label>
+	<input class="header-search__input" itemprop="query-input" type="search" id="q-sm" value="" placeholder="Search ama.org" name="s" />
+	<button class="header-search__submit has-search-icon" type="submit" aria-label="Submit Search"></button>
+</form>
+
+			</div>
+
+			
+<div
+	class="notification js-notification notification--red ie-alert js-ie-alert"
+	aria-visible="1"
+	role="banner"
+		tabindex="0"
+>
+
+	
+				<div class="notification__icon" aria-label="Icon before the main text">
+			<span class="screen-reader-text">Icon image</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.125 12A7.875 7.875 0 0112 4.124a7.875 7.875 0 11-7.875 7.874zM12 3a9 9 0 100 17.999A9 9 0 1012 3zm.041 5.28c.31 0 .563.253.563.563v4.5a.562.562 0 01-1.125 0v-4.5c0-.31.252-.562.562-.562zm-.562 7.313c0-.31.252-.563.562-.563h.011a.562.562 0 010 1.125h-.01a.562.562 0 01-.563-.562z" fill="#1E2935" /></svg>		</div>
+		
+				<p class="notification__text">
+										We noticed that you are using Internet Explorer 11 or older that is not support any longer. Please consider using an alternative such as Microsoft Edge, Chrome, or Firefox.					</p>
+		
+		
+		<button type="button" class="notification__close js-notification-close">
+			<span class="screen-reader-text">Dismiss notification</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.271 20.728a.928.928 0 001.31 0l7.42-7.419 7.419 7.42a.927.927 0 001.309-1.31l-7.42-7.42 7.42-7.418a.926.926 0 00-1.31-1.31l-7.42 7.42-7.418-7.42a.926.926 0 00-1.31 1.31L10.691 12l-7.42 7.419a.926.926 0 000 1.31z" fill="#000" /></svg>		</button>
+
+	
+</div>
+
+			
+<div
+	class="notification js-notification"
+	aria-visible="1"
+	role="banner"
+		tabindex="0"
+>
+
+	
+				<div class="notification__icon" aria-label="Icon before the main text">
+			<span class="screen-reader-text">Icon image</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.125 12A7.875 7.875 0 0112 4.124a7.875 7.875 0 11-7.875 7.874zM12 3a9 9 0 100 17.999A9 9 0 1012 3zm.615 5.843c0 .31-.252.562-.563.562h-.01a.562.562 0 110-1.124h.01c.311 0 .563.252.563.562zm-.563 7.312a.562.562 0 01-.562-.562v-4.5a.562.562 0 011.125 0v4.5c0 .31-.252.562-.563.562z" fill="#1E2935" /></svg>		</div>
+		
+				<p class="notification__text">
+							<strong>New:</strong>
+										Learn at your own pace and on your own time with AMA On-Demand Training. <a href="https://www.ama.org/on-demand-training-for-marketing/">Explore the courses here</a>.					</p>
+		
+		
+		<button type="button" class="notification__close js-notification-close">
+			<span class="screen-reader-text">Dismiss notification</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.271 20.728a.928.928 0 001.31 0l7.42-7.419 7.419 7.42a.927.927 0 001.309-1.31l-7.42-7.42 7.42-7.418a.926.926 0 00-1.31-1.31l-7.42 7.42-7.418-7.42a.926.926 0 00-1.31 1.31L10.691 12l-7.42 7.419a.926.926 0 000 1.31z" fill="#000" /></svg>		</button>
+
+	
+</div>
+
+		</header>
+			<div id="site-content" class="site-content" id="site-content">
+			<div class="container">
+									<article id="page-57503" class="post-57503 page type-page status-publish has-post-thumbnail hentry" itemscope itemtype="https://schema.org/Article">
+	<!-- flag this as the main area of the page -->
+	<div itemprop="mainEntityOfPage">
+
+
+		<!-- articles get headers (and footers) -->
+
+			<header>
+								
+				<div class="page-image-large" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+									<img width="1360" height="550" src="https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?resize=1360%2C550" class="attachment-hero size-hero wp-post-image" alt="What is Digital Marketing?" title="What is Digital Marketing?" />					<meta itemprop="url" content="https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?fit=1024%2C576" />
+					<meta itemprop="width" content="16384" />
+					<meta itemprop="height" content="9219" />
+									</div><!--/itemprop=image-->
+			
+			<!-- Name of the article -->
+							<h1 itemprop="headline">What is Digital Marketing?</h1>
+				
+
+							<div class="page-image-small" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="1170" height="550" src="https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?resize=1170%2C550" class="attachment-full-width-large size-full-width-large wp-post-image" alt="" loading="lazy" />					<meta itemprop="url" content="https://www.ama.org/wp-content/uploads/2020/04/diggity-marketing-SB0WARG16HI-unsplash-1.jpg?resize=1170%2C550" />
+					<meta itemprop="width" content="16384" />
+					<meta itemprop="height" content="9219" />
+				</div><!--/itemprop=image-->
+			
+												</header>
+
+
+
+	    		<!-- Publisher are required, weird, but true (this code block doesn't output anything) -->
+		<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+			<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+				<meta itemprop="url" content="https://www.ama.org/wp-content/themes/ama/assets/images/logo.jpg" />
+				<meta itemprop="width" content="904" />
+				<meta itemprop="height" content="136" />
+			</div>
+			<meta itemprop="name" content="AMA" />
+		</div><!--/.itemprop=publisher-->
+
+		<!-- Main body of the article -->
+		<div id="page-content" class="post-body " itemprop="articleBody">
+
+			
+
+<h2 class="wp-block-heading" id="h-learn-how-digital-marketing-efforts-drive-business-success-in-the-modern-world">Learn How Digital Marketing Efforts Drive Business Success in the Modern World</h2>
+
+
+
+<p><a href="https://www.ama.org/the-definition-of-marketing-what-is-marketing/">Marketing</a> is the practice of identifying and satisfying customer needs. This is a particularly important task in the business context, as successful marketing efforts can drive leads and conversions. Even though marketing has deep roots in business history and culture, <a href="https://www.ama.org/marketing-news/how-to-create-a-digital-marketing-strategy/">digital marketing</a> is a relatively new practice. </p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>It’s much easier to double your business by doubling your conversion rate than by doubling your traffic.</p>
+<cite><a href="https://twitter.com/JeffreyGroks" target="_blank" rel="noreferrer noopener nofollow">Jeff Eisenberg</a></cite></blockquote>
+
+
+
+<p>With the explosion of digital technology, including widespread use of computers and smartphones, businesses began to experiment with new marketing tactics—which is the origin of digital marketing.</p>
+
+
+
+<p>Fast forward to the present and <a href="https://www.ama.org/marketing-news/cmo-survey-august-2021/">digital marketing is as important</a>, if not more so, than traditional marketing methods. Depending on the business there is a growing divide between traditional and digital marketing, while others have found novel ways of <a href="https://www.ama.org/marketing-news/how-can-traditional-and-digital-marketing-work-together/">bringing the two closer together</a>. Regardless of the approach, it is vital for businesses to plan and execute a viable <a href="https://www.ama.org/marketing-news/what-is-a-digital-marketing-strategy/">digital marketing strategy</a>.&nbsp;</p>
+
+
+
+<div class="wp-block-group alignfull has-beige-100-background-color has-background is-layout-constrained"><div class="wp-block-group__inner-container">
+<div class="wp-block cards-container">
+
+			<h2>
+			Refresh Your Digital Marketing Skills		</h2>
+	
+	<ul class="cards">
+		
+
+<li class="card has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2023/03/On-Demand-Training_Web-Card-Google-Analytics.png?resize=486%2C365" class="card__img" alt="blue gradient background with analytic dashboard icon in a white circle in the center" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			 On-Demand Training		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/on-demand/web-analytics/" itemprop="url">
+							Web Analytics						</a>
+					</h2>
+
+					<p>Optimize your website visitor journey and purchase funnel by understanding your web analytics and implementing best practices based on insights.</p>
+		
+		
+	</div></li>
+
+
+
+<li class="card has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2020/03/Digital-Marketing-Certification-PCM.png?resize=486%2C365" class="card__img" alt="" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			 Certification		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/digital-marketing-certification/" itemprop="url">
+							Digital Marketing Certification						</a>
+					</h2>
+
+					<p><strong>Delivered 100% online with continuously updated content means you get cutting-edge digital marketing and soft skills, always.</strong></p>
+		
+		
+	</div></li>
+
+
+
+<li class="card has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2023/02/On-Demand-Training_Web-Card-Content-Marketing.png?resize=486%2C365" class="card__img" alt="blue gradient background with a website icon in the center in a white circle" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			 On-Demand Training		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/on-demand/conversion-rate-optimization/" itemprop="url">
+							Conversion Rate Optimization						</a>
+					</h2>
+
+					<p>In this course, you will discover the five key steps to Conversion Rate Optimization and how the process interacts with other facets of digital marketing.</p>
+		
+		
+	</div></li>
+
+	</ul>
+</div>
+</div></div>
+
+
+
+<h3 class="wp-block-heading" id="h-what-are-the-basics-of-digital-marketing">What Are the Basics of Digital Marketing?</h3>
+
+
+
+<p>Digital marketing refers to any marketing methods conducted through electronic devices which utilize some form of a computer, including online marketing efforts conducted on the internet. In the process of conducting digital marketing, a business might leverage websites, search engines, blogs, social media, video, email and similar channels to reach customers.</p>
+
+
+
+<p>Unlike traditional marketing—which is static and often referred to as “one-way” communication—digital marketing is an <a href="https://www.ama.org/events/training-series/integrated-marketing-communications-march-5-6-2020-chicago-il/">ever-changing, dynamic process</a>. Stated otherwise, customers cannot interact with business through a billboard or print ad, whereas digital marketing provides an avenue for two-way communication between a business and its actual or prospective customers.&nbsp;</p>
+
+
+
+<p>These days, <a href="https://hms.harvard.edu/news/screen-time-brain" target="_blank" rel="noreferrer noopener">screen time</a> is at an all-time high for many people. Digital marketing takes advantage of this reality, promoting business products and services across the internet. In this way, businesses ensure that their marketing efforts are more likely to reach customers, by targeting them where they spend most of their time.&nbsp;</p>
+
+
+
+<p>From startups to enterprise businesses, a multifaceted digital marketing approach can lead to significant commercial benefits. Successful digital marketing strategy generally involves a combination of various methods, including online advertising, <a href="https://www.ama.org/topics/search-engine-optimization/">search engine optimization</a> and marketing, <a href="https://www.ama.org/marketing-news/the-best-times-to-post-on-social-media/">social media marketing and management</a> and content creation, among others.&nbsp;</p>
+
+
+
+<div id="om-g8hovfl21xc5g0bqv3za-holder"></div>
+
+
+
+<h3 class="wp-block-heading" id="h-are-there-different-ways-to-conduct-digital-marketing">Are There Different Ways to Conduct Digital Marketing?</h3>
+
+
+
+<p>Digital marketing is a broad term that encompasses many different channels for promoting business interests to prospective customers. Depending on the business needs and goals, there are <a href="https://www.ama.org/marketing-news/how-to-use-google-analytics-to-improve-your-digital-marketing-campaigns/">countless ways to conduct digital marketing</a>. It is not a cookie-cutter exercise.&nbsp;</p>
+
+
+
+<p>That being said, there are several common methods for <a href="https://seodesignchicago.com/services/" target="_blank" rel="noreferrer noopener">conducting digital marketing</a>, including:</p>
+
+
+
+<ul>
+<li><strong>Search Engine Optimization (SEO)</strong> — <a href="https://www.ama.org/marketing-news/what-is-seo-marketing/">SEO</a> is the practice of improving ranking within major search engines to increase online traffic.&nbsp;</li>
+
+
+
+<li><strong>Search Engine Marketing (SEM)</strong> — SEM leverages paid online advertising to increase website visibility within search engines. SEM is often used in conjunction with SEO.&nbsp;</li>
+
+
+
+<li><strong>Pay-Per-Click (PPC)</strong> — <a href="https://www.ama.org/marketing-news/the-importance-of-ppc-using-google-ads/">PPC</a> is an online method for advertising where a business only pays for its ads when a person clicks on them.&nbsp;</li>
+
+
+
+<li><strong>Social Media Marketing (SMM)</strong> — SMM is the practice of using social media channels to promote business products or services. The use of social media influencers, often referred to as influencer marketing, is prevalent in SMM.&nbsp;</li>
+
+
+
+<li><strong>Email Marketing</strong> — <a href="https://www.ama.org/2018/05/02/the-sweet-spot-in-email-marketing/">Email marketing</a> enables businesses to send branded, promotional content directly to prospective customers via email. The use of automated newsletters is common in this context.&nbsp;</li>
+
+
+
+<li><strong>Affiliate Marketing</strong> — <a href="https://www.amnavigator.com/blog/2019/02/01/affiliate-marketing-explained/">Affiliate marketing</a> is a performance-based exercise that enables revenue sharing and pay-per-sale (PPS) compensation within a common network.&nbsp;</li>
+
+
+
+<li><strong>Content Marketing</strong> — <a href="https://www.ama.org/content-marketing-certification/">Content marketing</a> refers to the publishing and distribution of text, video or audio materials to customers online. Blogs, videos and podcasts are common ways for businesses to engage in content marketing.&nbsp;&nbsp;</li>
+
+
+
+<li><strong>Native Advertising</strong> — Native advertising involves blending marketing materials into a medium, making the underlying message and marketing purposes equally important. Sponsored content, in which one business posts its own content on a different website, is a common method of native advertising.&nbsp;</li>
+</ul>
+
+
+
+<p>There are numerous ways to execute a digital marketing strategy. For most businesses, successful inbound marketing involves the use and application of multiple digital marketing methods.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading" id="h-what-benefits-can-i-achieve-through-digital-marketing">What Benefits Can I Achieve Through Digital Marketing?</h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="4096" height="2730" src="https://www.ama.org/wp-content/uploads/2020/04/joe-yates-Cc4sToR2Oc0-unsplash-1.jpg?fit=1024%2C683&#038;resize=4096%2C2730" alt="What Benefits Can I Achieve Through Digital Marketing?" class="wp-image-57516" data-recalc-dims="1" /></figure>
+
+
+
+<p>Given the diversity of digital marketing methods, there is a similarly diverse set of benefits available for digitally savvy benefits. On an overarching level, digital marketing enables businesses to reach customers during everyday activities, such as scanning social media, reading online articles, watching videos, etc. When customers are exposed to marketing in this type of natural and regular manner, it can yield a variety of commercial benefits.&nbsp;</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>&#8220;Digital marketing is defined by using numerous digital tactics and channels to connect with customers where they spend much of their time: online.&#8221;</p>
+<cite><a href="https://blog.hubspot.com/marketing/what-is-digital-marketing" target="_blank" rel="noreferrer noopener nofollow">Hubspot</a></cite></blockquote>
+
+
+
+<p>More specifically, digital marketing can help businesses achieve any or all of the following benefits:</p>
+
+
+
+<ul>
+<li><strong>Global Reach</strong> — Unlike traditional methods, digital marketing is not necessarily bound to a specific geographic area. The internet is available to customers across the globe. This allows businesses to market and sell to customers who live in a different state or country, removing many traditional barriers to entry.</li>
+
+
+
+<li><strong>Low Cost of Entry</strong> — To achieve the global reach of digital marketing through traditional channels, there would be a serious price tag attached. On the other hand, certain aspects of digital marketing can be achieved with a small investment of time and resources. For example, even small or startup businesses can create a website, manage social media and publish blogs without breaking the bank.&nbsp;</li>
+
+
+
+<li><strong>Measurable ROI</strong> — In order to maximize profits, businesses must carefully evaluate return on investment (ROI). With traditional marketing, ROI can be difficult, sometimes impossible, to measure. On the other hand, digital marketing provides real-time visibility into the effectiveness of each campaign, enabling business leaders to make well-informed decisions to drive revenue and increase profit.&nbsp;</li>
+
+
+
+<li><strong>Improved Targeting</strong> — Digital marketing allows businesses to target very specific demographics of potential customers. By engaging customers in a particular geography, industry or social channel, businesses have a much better chance of reaching their target demographic.</li>
+
+
+
+<li><strong>Dynamic Adaptability</strong> — Digital marketing strategies are extremely malleable and flexible, enabling businesses to adjust course when needed. Unlike long-term, traditional marketing campaigns, businesses can adjust their digital efforts on the fly, enabling quick pivots when necessary to realize commercial opportunity.</li>
+
+
+
+<li><strong>Immediate Connection</strong> — Before making a purchase, modern customers generally conduct online research and evaluate reviews. The first step in this process typically starts with a search engine. In this way, businesses with developed SEO, SEM and PPC strategies can connect immediately with customers.</li>
+
+
+
+<li><strong>Relationship Building</strong> — The rise of social media has turned it into a dominant communications platform for many customer demographics. Furthermore, customers increasingly want to interact with businesses on their terms and on their preferred platform. As a result, businesses that engage in effective SMM practices can build longtime and loyal relationships with current and prospective customers.</li>
+</ul>
+
+
+
+<p>Overall, businesses of every shape and size can achieve powerful benefits through effective use of digital marketing methods. Furthermore, the cost of digital marketing can be tailored to each specific business, stripping many barriers to entry of traditional methods. With so many benefits available for just about any budget, it makes sense why so many businesses are succeeding with digital marketing efforts.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-how-much-will-digital-marketing-cost-my-business">How Much Will Digital Marketing Cost My Business?</h3>
+
+
+
+<p>The simple answer is that there is a <a href="https://digitalmarketinginstitute.com/blog/9-ways-digital-marketing-is-cost-effective-corporate" target="_blank" rel="noreferrer noopener">digital marketing strategy for every budget</a>. The flexibility of digital marketing strategies yields benefits for just about every size of business, from small to large. With such a wide range of methods and strategies, it is not possible to provide a one-size-fits-all price tag for digital marketing.</p>
+
+
+
+<p>Instead, it is helpful to examine the digital marketing spend for different levels of business, as small companies will spend less than larger ones. For example:</p>
+
+
+
+<ul>
+<li><strong>Basic Digital Marketing</strong> — Startups and small businesses do not generally have a large budget available for digital marketing. These businesses focus on low-cost methods, typically leveraging websites, blogs and social media to drive revenue at a low price point. The cost for basic digital marketing can be several hundred dollars per month.&nbsp;</li>
+
+
+
+<li><strong>Intermediate Digital Marketing</strong> — Medium-sized businesses tend to have established revenue streams and the capability to spend more on digital marketing. This is where SEO, SEM, PPC and email marketing start to become prevalent. The cost for intermediate digital marketing can be several thousand dollars per month.</li>
+
+
+
+<li><strong>Advanced Digital Marketing</strong> — Large or enterprise businesses will use digital marketing in a comprehensive and often global manner. These businesses tend to have developed strategies across most digital marketing channels. These businesses often spend substantial resources developing a digital marketing strategy across many available channels. The cost for advanced digital marketing can be tens of thousands of dollars per month.</li>
+</ul>
+
+
+
+<p>As demonstrated above, the cost of digital marketing varies greatly based on business size, revenue and goals. Smaller companies will often start with a basic strategy and develop intermediate or advanced methods down the road. Ultimately, it is possible for just about every business to create and implement a digital marketing strategy that meets their needs and budget.&nbsp;</p>
+
+
+
+<h3 class="wp-block-heading" id="h-how-do-i-create-and-implement-a-digital-marketing-strategy">How Do I Create and Implement a Digital Marketing Strategy?</h3>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="5184" height="3456" src="https://www.ama.org/wp-content/uploads/2020/04/john-schnobrich-FlPc9_VocJ4-unsplash.jpg?fit=1024%2C683&#038;resize=5184%2C3456" alt="How Do I Create and Implement a Digital Marketing Strategy?" class="wp-image-57511" data-recalc-dims="1" /></figure>
+
+
+
+<p>The process for creating and implementing a digital marketing strategy involves many steps and required considerations. In this context, it is critical to devote time and resources to planning and creation. Information, analytics and research collected while planning and creating can have a tremendous impact during implementation.&nbsp;</p>
+
+
+
+<div class="wp-block cards-container">
+
+			<h2>
+			Digital Marketing Strategy		</h2>
+	
+	<ul class="cards">
+		
+
+<li class="card marketing_news has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2021/12/AdobeStock_278943853.jpeg?resize=486%2C365" class="card__img" alt="hand pointing at digital marketing icons" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.207 3H7.178a.793.793 0 00-.792.793v7.477h-1.4A2.989 2.989 0 002 14.255v4.412a2.989 2.989 0 003.383 2.96H18.46A3.544 3.544 0 0022 18.085V3.793A.793.793 0 0021.207 3zM6.386 18.667c0 .68-.487 1.247-1.13 1.374h-.27v.026a1.4 1.4 0 01-1.4-1.4v-4.412c0-.772.628-1.4 1.4-1.4h1.4v5.812zm14.029-.581c0 1.06-.895 1.955-1.955 1.955H7.636c.214-.411.335-.879.335-1.374V4.585h12.444v13.5zm-9.67-10.119h4.967a.793.793 0 110 1.585h-4.967a.793.793 0 110-1.585zm0 3.83h6.87a.793.793 0 110 1.586h-6.87a.793.793 0 010-1.585zm0 3.594h4.967a.793.793 0 110 1.586h-4.967a.793.793 0 110-1.586z" fill="#201C0E" /></svg> Marketing News		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/marketing-news/why-you-need-a-digital-marketing-strategy/" itemprop="url">
+							Why You Need a Digital Marketing Strategy						</a>
+					</h2>
+
+					<p>You already know why marketing is important for your business, and digital is an essential component of your overall marketing strategy. Here&#8217;s what you need to get started.</p>
+		
+		
+	</div></li>
+
+
+
+<li class="card marketing_news has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2021/10/AdobeStock_219101232.jpg?resize=486%2C365" class="card__img" alt="woman holding tablet with floating digital marketing icons" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.207 3H7.178a.793.793 0 00-.792.793v7.477h-1.4A2.989 2.989 0 002 14.255v4.412a2.989 2.989 0 003.383 2.96H18.46A3.544 3.544 0 0022 18.085V3.793A.793.793 0 0021.207 3zM6.386 18.667c0 .68-.487 1.247-1.13 1.374h-.27v.026a1.4 1.4 0 01-1.4-1.4v-4.412c0-.772.628-1.4 1.4-1.4h1.4v5.812zm14.029-.581c0 1.06-.895 1.955-1.955 1.955H7.636c.214-.411.335-.879.335-1.374V4.585h12.444v13.5zm-9.67-10.119h4.967a.793.793 0 110 1.585h-4.967a.793.793 0 110-1.585zm0 3.83h6.87a.793.793 0 110 1.586h-6.87a.793.793 0 010-1.585zm0 3.594h4.967a.793.793 0 110 1.586h-4.967a.793.793 0 110-1.586z" fill="#201C0E" /></svg> Marketing News		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/marketing-news/what-is-a-digital-marketing-strategy/" itemprop="url">
+							What Is a Digital Marketing Strategy?						</a>
+					</h2>
+
+					<p>A strong digital marketing strategy is crucial to organizational success in today&#8217;s business landscape. Companies thriving in the digital world typically allocate significant resources to the development of digital marketing strategies. In the process, organizations reach customers across various digital and social platforms, driving positive revenue gains, improved conversion rates and engage with their customers. [&hellip;]</p>
+		
+		
+	</div></li>
+
+
+
+<li class="card marketing_news has-background has-white-background-color has-link" itemscope itemtype="https://schema.org/Article">
+
+		<div class="card__header">
+
+					<img width="486" height="365" src="https://www.ama.org/wp-content/uploads/2021/12/AdobeStock_343161566.jpeg?resize=486%2C365" class="card__img" alt="person navigating tablet" loading="lazy" itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject" />		
+			</div>
+	
+	<div class="card__body">
+
+				<p class="taxonomy has-xxxs-font-size has-grey-700-color is-uppercase">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.207 3H7.178a.793.793 0 00-.792.793v7.477h-1.4A2.989 2.989 0 002 14.255v4.412a2.989 2.989 0 003.383 2.96H18.46A3.544 3.544 0 0022 18.085V3.793A.793.793 0 0021.207 3zM6.386 18.667c0 .68-.487 1.247-1.13 1.374h-.27v.026a1.4 1.4 0 01-1.4-1.4v-4.412c0-.772.628-1.4 1.4-1.4h1.4v5.812zm14.029-.581c0 1.06-.895 1.955-1.955 1.955H7.636c.214-.411.335-.879.335-1.374V4.585h12.444v13.5zm-9.67-10.119h4.967a.793.793 0 110 1.585h-4.967a.793.793 0 110-1.585zm0 3.83h6.87a.793.793 0 110 1.586h-6.87a.793.793 0 010-1.585zm0 3.594h4.967a.793.793 0 110 1.586h-4.967a.793.793 0 110-1.586z" fill="#201C0E" /></svg> Marketing News		</p>
+		
+		<h2 class="has-medium-font-size" itemprop="name">
+						<a href="https://www.ama.org/marketing-news/how-to-create-a-digital-marketing-strategy/" itemprop="url">
+							How to Create a Digital Marketing Strategy						</a>
+					</h2>
+
+					<p>Most of our consumption of content today exists online. Because of this, companies have had to shift to digital marketing in order to get the word out about their products and services. However, you cannot simply make content for online platforms and hope for the best. You need to build a digital marketing strategy to [&hellip;]</p>
+		
+		
+	</div></li>
+
+	</ul>
+</div>
+
+
+
+<p>It is true that every business has unique needs and goals. Correspondingly, the creation and implementation of a digital marketing strategy will change from business to business. But in common practice, many businesses employ a similar process for creating and implementing a digital marketing strategy, as outlined below.&nbsp;</p>
+
+
+
+<ul>
+<li><strong>Identify Marketing Goals</strong> — The first step in this process involves identifying specific goals, such as driving sales, generating leads, building brand recognition or increasing subscribers.&nbsp;</li>
+
+
+
+<li><strong>Solidify Sales Process </strong>— To maximize the benefits of digital marketing, it is necessary to understand the digital sales process and exactly how customers will make digital purchases.</li>
+
+
+
+<li><strong>Isolate Target Customers </strong>— Creating a strong target demographic with refined buyer personas helps isolate the ideal customers to purchase business goods or services.&nbsp;</li>
+
+
+
+<li><strong>Choose Marketing Channels</strong> — Armed with target demographic and buyer personas, it is important to identify the best digital marketing channels to reach those ideal customers.&nbsp;</li>
+
+
+
+<li><strong>Set Clear Benchmarks</strong> — In order to evaluate a digital marketing strategy, it is advisable to establish clear benchmarks for success and measure progress along the way.&nbsp;</li>
+
+
+
+<li><strong>Make Necessary Adjustments</strong> — After creating and implementing a digital marketing strategy, it is important to monitor progress toward goals and adjust as needed.&nbsp;</li>
+</ul>
+
+
+
+<p>An effective digital marketing strategy must take into the account the individual needs and goals of the business in question. Accordingly, a digital marketing strategy that works for a small “mom-and-pop” store is likely inappropriate for a global brand. The good news is that digital marketing offers a wide range of methods, channels and strategies. So, businesses of just about any size and in just about any industry can leverage digital marketing to great effect.&nbsp;</p>
+
+
+		</div><!--/itemprop=articleBody-->
+			</div><!--/itemprop=mainEntityOfPage-->
+
+</article><!--/itemtype=BlogPosting-->
+							</div>
+		</div>
+		<footer id="page-footer" class="page-footer">
+
+		<div class="page-footer__brand-user" itemscope itemtype="http://schema.org/Organization">
+			<div class="page-footer__brand">
+				<a class="page-footer__brand-link" itemprop="url" href="https://www.ama.org/">
+					<img
+						class="page-footer__brand-image"
+						itemprop="logo"
+						src="https://www.ama.org/wp-content/themes/ama/assets/images/logo-white.png"
+						srcset="https://www.ama.org/wp-content/themes/ama/assets/images/logo-white.png"
+						alt="American Marketing Association"
+					/>
+				</a>
+			</div>
+
+			
+	<div class="page-footer__user">
+		<a class="button button-red"
+			href="https://www.ama.org/ama-member-benefits/?return_url=https://www.ama.org/what-is-digital-marketing">
+			Join AMA		</a>
+	</div>
+		</div>
+
+		<div class="page-footer__nav">
+
+			<ul id="footer-nav" class="page-footer__nav-menu"><li id="menu-item-5386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5386"><a href="https://www.ama.org/about-ama/">About AMA</a></li>
+<li id="menu-item-4576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4576"><a href="https://myama.force.com/s/contactsupport">Contact Us</a></li>
+<li id="menu-item-6952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6952"><a href="https://myama.force.com/s/article/Terms-of-Use">Terms of Use</a></li>
+<li id="menu-item-6953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6953"><a href="https://myama.force.com/s/article/American-Marketing-Association-Privacy-Policy">Privacy Policy</a></li>
+<li id="menu-item-4577" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4577"><a href="https://marketingresourcedirectory.ama.org/">Marketing Services Search</a></li>
+<li id="menu-item-8827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8827"><a href="https://www.ama.org/ama-code-of-conduct">Code of Conduct</a></li>
+<li id="menu-item-10244" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10244"><a href="https://myama.force.com/s/topic/0TO6A000000HLcRWAW/frequently-asked-questions">FAQ</a></li>
+<li id="menu-item-17851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17851"><a target="_blank" rel="noopener" href="https://mediakit.ama.org/">Media Kit</a></li>
+<li id="menu-item-28470" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28470"><a href="https://elearning.ama.org/diweb/gateway?_ga=2.117043663.89163802.1571065398-1417038263.1571065397">Certification Portal</a></li>
+<li id="menu-item-59733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59733"><a href="https://www.ama.org/toolkits/">Toolkits</a></li>
+<li id="menu-item-59734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59734"><a href="https://www.ama.org/job-boards-join-our-team/">Job Boards</a></li>
+<li id="menu-item-77384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77384"><a href="https://www.ama.org/ama-strategic-partnerships/">Strategic Partnerships</a></li>
+</ul>
+			
+<ul class="social-links">
+			<li class="social-links__link">
+			<a href="https://www.facebook.com/AmericanMarketing/" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.54 6.657H16V4.113A18.86 18.86 0 0013.874 4c-2.106 0-3.549 1.325-3.549 3.76V10H8v2.844h2.324V20h2.85v-7.155h2.23L15.756 10h-2.584V8.04c0-.822.222-1.384 1.367-1.384z" fill="#646464" /></svg>				<span class="screen-reader-text">facebook</span>
+			</a>
+		</li>
+			<li class="social-links__link">
+			<a href="https://twitter.com/ama_marketing" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.356 9.242A6.547 6.547 0 0020 7.539a6.85 6.85 0 01-1.89.518 3.263 3.263 0 001.443-1.813 6.563 6.563 0 01-2.08.794A3.28 3.28 0 0011.8 9.281c0 .26.022.51.076.748a9.287 9.287 0 01-6.761-3.432 3.308 3.308 0 00-.45 1.658c0 1.136.585 2.143 1.458 2.726a3.242 3.242 0 01-1.482-.404v.036a3.296 3.296 0 002.628 3.224 3.263 3.263 0 01-.86.108c-.21 0-.422-.012-.62-.056a3.312 3.312 0 003.064 2.285 6.593 6.593 0 01-4.067 1.399c-.269 0-.527-.012-.785-.045A9.237 9.237 0 009.032 19c5.789 0 9.561-4.83 9.324-9.758z" fill="#646464" /></svg>				<span class="screen-reader-text">twitter</span>
+			</a>
+		</li>
+			<li class="social-links__link">
+			<a href="https://www.linkedin.com/company/american-marketing-association/" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 5.921a1.922 1.922 0 013.843 0c0 1.061-.861 1.94-1.922 1.94C4.861 7.86 4 6.982 4 5.92zM19.996 20H20v-5.87c0-2.87-.618-5.082-3.974-5.082-1.613 0-2.696.886-3.138 1.725h-.047V9.317H9.66V20h3.314v-5.29c0-1.393.264-2.74 1.988-2.74 1.7 0 1.725 1.59 1.725 2.83V20h3.31zM4.264 9.318h3.317V20H4.264V9.318z" fill="#646464" /></svg>				<span class="screen-reader-text">linkedin</span>
+			</a>
+		</li>
+	</ul>
+
+		</div>
+
+		<div class="page-footer__copyright">
+
+	<p class="page-footer__copyright-text">&copy; 2023&nbsp;American Marketing Association. This site content may not be copied, reproduced, or redistributed without the prior written permission of the American Marketing Association or its affiliates.	</p>
+
+	<a class="page-footer__copyright-seal" href="//www.securitymetrics.com/site_certificate?id=1480382&tk=64fc67acd12fe7e6bfd193ce1b280231"
+	target="_blank" rel="noopener noreferrer">
+		<img class="page-footer__copyright-seal-image" src="https://www.securitymetrics.com/static/apps/super/assets/img/PCI_DSS_Validated_dark.png"
+			alt="SecurityMetrics Credit Card Safe" />
+	</a>
+
+</div>
+	</footer>
+
+	
+<div
+	class="notification js-notification is-sticky js-cookie-banner"
+	aria-visible=""
+	role="banner"
+		aria-label="Cookies acceptance banner"
+		tabindex="0"
+>
+
+		<div class="container notification__container">
+	
+		
+				<p class="notification__text">
+										By continuing to use this site, you accept the use of cookies, pixels and other technology that allows us to understand our users better and offer you tailored content. <a href="https://myama.force.com/s/article/American-Marketing-Association-Privacy-Policy?_ga=2.207123345.367087879.1613928983-1951994682.1582558148">You can learn more about our privacy policy here</a>					</p>
+		
+				<a
+			href="#"
+			role="button"
+			class="notification__button button button--primary"
+					>
+			Got it		</a>
+		
+		<button type="button" class="notification__close js-notification-close">
+			<span class="screen-reader-text">Dismiss notification</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.271 20.728a.928.928 0 001.31 0l7.42-7.419 7.419 7.42a.927.927 0 001.309-1.31l-7.42-7.42 7.42-7.418a.926.926 0 00-1.31-1.31l-7.42 7.42-7.418-7.42a.926.926 0 00-1.31 1.31L10.691 12l-7.42 7.419a.926.926 0 000 1.31z" fill="#000" /></svg>		</button>
+
+		</div>
+	
+</div>
+
+																  
+				<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id='woocommerce-js-extra'>
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script type="text/javascript" src="https://www.ama.org/_static/??-eJyVkcFOwzAMhl+IJFrR1l4QZx6AM8oSr7hN4s5xmPr2C2WbekCISjn4lz//v+yYy6QcJYEkJhY1hdJjymYAmawb1a7RzV18fEHyxMYWoWhF0D0wjLYH5XwyHrOYh9RDfjKrhLv9hchRjMAOjM0ZpCbWdy7AszoGcmPBm9SLfH/TEbfa5QrSiFAr/VNtNznxgvl1e+2CyYXiYWGX3W9Hqq2JwnzCECoDLP8ZYuihslaIFZckGLdm/Yl/1hvk306w+vhvL8sZwqyedWeOBYM3gawHrlOv8WV36Nqm2+/bdrgCo1TVhQ==" ></script><script data-parsely-site="ama.org" src='https://cdn.parsely.com/keys/ama.org/p.js?ver=3.8.4' id="parsely-cfg"></script>
+<script id='frontend-js-extra'>
+var ama_newsletter = {"signup_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=newsletter_signup","signup_nonce":"82cc2eac2a"};
+var ama_datawall = {"signup_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=datawall_signup","signup_nonce":"4a674e0e53"};
+var ama_paywall = {"signup_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=paywall_signup","signup_nonce":"9ab7dd8a02"};
+var ama_elmar = {"signup_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=elmar_signup","signup_nonce":"4e192960a5"};
+var ama_bookmark = {"ajax_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=ama_bookmark","bookmark_nonce":"9e56fb38a4"};
+var ama_quiz = {"quiz_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=ama_quiz","quiz_nonce":"46f3e3d511"};
+var ama_quiz_user_data = {"quiz_user_data_url":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php?action=ama_quiz_user_data","quiz_user_data_nonce":"9da7bb2381"};
+</script>
+<script id='learndash-front-js-extra'>
+var ldVars = {"postID":"57503","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https:\/\/www.ama.org\/wp-admin\/admin-ajax.php"};
+</script>
+<script type="text/javascript" src="https://www.ama.org/_static/??-eJxdjVEOgkAMRC8kFCWR/TGepbFFaHaXdVtEby9oSDb+TTLz3sCSqtsUjaNB8vN9jAoYEFCVTUEUnhxpyiCPmfO7ToKvMteiBygcNnDgn4JGtU3Q529H/9P9TvuFKh90Zz21TfHvGXMk1GHlr+FyPLuu7VxzcvIBOAFE9w==" ></script><script defer src='https://stats.wp.com/e-202326.js' id='jetpack-stats-js'></script>
+<script id='jetpack-stats-js-after'>
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'158097978',post:'57503',tz:'0',srv:'www.ama.org',hp:'vip',j:'1:12.2.1'} ]);
+_stq.push([ "clickTrackerInit", "158097978", "57503" ]);
+</script>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"210be35459","applicationID":"130209192","transactionName":"NFEAYBRRXUYHBUBaWQ0bI1cSWVxbSRZVVFM=","queueTime":0,"applicationTime":1218,"atts":"GBYXFlxLThlEBxYJTR5J","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

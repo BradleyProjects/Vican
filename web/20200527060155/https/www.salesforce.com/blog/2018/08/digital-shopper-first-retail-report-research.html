@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html lang="en" class="ie ie8 oldie desktop no-touch" xmlns="http://www.w3.org/1999...>
+<!--[if IE 9 ]><html lang="en" class="ie ie9 desktop no-touch" xmlns="http://www.w3.org/1999...>
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app227.us.archive.org';v.server_ms=259;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html","20200527060155","https://web.archive.org/","web","/_static/",
+	      "1590559315");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want - Salesforce Blog</title>
+<link rel="preload" as="font" href="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.woff2" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/salesforce-icons.woff2" type="font/woff2" crossorigin="anonymous">
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE"/>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/clientlibs/granite/jquery.min.772fb04d4ce536dfb06c17e789ad4dbd.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/clientlibs/granite/utils.min.a53a609d64abb59ba4017351854c46d0.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/clientlibs/granite/jquery/granite.min.e67470fde615e2d442e08aad300a8905.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/foundation/clientlibs/jquery.min.dd9b395c741ce2784096e26619e14910.js"></script>
+<script src="https://web.archive.org/web/20200527060155js_/https://a.sfdcstatic.com/www/prod/oneTrustV3/742a15b9-6aa4-4c2f-99c1-ad4ca220cf96.js" charset="UTF-8"></script>
+<script>
+        <!-- /* OneTrust callback */ -->
+        function OptanonWrapper() {
+
+            function getCookie(name) {
+                var value = "; " + document.cookie;
+                var parts = value.split("; " + name + "=");
+                if (parts.length == 2) {
+                    return parts.pop().split(";").shift();
+                }
+            }
+
+            function removeElement(element) {
+                if (!getCookie('OptanonAlertBoxClosed') && element) {
+                    element.style.display = "none";
+                }
+            }
+
+            // Push a oneTrust group update event to dataLayer
+            if (window.dataLayer) {
+                window.dataLayer.push({event: 'OneTrustGroupsUpdated'});
+            }
+
+            <!-- /* enable footer link */ -->
+            var footerLinkToggle = document.querySelector(".page-footer_link .optanon-toggle-display");
+            if (footerLinkToggle) {
+                footerLinkToggle.addEventListener("click", Optanon.ToggleInfoDisplay, false);
+                footerLinkToggle.addEventListener("keydown", function(e){
+                    if (e.keyCode === 13) {
+                        Optanon.ToggleInfoDisplay()
+                    }
+                }, false);
+            }
+
+            //Check if user's cookies are enabled, if not remove One Trust from page
+            var cookies = ("cookie" in document && (document.cookie.length > 0 || (document.cookie = "test").indexOf.call(document.cookie, "test") > -1));
+            if (!cookies) {
+                var box = document.querySelector('#onetrust-consent-sdk');
+                box.remove();
+                return;
+            }
+
+            try {
+                //Check if current page is Privacy page, if so do not display One Trust modal
+                if(digitalData) {
+                    if(digitalData.page.pagename.indexOf(":company:privacy") > -1){
+                        var el = document.querySelector("#onetrust-consent-sdk");
+                        removeElement(el);
+                    }
+                }
+                <!-- /* reinitialize active groups after user updates consent */ -->
+                if (SfdcWwwBase.gdpr) {
+                    SfdcWwwBase.gdpr.init();
+                }
+            }catch(err){
+                console.error(err.message)
+            }
+        }
+    </script>
+<link rel="stylesheet" href="//web.archive.org/web/20200527060155cs_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_onetrust.min.8805d53f6f7bc062e14e354f8939c1cb.css" type="text/css">
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_onetrust.min.e51a8ad2c422d57450f47c99afc36235.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/clientlibs/granite/lodash/modern.min.3a0ad4c7614495b1cae264dfcb9b9813.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_analytics_top.min.61369b1fed207b460bd08d0759866db7.js"></script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://web.archive.org/web/20200527060155/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WRXS6TH');</script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+<script src="https://web.archive.org/web/20200527060155js_/https://cdn.optimizely.com/js/10681260716.js"></script>
+<meta name="dynamic-load-optimizely" data-load-libs-asap="optimizely"/>
+<script class="kxct" data-id="r9ktjmocd" data-timing="async" data-version="3.0">
+    window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+    (function(){
+        var k=document.createElement('script');k.type='text/javascript';k.async=true;
+        k.src=(location.protocol==='https:'?'https:':'http:')+'//web.archive.org/web/20200527060155/https://cdn.krxd.net/controltag/r9ktjmocd.js';
+        var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+    }());
+</script>
+<link rel="stylesheet" href="//web.archive.org/web/20200527060155cs_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-www/clientlibs_sfdc_forms.min.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css">
+<link rel="stylesheet" href="//web.archive.org/web/20200527060155cs_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-blogs-redesign/clientlibs_base.min.69c125c97274a4b6a59acdf0ef7749ce.css" type="text/css">
+<link href="//web.archive.org/web/20200527060155cs_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/all.bundle.2db1c82231445d7e633b.css" rel="stylesheet">
+<script>
+		var sfPageData = sfPageData || {};
+		//Not supporting other context
+		sfPageData.locale = "us";
+		sfPageData.blogMeta =  "Customer Experience,Retail,Retail Insights,Unified Commerce,Marketing";
+		sfPageData.pageCloud =  "No Cloud";
+		sfPageData.blogAuthor =  $.trim('Heike Young').split(' ').reverse().join(', ');
+	</script>
+<link rel="icon" type="image/x-icon" href="https://web.archive.org/web/20200527060155im_/https://www.salesforce.com/etc/designs/sfdc-blogs-redesign/en_us/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://web.archive.org/web/20200527060155im_/https://www.salesforce.com/etc/designs/sfdc-blogs-redesign/en_us/favicon.ico">
+<link rel="dns-prefetch" href="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="description" content="See the results from our second &quot;Shopper-First Retailing&quot; research report. Salesforce, with research partner Publicis.Sapient, examined retail’s new rules through three data sources: digital shopping behavior from 500 million shoppers and 1.4 billion ecommerce visits worldwide; a survey of 6,000 consumers across six countries; and, in-person mystery shopping assessments of 70 stores across NYC, London, and San Francisco. This new report reveals where and how shoppers are interacting, where they experience the most friction, and what their behaviors mean for retailers."/>
+<meta property="og:title" content="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want"/>
+<meta property="og:site_name" content="Salesforce Blog"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:description"/>
+<meta property="og:image" content="https://web.archive.org/web/20200527060155im_/https://www.salesforce.com/content/dam/blogs/us/thumbnails/shopper-first-retailing-new-research-from-6000-consumers-and-1-dot-4-billion-ecommerce-visits-reveals-what-shoppers-actually-want/shopper_first_retail_thumb.png"/>
+<meta property="og:locale" content="us"/>
+<meta property="fb:app_id" content="206247976178570"/>
+<meta property="fb:admins" content="626698407"/>
+<link rel="canonical" href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html"/>
+<meta name="twitter:domain" content="www.salesforce.com"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="https://web.archive.org/web/20200527060155im_/https://www.salesforce.com/"/>
+<meta name="twitter:title" content="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want"/>
+<meta name="twitter:description"/>
+<meta/>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/designs/blogsRedesign/framework.min.9385453a2ee0993bca7f7ad1f21b9d22.js"></script>
+<script id="akamaiRootBlock">
+    	window['akamaiRoot'] = '//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com';
+  	</script>
+</head>
+<body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=https%3A//web.archive.org/web/20200527060155/https%3A/www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200527060155" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;">
+                    <a class="t" href="/web/20200527060155*/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="See a list of every capture for this URL">38 captures</a>
+          <div class="r" title="Timespan for captures of this URL">16 Aug 2018 - 10 May 2023</div>
+          </div>
+        <div class="k">
+          <a href="" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="700" height="27" border="0"></canvas>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20191106111229/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="06 Nov 2019"><strong>Nov</strong></a></td>
+            <td class="c" id="displayMonthEl" title="You are here: 06:01:55 May 27, 2020">MAY</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20200716195324/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="16 Jul 2020"><strong>Jul</strong></a></td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20200526045125/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="04:51:25 May 26, 2020"><img src="/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 06:01:55 May 27, 2020">27</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20200716195324/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="19:53:24 Jul 16, 2020"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap"><a href="https://web.archive.org/web/20190520141711/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="20 May 2019"><strong>2019</strong></a></td>
+            <td class="c" id="displayYearEl" title="You are here: 06:01:55 May 27, 2020">2020</td>
+            <td class="f" nowrap="nowrap"><a href="https://web.archive.org/web/20210818152005/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="18 Aug 2021"><strong>2021</strong></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#" title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200527060155/http://web.archive.org/screenshot/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="#" data-url="https://web.archive.org/web/20200527060155/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="#" data-url="https://web.archive.org/web/20200527060155/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/GDELT_Project)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/GDELT_Project" target="_new"><span class="wm-title">GDELT Project</span></a></div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20200527060155/https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(700,27,25,2,"web","https://www.salesforce.com/blog/2018/08/digital-shopper-first-retail-report-research.html","20200527060155",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+<noscript>
+<iframe src="https://web.archive.org/web/20200527060155if_/https://www.googletagmanager.com/ns.html?id=GTM-WRXS6TH" title="Intentionally Blank" aria-hidden="true" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<div aria-hidden="true"><script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/foundation/clientlibs/shared.min.d8eee0685f08a5253a1d753a2619a08f.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.fc8f13b5071b625139a6eed00dc15d38.js"></script>
+<script>
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation\/blog");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/sfdc", "\/content\/blogs\/us\/en\/2018\/08\/digital\u002Dshopper\u002Dfirst\u002Dretail\u002Dreport\u002Dresearch");
+
+        
+    });
+</script>
+</div>
+<div aria-hidden="true"></div>
+<a class="screen-reader-text" href="#main"><div class="container">Skip to content</div></a>
+<div role="banner">
+<div class="templateGeneratedStyleClass_ "><div class="page_module page basicpage">
+<div><div class="skinnyNavigationBar parbase section"><nav class="skinnynav ">
+<div class="container skinnynav-header-container">
+<div class="skinnynav-header row">
+<div class="logo-container col">
+<div class="skinnynav-logo">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/" class="
+               
+                image-link" title="Salesforce blog">
+<img class="lazy hidden-xs hidden-sm  img-responsive         " alt="" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/logo/blog-nav-logo.jpg"/>
+<img class="lazy hidden-md hidden-lg img-responsive     " alt="" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/logo/blog-nav-logo.jpg"/>
+</a>
+</div>
+</div>
+<div class="skinnynav-menu-container col">
+<div class="menu-item-container" role="navigation">
+<ul style="background-color: #e6eef4;">
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="sales_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/sales.html">Sales</a>
+</h2>
+</li>
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="marketing_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/marketing.html">Marketing</a>
+</h2>
+</li>
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="customer-service_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/customer-service.html">Customer Service</a>
+</h2>
+</li>
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="Commerce_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/commerce.html">Commerce</a>
+</h2>
+</li>
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="it_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/it.html">IT</a>
+</h2>
+</li>
+<li class="overlayMenuItem primary-menu-item border-brand-blue" id="small-business_menu_item">
+<h2 class="root-nav-heading">
+<a class="skinnynav-expander" href="/web/20200527060155/https://www.salesforce.com/blog/category/small-business.html">Small Business</a>
+</h2>
+</li>
+<div class="body-overlay"></div>
+</ul>
+</div>
+</div>
+<div class="top-section col">
+<div class="utility-bar">
+<div class="search-form" role="search">
+<a class="icon-sfdc-icon-magnifying-glass" href="/web/20200527060155/https://www.salesforce.com/search/"></a>
+</div>
+<div class="nav-link">
+<p id="salesforcecom" class="
+        h4gn
+        text-cirrus
+        text-left
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        margin-0-top-lg margin-0-bottom-lg
+        " style="; ">
+<a class="
+            text-cirrus
+            
+            
+            " href="/web/20200527060155/https://www.salesforce.com/">
+<span class="
+            header-text
+            
+            
+            ">
+Salesforce.com
+</span>
+</a>
+</p>
+</div>
+<div class="separator"></div>
+<div class="region-selection region-selector">
+<div class="region-selector_button">
+<span class="region-selector_icon icon-sfdc-icon-globe"></span>
+</div>
+</div>
+</div>
+<div class="offer-container">
+<div class="nav-subscribe"><div class="navOffer buttonCTAComponent parbase">
+<div>
+<div class="cta_0 buttonCTAItemComponent parbase">
+<div class="btn-container ">
+<a class="btn btn-lg btn-nav salesforce-sans-regular    " data-content-replacement-close-color="sfdc-swap-button-day" href="/web/20200527060155/https://www.salesforce.com/form/signup/freetrial-sales-essentials/?d=cta-glob-nav-1" target="_blank">
+<span>
+Try Salesforce
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bottom-border border-brand-blue"></div>
+</nav>
+<nav class="container-fluid header-container mobileSkinnyNav">
+<div class="navbar">
+<div class="navbar-header-container">
+<div class="navbar-header">
+<button type="button" class="mobile-nav-toggle collapsed" data-toggle="collapse" data-target="#expandablenavigation" aria-label="Navigation Menu">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="navbar-content">
+</div>
+<div class="navbar-brand">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/blog" class="
+               
+                image-link">
+<img class="lazy   img-responsive         " alt="" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/sfdc-docs/www/resources/campaign-assets/9-reasons/images/salesforce-cloud-logo-sm.png"/>
+</a>
+</div>
+<span class="offer-cta-container">
+<div class="offerCTADefaultPar buttonCTAComponent parbase">
+<div class=" text-center">
+<div class="cta_0 buttonCTAItemComponent parbase">
+<div class="btn-container ">
+<a class="btn btn-lg btn-nav salesforce-sans-regular    " data-content-replacement-close-color="sfdc-swap-button-day" href="/web/20200527060155/https://www.salesforce.com/form/signup/freetrial-sales-essentials/?d=cta-glob-nav-1" target="_blank">
+<span>
+Try Salesforce
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</span>
+</div>
+</div>
+</div>
+</nav>
+<div class="mobile-navigation-drawer mobilenav">
+<div class="overlay"></div>
+<div class="mobile-drawer-container">
+<div class="mobile-drawer-navigation">
+<div>
+<div class="drawer-previous">
+<span class="salesforce-icon icon-sfdc-icon-left-arrow"></span>
+</div>
+<div id="drawer-title" data-default-title="Home">
+<span>Home</span>
+</div>
+<div class="drawer-close">
+<span class="icon-sfdc-icon-x"></span>
+</div>
+<div class="search-form" role="search">
+<a class="icon-sfdc-icon-magnifying-glass" href="/web/20200527060155/https://www.salesforce.com/search/"></a>
+</div>
+</div>
+</div>
+<div class="navigation-container drawer-container">
+<ul class="dynamic-links generic-links" role="navigation">
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/sales.html" data-target-drawer="sales" class="drawer-link-header ">
+<span class="linktitle">Sales</span>
+</a>
+</li>
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/marketing.html" data-target-drawer="marketing" class="drawer-link-header ">
+<span class="linktitle">Marketing</span>
+</a>
+</li>
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/customer-service.html" data-target-drawer="customer-service" class="drawer-link-header ">
+<span class="linktitle">Customer Service</span>
+</a>
+</li>
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/commerce.html" data-target-drawer="Commerce" class="drawer-link-header ">
+<span class="linktitle">Commerce</span>
+</a>
+</li>
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/it.html" data-target-drawer="it" class="drawer-link-header ">
+<span class="linktitle">IT</span>
+</a>
+</li>
+<li>
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/small-business.html" data-target-drawer="small-business" class="drawer-link-header ">
+<span class="linktitle">Small Business</span>
+</a>
+</li>
+</ul>
+<div id="drawer_freetrial" class="free-trial-drawer drawer-child drawer-container" data-drawer-title="Free Trial">
+<ul class="generic-links">
+<li>
+<a class="drawer-link-header has-child" data-target-drawer="contactus">
+<span class="linktitle">Contact US</span>
+<span class="haschildIcon"></span>
+</a>
+<div id="drawer_contactus" class="drawer-child drawer-container" data-drawer-title="Contact US">
+<div class="contactForm-container drawer-content">
+<iframe id="contactForm" style="visibility: visible;" onload="this.style.visibility = 'visible';" scrolling="no" data-form-height="850" data-form-url="/form/contact/contactme-mobi/?d=70130000000tbuW"> </iframe>
+<div class="loading-icon"></div>
+</div>
+</div>
+</li>
+</ul>
+<div class="freeTrial-container">
+<div class="freeTrialHeader salesforce-sans-light">
+<span>Get your FREE 30-day trial.</span>
+<span class="subHeader">Please complete all fields.</span>
+<select id="mobileFormSelect">
+<option data-form-url="/form/signup/freetrial-sales-mobi-v2?d=70130000000tbuW" data-form-height="745">Sales Cloud: World&#39;s #1 CRM</option>
+<option data-form-url="/form/signup/freetrial-service-mobi.jsp?d=70130000000td7L" data-form-height="745">Service Cloud</option>
+<option data-form-url="/form/signup/freetrial-platform-mobi.jsp?d=70130000000td7G" data-form-height="675">Salesforce Platform</option>
+</select>
+</div>
+<iframe id="freeTrialForm" title="Get your FREE 30-day trial." scrolling="no" style="display: inline;"></iframe>
+<div class="loading-icon"></div>
+</div>
+</div>
+<div id="drawer_blankform" class="drawer-child drawer-container">
+<div class="blankForm-container">
+<iframe id="blankForm" title="Blank Form" scrolling="no" style="display: inline;"></iframe>
+<div class="loading-icon"></div>
+</div>
+</div>
+</div>
+<div class="mobile-drawer-footer ">
+<div class="headingComponent parbase section">
+<h2 id="salesforcecom" class="
+        h5gn
+        text-cirrus
+        text-center
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Salesforce.com
+</span>
+</h2>
+</div>
+<div class="gradient"></div>
+<div id="default-links">
+<a href="https://web.archive.org/web/20200527060155/tel:1-800-667-6389">1-800-667-6389</a>
+<span>|</span>
+<a id="freetrial-footer" data-default-trialtitle="Free Trial">Free Trial</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="main">
+<div class="lazy articleInfo blogentry-articleInfo ">
+<div class="article-container lazy bg-brand-blue blogentry-article-container ">
+<div class="article-content">
+<div class="article-content-bg bg-brand-blue"></div>
+<div class="article-content-wrap">
+<div class="columnContainer parbase section">
+<div class="columns-wrapper blogentry-column-wrapper">
+<div class="bg-default bg-opacity">&nbsp;</div>
+<div class="container">
+<div class="row columns-wrapper">
+<div class="col text-left col-xs-12 col-md-6 col-lg-6">
+<div class="headingComponent parbase section">
+<span class="header-text">
+<span class="blogline">
+<span><span class="post-header_meta">
+Aug 14, 2018
+</span></span>
+<span><span class="post-header_meta">
+<span> By </span><a name="dateAuthor" class="author" href="/web/20200527060155/https://www.salesforce.com/blog/authors/heike-young.html">Heike Young</a>
+</span></span>
+</span>
+</span>
+</div>
+<div class="headingComponent parbase section articleInfo-title-wrapper">
+<span class="articleInfo-title" id="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want">
+<a name="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want" class="text-snow preventHover">
+<h1 class="articleInfo-title-text">
+Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want
+</h1>
+</a>
+</span>
+</div>
+<div class="barComponent parbase section">
+<div class="articleInfo-section"></div>
+</div>
+<div class="bodyCopyComponent parbase section">
+<div class="text-size-legal">
+<p><b><div><p class="post-header_meta">
+<div class="bodyCopyComponent parbase section">
+<div class="text-size-legal">
+<span class="articleInfo-tags">
+in
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/customer-experience.html">Customer Experience</a>,
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/retail.html">Retail</a>,
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/retail-insights.html">Retail Insights</a>,
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/unified-commerce.html">Unified Commerce</a>,
+<a href="/web/20200527060155/https://www.salesforce.com/blog/category/marketing.html">Marketing</a>
+</span>
+</div>
+</div>
+</p></div></b></p>
+</div>
+</div>
+<div class="htmlComponent parbase section">
+<div class="articleInfo-social-section">
+<div class="footer-social-links">
+<div><div>
+<div id="socialshare" class="social-media-links">
+<a class="social" onclick="SfdcWwwBase.socialshare.share.linkedin('Shopper\u002DFirst Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want','Salesforce')" href="javascript:void(0);">
+<svg class="salesforce-social-icon icon-sfdc-icon-linkedin-night"></svg>
+</a>
+<a class="social" onclick="SfdcWwwBase.socialshare.share.twitter('Shopper\u002DFirst Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want','Salesforce')" href="javascript:void(0);">
+<svg class="salesforce-social-icon icon-sfdc-icon-twitter-night"></svg>
+</a>
+<a class="social" onclick="SfdcWwwBase.socialshare.share.facebook('Shopper\u002DFirst Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want','Salesforce')" href="javascript:void(0);">
+<svg class="salesforce-social-icon icon-sfdc-icon-facebook-night"></svg>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col text-left col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div class="parbase section imageComponent ">
+<img class="lazy img-responsive articleInfo-image" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/shopper-first-retailing-new-research-from-6000-consumers-and-1-dot-4-billion-ecommerce-visits-reveals-what-shoppers-actually-want/shopper_first_retail_thumb.png" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/shopper-first-retailing-new-research-from-6000-consumers-and-1-dot-4-billion-ecommerce-visits-reveals-what-shoppers-actually-want/shopper_first_retail_thumb.png" alt="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want" title="Shopper-First Retailing: New Research from 6,000 Consumers and 1.4 Billion Ecommerce Visits Reveals What Shoppers Actually Want">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="templateGeneratedStyleClass_ blog-shared-newsletter"><div class="page_module page basicpage">
+<div><div class="columnContainer parbase section"><div data-target-init-function="columnContainer.targetInit" class="     columns-wrapper     column-container-component">
+<div class="bg-karl-the-fog  bg-opacity">&nbsp;
+</div>
+<div class="container">
+<div class="row columns-wrapper
+            ">
+<div class="col  text-left col-xs-12 col-sm-9 col-md-9 col-lg-9"><div class="spacerComponent parbase section"><div class="spacer hidden-xs hidden-sm hidden-md hidden-lg" style="height:5px;"></div>
+</div>
+<div class="headingComponent parbase section">
+<p id="get-our-weekly-newsletter-for-the-latest-business-insights" class="
+        h3lg
+        text-night
+        text-left
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        margin-30-top-lg margin-30-top-md margin-20-top-sm margin-30-bottom-lg margin-30-bottom-md margin-20-bottom-sm margin-0-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Get our weekly newsletter for the latest business insights.
+</span>
+</p>
+</div>
+</div>
+<div class="col  text-left col-xs-12 col-sm-3 col-md-3 col-lg-3"><div class="buttonCTAComponent parbase section">
+<div class="margin-10-top-md margin-0-top-sm margin-10-bottom-xs text-left">
+<div class="cta_0 buttonCTAItemComponent parbase">
+<div class="btn-container ">
+<a class="btn btn-lg btn-dark salesforce-sans-regular    " data-content-replacement-close-color="sfdc-swap-button-day" href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/form/other/blog-newsletter.jsp?d=701300000021JgNAAU" target="_blank">
+<span>
+Subscribe
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="spacerComponent parbase section"><div class="spacer " style="height:8px;"></div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container bg-white" role="main">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 blogentry-content">
+<section>
+<div class="backToPage">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/">
+<span>
+<span class="salesforce-icon icon-sfdc-icon-left-arrow"></span>
+Back to All Stories
+</span>
+</a>
+</div></section>
+<section class=" blogentry-section">
+<div class="50 padding-50-right-lg line-height-17">
+<p>Retailers that win in today’s changing retail landscape have put aside what they think they know to listen to what shoppers actually want. Understanding this empowered, connected shopper’s wants and needs should be multifaceted — and that’s why we conducted new, multilayered research to get a true pulse on today’s shopper.</p>
+<p>&nbsp;</p>
+<p>For the second edition of the “<a href="https://web.archive.org/web/20200527060155/http://www2.publicisgroupe.net/shopper-first_blog-launch" target="_blank" adhocenable="false"><u>Shopper-First Retailing</u></a>” report, Salesforce and our research partner&nbsp;Publicis.Sapient&nbsp;examined retail’s new rules through three data sources:<br>
+<br>
+</p>
+<ul>
+<li><p>Digital shopping behavior from&nbsp;500 million shoppers&nbsp;and&nbsp;1.4 billion ecommerce visits&nbsp;worldwide, and customer service data from&nbsp;200 million service cases</p>
+</li>
+<li><p>Survey of&nbsp;6,000 consumers&nbsp;across six countries</p>
+</li>
+<li><p>In-person mystery shopping assessments of&nbsp;70 stores&nbsp;across NYC, London, and San Francisco</p>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p>This new report reveals where and how shoppers are interacting, where they experience the most friction, and what their behaviors mean for retailers. These trends impact every retailer or brand —&nbsp;regardless of size or segment, as shopper choice increasingly dictates the retail landscape.</p>
+<p>&nbsp;</p>
+<p>Hear more insights from Salesforce and Publicis.Sapient researchers now:</p>
+<p>&nbsp;</p>
+<p><iframe width="560" height="315" src="https://web.archive.org/web/20200527060155if_/https://www.youtube.com/embed/vzl53KcyblE" frameborder="0" allow="autoplay; encrypted-media">&amp;amp;nbsp;</iframe></p>
+<p>&nbsp;</p>
+<p>To summarize, here are five of the primary findings from our research:</p>
+<p>&nbsp;</p>
+<h2><b>1. Brands and marketplaces are squeezing out retailers</b></h2>
+<p>&nbsp;</p>
+<p>We asked consumers, “You’re making a purchase through a brand, retailer, or marketplace. If the price is the same everywhere, why do you choose each channel?” While consumers still prefer retailers for their strong customer service (think Nordstrom and REI),&nbsp;marketplaces and brands beat retailers in every other consumer preference category [<a href="https://web.archive.org/web/20200527060155/https://ctt.ac/YiU3k" target="_blank" adhocenable="false"><u>CLICK TO TWEET</u></a>].</p>
+<p>&nbsp;</p>
+<p><img src="https://web.archive.org/web/20200527060155im_/https://lh4.googleusercontent.com/PCvAHSVXRF5CKJZ5s1rl-RFAEZM_Bx8MDYCfGe6WXV33FjQb05HKsiGYpSMCDhXEH8-3qJzUjZy3RP1CbgDorSggBsaSB22BAFTZmj74UcnBM9UKqJ1mhg9KVyYybp9uPeQ-lYeH" width="695" height="307"><br>
+<br>
+</p>
+<p>Marketplaces received top scores when it comes to price, product variety, product availability, and inspiration.&nbsp;Brands win shoppers' preference when it comes to product quality, innovation, and uniqueness. Retailers must lean into their service strengths by modernizing tactics through emerging tools like video chat or always-on chatbots. They should also aim to improve shoppers’ perception of product quality and availability.</p>
+<h2>&nbsp;</h2>
+<h2><b>2. Marketplaces are winning the second purchase and shopper loyalty</b></h2>
+<p>&nbsp;</p>
+<p>Growing loyalty and sustaining a long-term shopper relationship (and revenue stream) is the goal of every retailer and brand. We asked consumers, “Imagine you want to buy something you’ve never bought before. Where are you most likely to go?” Between the choice of retailers, brands, and marketplaces like Amazon, consumers said they made 50% of first-time purchases from retailers, followed by marketplaces (31%) and brands themselves (19%).</p>
+<p>&nbsp;</p>
+<p>We next asked consumers, “Now imagine you want to buy it again. Where are you most likely to go?” This is where the story changes:&nbsp;When it comes to repeat purchases, marketplaces handily beat retailers, with 47% of repeat purchases made on marketplaces, followed by retailers (34%) and brands (20%) [<a href="https://web.archive.org/web/20200527060155/https://ctt.ac/F1coe" target="_blank" adhocenable="false"><u>CLICK TO TWEET</u></a>].</p>
+<p>&nbsp;</p>
+<p><img src="https://web.archive.org/web/20200527060155im_/https://lh6.googleusercontent.com/YwsKq30IakMTspt76CgmcugSI3TEofho-51jtJvseO9lXWup_3HlEa8MI1blNGk-B1xP0prdR_AXKU1F6Ld3UsZst1Mvaw1nCa8zkvYrdrFukzC7AR_cIc6m_KW23dVl-f5hdxQ-" width="624" height="567"></p>
+<p>&nbsp;</p>
+<p>The second purchase is today’s battleground. Agility, loyalty, and personalization are imperative for retailers and brands to differentiate and win the second purchase. Unforgettable experiences and products can’t be commoditized.</p>
+<h2>&nbsp;</h2>
+<h2><b>3. Shoppers use mobile in-stores at an unprecedented rate —&nbsp;but mobile store experiences lag behind</b></h2>
+<p>&nbsp;</p>
+<p>The brick-and-mortar store is far from passé:&nbsp;46% of shoppers still prefer to buy in a physical store, vs. 35% for laptops, and 18% for mobile phones.</p>
+<p>&nbsp;</p>
+<p>Additionally,&nbsp;71% of shoppers say they’re now using their mobile devices in-stores (83% for shoppers aged 18-44) —&nbsp;up from 62% in 2017 [<a href="https://web.archive.org/web/20200527060155/https://ctt.ac/4dudQ" target="_blank" adhocenable="false"><u>CLICK TO TWEET</u></a>].&nbsp;Shopper activities while using mobile in-stores are diverse, from purchasing to reading reviews.</p>
+<p>&nbsp;</p>
+<p><img src="https://web.archive.org/web/20200527060155im_/https://lh4.googleusercontent.com/If6cwBct6rOk04-FClqNr-T2ON712jmzTv3_OeJlltlRatcjskVUMgv_2u2RInDUeoC9MyxKaz5UpKCpsjhE6r0rmjsdfL_hhswqFiCl2KLEQWWzrmcHKoK-1cFYUxaxUpayhb9A" width="430" height="613"></p>
+<p>&nbsp;</p>
+<p>At the same time, in our mystery shopping study,&nbsp;the average mobile score across all stores was just 1.74 out of 5.&nbsp;With a few exceptions, the stores we studied severely lacked mobile CTAs, apps with relevant omnichannel functionalities, and mobile personalization. We advise omni-channel leaders to take better advantage of shoppers’ unprecedented use of mobile in stores by leveraging apps, geofencing, SMS, and social media.</p>
+<h2>&nbsp;</h2>
+<h2><b>4. Fast retail is here: Shoppers prefer retailers that can move at their speed</b></h2>
+<h2>&nbsp;</h2>
+<p>Fast fashion only tells part of the story. Our research found that meeting shoppers’ expectations is now about fast retail — offering shopping journeys, transactions, and experiences that move at the speed of the shopper:&nbsp;69% of consumers say it’s important or very important to see new merchandise each time they visit a store or shopping site.</p>
+<p>&nbsp;</p>
+<p>Additionally, 75% of consumers' site search queries are brand new each month, showing just how fast consumers are discovering new product types, brands, and features. Within the top 5% of best-selling products on ecommerce sites, the majority of them (59%) change monthly. That means retailers and brands can’t sleep on analyzing shopper searches and delivering the ever-changing items they seek in real time.</p>
+<p>&nbsp;</p>
+<p><img src="https://web.archive.org/web/20200527060155im_/https://lh5.googleusercontent.com/Yr-d-WnHNEGA10vEvCZJhAsouxvmki3DYReHcnU0Q5P5kl-DrKuFXm7ApauMZTAbufwrxAp7faQqLrfEc6a8yhPwI7LFYxLnK0mU734HDAaZt67YFyVKOM-TDOdtfdJifvdVDJQY" width="624" height="275"></p>
+<p>&nbsp;</p>
+<p>On the product side, 59% of shoppers say they’re more likely to buy from brands that offer customized products. Our mystery shopping study noted brands like American Girl, Adidas, and Lacoste offering exclusive personalization that went far beyond the monogram to make shoppers part of the creative process.</p>
+<h2>&nbsp;</h2>
+<h2><b>5. Leading brands lead with values, personalization, and service</b></h2>
+<h2>&nbsp;</h2>
+<p>Shoppers reward brands that go beyond transactions, dollar signs, and orders to bring relevance and resonance to the relationship. How do these brands do it? Through values, personalization, and service.</p>
+<p>&nbsp;</p>
+<p>Values: 45% of shoppers are more likely to buy if the retailer/brand gives a charitable donation&nbsp;with their purchase. Additionally, nine of the top-rated 10 brands in our mystery shopping study had above-average scores in creating an emotional connection. Brands like Lush, Everlane, and Life Is Good lead with values — and shoppers are following.</p>
+<p>&nbsp;</p>
+<p>Personalization: 6% of ecommerce visits that include engagement with AI-powered recommendations drive an outsized 37% of revenue.&nbsp;In a landscape where 64% of shoppers say they feel retailers don't truly know them, AI-driven personalization is a critical tool.</p>
+<p>&nbsp;</p>
+<p>Service: During Cyber Week 2017, shoppers logged five cases for every one knowledge-base view.&nbsp;As Christmas approaches, shoppers seek direct support, but knowledge bases and self-serve options (like forums and chatbots) are increasingly preferred by customers. Empower customers to find their own answers — they’ll take advantage of it.</p>
+<p>&nbsp;</p>
+<p><img src="https://web.archive.org/web/20200527060155im_/https://lh5.googleusercontent.com/v5g1TywatH8NL6sdXsGvqGGFJLcUpr6tuQuvOpam-LqFLp4lgWHTkbqrRytt86gWbi28SN6xp_p6DWgSvMX5eniu70xkPW_nKuQqkKOxJmwQn2nvstGP5XQP1qZjYjGPzCtuN4Hb" width="624" height="347"></p>
+<p>&nbsp;</p>
+<p>Focusing on values, personalization, and service makes shoppers’ context relevant and tells them:&nbsp;we’re listening. And in an age of commoditized products and the race to the bottom, that level of listening drives long-term relationships.</p>
+<p>&nbsp;</p>
+<p><a href="https://web.archive.org/web/20200527060155/http://www2.publicisgroupe.net/shopper-first_blog-launch" target="_blank" adhocenable="false"><u>Download the full “Shopper-First Retailing” report</u></a>&nbsp;for more research on shopper expectations for digital and physical shopping journeys, the technologies they prefer, and what it all means for your marketing, commerce, and service strategies.</p>
+<p>&nbsp;</p>
+<p><a href="https://web.archive.org/web/20200527060155/http://www2.publicisgroupe.net/shopper-first_blog-launch" target="_blank" adhocenable="false"><img src="https://web.archive.org/web/20200527060155im_/https://kapost-files-prod.s3.amazonaws.com/kapost/52f934574e14d3eb0c000856/studio/content/5b56697cb7b0910077000145/html_bodies/1534207777-f3152ab3-3712-43e1-a747-b7c0f63ebaa7/bottom_banner_590x156.png"></a></p>
+</div>
+</section>
+<div class="row">
+<span id="authorRoot" class="hidden" path="/content/blogs/us/en/authors/"></span>
+<div class="blog-entry-footer">
+<div class="hidden-xs hidden-sm hidden-md hidden-lg blog-shared-entry-footer">
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 blog-shared-right-rail">
+<div>
+<div class="templateGeneratedStyleClass_ "><div class="page_module page basicpage">
+<div><div class="spacerComponent parbase section"><div class="spacer " style="height:30px;"></div>
+</div>
+<div class="columnContainer parbase section"><div class=" hidden-xs hidden-sm columns-wrapper bg-default  container-fluid  ">
+<div class="row columns-wrapper ">
+<div class="col text-left col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="cardComponent parbase section">
+<div class="thumbnail   margin-0-top-lg margin-40-bottom-lg margin-40-bottom-md margin-40-bottom-sm margin-30-bottom-xs bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="/solutions/covid-19-response/overview/" data-new-window="true">
+<a href="/web/20200527060155/https://www.salesforce.com/solutions/covid-19-response/overview/" class="hidden-lg hidden-md hidden-sm hidden-xs" title="Salesforce Care Solution as COVID-19 Response">Salesforce Care Solution as COVID-19 Response</a>
+<div><div class=" bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="graphic  ">
+<div class="
+               
+                image-link" target="_blank">
+<img class="lazy hidden-xs hidden-sm  img-responsive  margin-0-top-lg margin-0-bottom-lg       " alt="Free COVID-19 data visualization tools from Tableau" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/homepage_tiles/2020/healthcare-response-solution.jpg"/>
+<img class="lazy hidden-md hidden-lg img-responsive  margin-0-top-lg margin-0-bottom-lg   " alt="Free COVID-19 data visualization tools from Tableau" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/homepage_tiles/2020/healthcare-response-solution.jpg"/>
+</div>
+</div>
+<div class="caption">
+<div class="labelSmallComponent headingComponent parbase section">
+<h2 id="salesforce-care-crisis-response" class="
+        h5
+        text-altostratus
+        text-left
+        salesforce-sans-bold
+        
+        
+        
+        
+        
+        
+        
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Salesforce Care: Crisis Response
+</span>
+</h2>
+</div>
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h3 id="rapidly-respond-to-customers-employees-and-communities" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+Rapidly Respond to Customers, Employees, and Communities
+</span>
+</h3>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="/web/20200527060155/https://www.salesforce.com/solutions/covid-19-response/overview/">Salesforce Care Solution as COVID-19 Response</a>
+</div>
+</div>
+</div>
+</div>
+<div class="headingComponent parbase section">
+<h2 id="related-blog-posts" class="
+        h3
+        text-night
+        text-left
+        salesforce-sans-bold
+        
+        
+        
+        
+        
+        
+        margin--10-top-lg margin--10-top-md margin--10-top-sm margin--10-top-xs
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Related Blog Posts
+</span>
+</h2>
+</div>
+<div class="barComponent parbase section"><div class="margin-10-bottom-lg bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="relatedBlogEntries section"><div class="vertical">
+<div class="row">
+</div>
+<div class="row">
+<article>
+<figure class="article-listings_thumbnail col-xs-12 col-sm-3 col-md-3">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/05/wunderman-thompson-virtual-music-festival.html" title="Inside Wunderman Thompson’s 5-Day Sprint to Create a Virtual Music Festival">
+<img class="lazy img-responsive" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/wunderman-thompson-virtual-music-festival/gareth-jones-ltc.png" alt="Leading Through Change">
+</a>
+</figure>
+<div class="article-listing_details col-xs-12 col-sm-9 col-md-9 margin-20-bottom-lg">
+<p class="article-listing_meta">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/05/wunderman-thompson-virtual-music-festival.html">
+Inside Wunderman Thompson’s 5-Day Sprint to Create a Virtual Music Festival
+</a>
+<br>
+<span class="salesforce-sans-light">
+By
+<span class="text-cirrus"><a href="/web/20200527060155/https://www.salesforce.com/blog/authors/gareth-jones.html" title="Gareth Jones" rel="author">
+Gareth Jones
+</a></span>
+</span>
+</p>
+</div>
+</article>
+</div>
+<div class="row">
+<article>
+<figure class="article-listings_thumbnail col-xs-12 col-sm-3 col-md-3">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/05/service-cancel-culture-eq-customer-loyalty.html" title="How Emotional Intelligence Increases Customer Loyalty">
+<img class="lazy img-responsive" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/service-cancel-culture-eq-customer-loyalty/shonah-ltc-thumb.jpg" alt="Leading Through Change">
+</a>
+</figure>
+<div class="article-listing_details col-xs-12 col-sm-9 col-md-9 margin-20-bottom-lg">
+<p class="article-listing_meta">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/05/service-cancel-culture-eq-customer-loyalty.html">
+How Emotional Intelligence Increases Customer Loyalty
+</a>
+<br>
+<span class="salesforce-sans-light">
+By
+<span class="text-cirrus"><a href="/web/20200527060155/https://www.salesforce.com/blog/authors/shonnah-hughes.html" title="Shonnah Hughes" rel="author">
+Shonnah Hughes
+</a></span>
+</span>
+</p>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="columnContainer parbase section"><div data-target-init-function="columnContainer.targetInit" class="    hidden-xs hidden-sm columns-wrapper  container-fluid  margin-0-top-lg margin-0-top-md margin-0-top-sm margin-0-top-xs margin-0-bottom-lg margin-0-bottom-md margin-0-bottom-sm margin-0-bottom-xs column-container-component">
+<div class="bg-default  bg-opacity">&nbsp;
+</div>
+<div class="row columns-wrapper
+            " style="
+            500">
+<div class="col  text-left col-xs-12 col-sm-12 col-md-12 col-lg-12"><div class="cardComponent parbase section">
+<div class="thumbnail    bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="/blog/2020/03/latest-efforts-coronavirus-help-affected.html">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/03/latest-efforts-coronavirus-help-affected.html" class="hidden-lg hidden-md hidden-sm hidden-xs" title="Our Latest Efforts to Help Those Affected">Our Latest Efforts to Help Those Affected</a>
+<div><div class=" bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="graphic  ">
+<div class="
+               
+                image-link">
+<img class="lazy hidden-xs hidden-sm  img-responsive  margin-0-top-lg margin-0-bottom-lg       " alt="What Salesforce is doing to help the COVID-19 pandemic" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/homepage_tiles/2020/latest-efforts-covid-19.jpg"/>
+<img class="lazy hidden-md hidden-lg img-responsive  margin-0-top-lg margin-0-bottom-lg   " alt="What Salesforce is doing to help the COVID-19 pandemic" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/homepage_tiles/2020/latest-efforts-covid-19.jpg"/>
+</div>
+</div>
+<div class="caption">
+<div class="labelSmallComponent headingComponent parbase section">
+<h2 id="salesforce-news" class="
+        h5
+        text-altostratus
+        text-left
+        salesforce-sans-bold
+        
+        
+        
+        
+        
+        
+        
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Salesforce News
+</span>
+</h2>
+</div>
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h5 id="our-latest-efforts-to-help-those-affected-by-covid-19" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+Our Latest Efforts to Help Those Affected by COVID-19
+</span>
+</h5>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="/web/20200527060155/https://www.salesforce.com/blog/2020/03/latest-efforts-coronavirus-help-affected.html">Our Latest Efforts to Help Those Affected</a>
+</div>
+</div>
+</div>
+</div>
+<div class="headingComponent parbase section">
+<h2 id="most-popular-stories" class="
+        h3
+        text-night
+        text-left
+        salesforce-sans-bold
+        
+        
+        
+        
+        
+        
+        
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Most Popular Stories
+</span>
+</h2>
+</div>
+<div class="cardComponent parbase section">
+<div class="thumbnail    bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="/blog/2020/04/brand-game-plan-during-crisis-breakdown-breakthrough.html">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/brand-game-plan-during-crisis-breakdown-breakthrough.html" class="hidden-lg hidden-md hidden-sm hidden-xs" title="From Breakdown to Breakthrough: A Game Plan for Brands During Times of Crisis">From Breakdown to Breakthrough: A Game Plan for Brands During Times of Crisis</a>
+<div><div class=" bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="graphic  ">
+<div class="
+               
+                image-link" title="IT ROX">
+<img class="lazy hidden-xs hidden-sm  img-responsive  margin-0-top-lg margin-0-bottom-lg       " alt="Game plan for brands" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/replacement_images/2020/LTC/ltc-marketing.png"/>
+<img class="lazy hidden-md hidden-lg img-responsive  margin-0-top-lg margin-0-bottom-lg   " alt="Game plan for brands" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/replacement_images/2020/LTC/ltc-marketing.png"/>
+</div>
+</div>
+<div class="caption">
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h2 id="a-game-plan-for-brands-during-times-of-crisis" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+A Game Plan for Brands During Times of Crisis
+</span>
+</h2>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/brand-game-plan-during-crisis-breakdown-breakthrough.html">From Breakdown to Breakthrough: A Game Plan for Brands During Times of Crisis</a>
+</div>
+</div>
+</div>
+</div>
+<div class="cardComponent parbase section">
+<div class="thumbnail    bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="/blog/2020/04/small-business-resilience-bittyandbeauscoffee.html">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/small-business-resilience-bittyandbeauscoffee.html" class="hidden-lg hidden-md hidden-sm hidden-xs" title="How a Coffee Shop Continues Serving Customers From Home">How a Coffee Shop Continues Serving Customers From Home</a>
+<div><div class=" bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="caption">
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h2 id="how-a-coffee-shop-continues-serving-customers-from-home" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+How a Coffee Shop Continues Serving Customers From Home
+</span>
+</h2>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/small-business-resilience-bittyandbeauscoffee.html">How a Coffee Shop Continues Serving Customers From Home</a>
+</div>
+</div>
+</div>
+</div>
+<div class="cardComponent parbase section">
+<div class="thumbnail    bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="/blog/2020/04/twitter-social-media-crisis-best-practices.html">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/twitter-social-media-crisis-best-practices.html" class="hidden-lg hidden-md hidden-sm hidden-xs" title="Twitter Shares How Brands Succeed With Social Media in a Crisis">Twitter Shares How Brands Succeed With Social Media in a Crisis</a>
+<div><div class=" bg-brand-blue bar-align-center " style="height:2px;width:100%;"></div>
+</div>
+<div class="caption">
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h2 id="twitter-shares-how-brands-succeed-with-social-media-in-a-crisis" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+Twitter Shares How Brands Succeed With Social Media in a Crisis
+</span>
+</h2>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="/web/20200527060155/https://www.salesforce.com/blog/2020/04/twitter-social-media-crisis-best-practices.html">Twitter Shares How Brands Succeed With Social Media in a Crisis</a>
+</div>
+</div>
+</div>
+</div>
+<div class="cardComponent parbase section">
+<div class="thumbnail   margin-20-top-lg margin-20-top-md margin-20-top-sm margin-20-top-xs bg-karl-the-fog  ">
+<div class="thumbnail-content thumbnail-linked" data-href="https://trailhead.salesforce.com/en/users/strailhead/trailmixes/get-started-with-sourcing-ppe" data-new-window="true">
+<a href="https://web.archive.org/web/20200527060155/https://trailhead.salesforce.com/en/users/strailhead/trailmixes/get-started-with-sourcing-ppe" class="hidden-lg hidden-md hidden-sm hidden-xs"></a>
+<div class="graphic  ">
+<div class="
+               
+                image-link">
+<img class="lazy hidden-xs hidden-sm  img-responsive         " alt="learn with trailhead" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/ppe-moment-crisis/ppe-moment-of-crisis.jpg"/>
+<img class="lazy hidden-md hidden-lg img-responsive     " alt="learn with trailhead" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/thumbnails/ppe-moment-crisis/ppe-moment-of-crisis.jpg"/>
+</div>
+</div>
+<div class="caption">
+<div class="labelSmallComponent headingComponent parbase section">
+<h2 id="learn-with-trailhead" class="
+        h5
+        text-altostratus
+        text-left
+        salesforce-sans-bold
+        
+        
+        
+        
+        
+        
+        
+        " style="; ">
+<span class="
+            header-text
+            
+            
+            ">
+Learn With Trailhead
+</span>
+</h2>
+</div>
+<div class="headingSmallLightComponent headingComponent parbase section">
+<h3 id="get-started-with-sourcing-ppe" class="
+        h3
+        text-link
+        text-left
+        salesforce-sans-light
+        
+        
+        
+        
+        
+        
+        margin-10-bottom-lg margin-10-bottom-md margin-10-bottom-sm margin-10-bottom-xs
+        " style="; ">
+<span class="
+            header-text
+            head-text
+            
+            ">
+Get Started With Sourcing PPE
+</span>
+</h3>
+</div>
+</div>
+<div class="card-overlay-container">
+<a class="screen-reader-text" href="https://web.archive.org/web/20200527060155/https://trailhead.salesforce.com/en/users/strailhead/trailmixes/get-started-with-sourcing-ppe"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div role="contentinfo">
+<div class="templateGeneratedStyleClass_ "><div class="page_module page basicpage">
+<div><div class="barComponent parbase section"><div class=" bg-karl-the-fog bar-align-center " style="height:3px;width:100%;"></div>
+</div>
+<div class="powerFooterNavigationComponent columnContainer parbase section"><div class="columns-wrapper bg-snow hidden-xs hidden-sm">
+<div class="container">
+<div class="row columns-wrapper ">
+<div class="col text-left col-sm-4 col-md-4 col-lg-4">
+<div class="footer-logo">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/" class="
+               
+                image-link">
+<img class="lazy   img-responsive  margin-20-top-lg margin-20-top-md margin-20-top-sm margin-20-bottom-lg margin-20-bottom-md margin-20-bottom-sm       " alt="" src="//web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/imgs/spacer.gif" data-src="//web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/blogs/us/redesign/sfdc-blog-logo.png"/>
+</a>
+</div>
+</div>
+<div class="col text-left col-sm-3 col-md-3 col-lg-3">
+</div>
+<div class="col text-left col-sm-3 col-md-3 col-lg-3">
+</div>
+<div class="col text-left col-sm-2 col-md-2 col-lg-2"><div class="htmlComponent parbase section">
+<div class="margin-40-top-lg margin-40-top-md margin-20-top-sm"><div class="footer-social-links">
+<div class="social-media-links margin-30-bottom-lg">
+<a href="https://web.archive.org/web/20200527060155/http://www.linkedin.com/company/salesforce" target="_blank" title="LinkedIn"><span class="text-salesforce-gray icon-sfdc-icon-linkedin"></span></a>
+<a href="https://web.archive.org/web/20200527060155/http://twitter.com/salesforce" target="_blank" title="Twitter"><span class="text-salesforce-gray icon-sfdc-icon-twitter"></span></a>
+<a href="https://web.archive.org/web/20200527060155/http://www.facebook.com/salesforce" target="_blank" title="Facebook"><span class="text-salesforce-gray icon-sfdc-icon-facebook"></span></a>
+<a href="https://web.archive.org/web/20200527060155/http://www.youtube.com/Salesforce" target="_blank" title="YouTube"><span class="text-salesforce-gray icon-sfdc-icon-youtube"></span></a>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footerNavigationComponent parbase section"><footer class="page-footer">
+<div class="container">
+<div class="region-selector ">
+<div class="region-selector_button">
+<div class="surround btn btn-outline-primary border-white" tabindex="0">
+<span class="region-selector_icon icon-sfdc-icon-globe"></span>
+<span class="region-selector_label">Global Blogs</span>
+<span class="region-selector_caret icon-sfdc-icon-up-arrow"></span>
+</div>
+</div>
+<div class="region-selector_dialog" tabindex="0">
+<div class="region-selector_content">
+<div><div class="  columns-wrapper bg-default  container-fluid  ">
+<div class="row columns-wrapper ">
+<div class="col text-left col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="headingComponent parbase section">
+<h6 id="americas" class="
+        h5
+        text-night
+        text-left
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        
+        " style="margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;; ">
+<span class="
+            header-text
+            
+            
+            ">
+Americas
+</span>
+</h6>
+</div>
+<div class="genericLinkListComponent list parbase section">
+<ul class="generic-links  margin--10-top-lg">
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/br/blog/">Brasil (Português)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/ca/blog/">Canada (English)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="/web/20200527060155/https://www.salesforce.com/blog/">United States (English)</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="col text-left col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="headingComponent parbase section">
+<h6 id="europe-middle-east-and-africa" class="
+        h5
+        text-night
+        text-left
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        
+        " style="margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;; ">
+<span class="
+            header-text
+            
+            
+            ">
+Europe, Middle East, and Africa
+</span>
+</h6>
+</div>
+<div class="genericLinkListComponent list parbase section">
+<ul class="generic-links  margin--10-top-lg">
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/de/blog/">Deutschland (Deutsch)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/fr/blog/">France (Français)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/nl/blog/">Nederland (Nederlands)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/uk/blog/">UK and Ireland (English)</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="col text-left col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="headingComponent parbase section">
+<h6 id="asia-pacific" class="
+        h5
+        text-night
+        text-left
+        salesforce-sans-regular
+        
+        
+        
+        
+        
+        
+        
+        " style="margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;; ">
+<span class="
+            header-text
+            
+            
+            ">
+Asia Pacific
+</span>
+</h6>
+</div>
+<div class="genericLinkListComponent list parbase section">
+<ul class="generic-links  margin--10-top-lg">
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/au/blog/">Australia (English)</a>
+</span>
+</li>
+<li>
+<span class="li-wrap">
+<a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/jp/blog/">日本 (日本語)</a>
+</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-footer_content">
+<div class="page-footer_legal">
+<link rel="stylesheet" href="//web.archive.org/web/20200527060155cs_/https://c1.sfdcstatic.com/etc.clientlibs/wcm/foundation/clientlibs/accessibility.min.6fe5d4427361a4c0ca5a75457e3e4256.css" type="text/css">
+<p><a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/company/privacy.jsp">Privacy</a> | <a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/company/disclosure/">Responsible Disclosure</a> | <a href="https://web.archive.org/web/20200527060155/https://trust.salesforce.com/">Trust</a> | <a href="https://web.archive.org/web/20200527060155/https://www.salesforce.com/form/contact/contactme.jsp?d=70130000000EeYa">Contact</a></p>
+<p>© Copyright 2020 Salesforce.com, inc. <a href="https://web.archive.org/web/20200527060155/http://www.salesforce.com/company/legal/intellectual.jsp">All rights reserved</a>. Various trademarks held by their respective owners. Salesforce.com, inc. Salesforce Tower, 415 Mission Street, 3rd Floor, San Francisco, CA 94105, United States<br/>
+</p>
+<p> </p>
+</div>
+<nav class="page-footer_links mobile-display">
+<ul class="page-footer_links_list">
+</ul>
+</nav>
+</div>
+</div>
+</footer>
+</div>
+<div class="dockedContainer parbase section"><div class="docked-container  margin-20-right-lg fixed"><div class="fixedFooterCTAItemComponent parbase section"><div class="fixed-btn-container hidden-xs hidden-sm hidden-md">
+<div class="live-chat-container">
+<div class="btn-container" id="livechatv2">
+<div>
+<div class="snippet-data" data-snippet-sfendpoint="https://d.la1-c2-phx.salesforceliveagent.com/chat" data-snippet-contenturl="https://c.la1-c2-phx.salesforceliveagent.com/content" data-snippet-agenturl="https://d.la1-c2-phx.salesforceliveagent.com/chat" data-snippet-initesw="https://org62.my.salesforce.com">
+<div><style>
+    .bg-cirrus[href]:hover img {
+        border: 2px solid #0097EE;
+    }
+    .embeddedServiceHelpButton .helpButton,
+    .embeddedServiceSidebar a.embeddedServiceSidebarMinimizedContainer,
+    .embeddedServiceSidebar.layout-docked .dockableContainer {
+        right: 175px;
+    }
+    .embeddedServiceHelpButton {
+        display: none;
+        bottom: 0;
+        top: auto;
+    }
+    //Style used to keep button on the top of the page ( specially to fix IPAD error).
+    //Bug: W-4434592 - Live Chat tab moves with the page scroll on iPad
+    //GUS: https://gus.lightning.force.com/one/one.app#/sObject/a07B0000004KqNIIA0
+    .embeddedServiceSidebar.modalContainer .embeddedServiceSidebarMinimizedContainer {
+        bottom: 0;
+        top: auto;
+    }
+    .embeddedServiceSidebar .isMinimized.embeddedServiceSidebarMinimizedContainer,
+    .embeddedServiceHelpButton .helpButton .uiButton.helpButtonDisabled,
+    .embeddedServiceHelpButton .helpButton .uiButton.helpButtonEnabled,
+    .embeddedServiceSidebar .helpButton.isMinimized {
+        background-color: #215ca0;
+        font-size: inherit;
+        max-width: inherit;
+        padding-left: 35px;
+        padding-right: 0;
+        width: 164px;
+        min-width: 0;
+    }
+    @media only screen and (min-width: 48em) {
+        .embeddedServiceHelpButton .helpButton,
+        .embeddedServiceSidebar a.embeddedServiceSidebarMinimizedContainer {
+            height: 35px;
+            font-family: 'SalesforceSansRegular', Helvetica, Arial, sans-serif !important;
+        }
+        .embeddedServiceHelpButton .uiButton.helpButtonEnabled .embeddedServiceIcon,
+        .embeddedServiceSidebar .helpButton.embeddedServiceSidebarMinimizedContainer .embeddedServiceIcon,
+        .embeddedServiceHelpButton .helpButtonDisabled .embeddedServiceIcon,
+        .embeddedServiceSidebarMinimizedContainer .minimizedImage {
+            display: none;
+        }
+        .embeddedServiceHelpButton .uiButton .helpButtonLabel {
+            bottom: 4.6px;
+            left: 4px;
+            font-size: 14px;
+            letter-spacing: .102em;
+        }
+        .embeddedServiceHelpButton .helpButton .uiButton,
+        .embeddedServiceSidebar .isMinimized {
+            border-radius: 4px 4px 0 0;
+        }
+    }
+    .embeddedServiceLiveAgentStateChatHeaderOption .optionName,
+    .embeddedServiceLiveAgentStateChatHeader:not(.alert) .message,
+    .embeddedServiceSidebarButton .label {
+        text-transform: uppercase;
+    }
+    .embeddedServiceSidebarButton .label {
+        font-size: 14px;
+        letter-spacing: 1.428px;
+        font-weight: bold;
+    }
+    .embeddedServiceLiveAgentStateChatInputFooter.dynamicResizeTextOneRow .chasitorText {
+        font-size: 14px;
+    }
+    .embeddedServiceSidebarHeader #headerTextLabel,
+    .embeddedServiceSidebarHeader #headerSubtext {
+        letter-spacing: 1.428px;
+    }
+    .embeddedServiceSidebarMinimizedContainer {
+        box-shadow: none;
+    }
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        box-shadow: none;
+    }
+</style></div>
+<div><style>
+    .embeddedServiceLoadingBalls .second,
+    .embeddedServiceLoadingBalls .third {
+        display: none;
+    }
+    .embeddedServiceLoadingBalls.animated .first {
+        animation: none;
+        width: 60%;
+        height: 60px;
+        border-radius: 0px;
+        background-color: transparent;
+        background-image: url("https://web.archive.org/web/20200527060155im_/https://c2.sfdcstatic.com/content/dam/web/en_us/www/images/live-agent/astro-waiting-snap-ins-wave.gif"); //// replace this with your gif
+        background-position: center;
+        background-size: cover;
+    }
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #215CA0;
+        font-family: "Salesforce Sans", sans-serif;
+    }
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #215CA0;
+    }
+    @font-face {
+font-family: 'Salesforce Sans';
+src: url('https://web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'), url('https://web.archive.org/web/20200527060155im_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf) format('truetype');
+}
+</style>
+<script src="https://web.archive.org/web/20200527060155js_/https://service.force.com/embeddedservice/3.0/esw.min.js"></script>
+<script>
+    var initESW = function(gslbBaseURL) {
+
+        embedded_svc.settings.displayHelpButton = true; //Or false
+
+        embedded_svc.settings.language = 'en-US'; //For example, enter 'en' or 'en-US'
+
+
+
+        embedded_svc.settings.defaultMinimizedText = "LET'S CHAT"; //(Defaults to Chat with an Expert)
+
+        //embedded_svc.settings.disabledMinimizedText = '...'; //(Defaults to Agent Offline)
+        //embedded_svc.settings.loadingText = ''; //(Defaults to Loading)
+        //embedded_svc.settings.storageDomain = 'yourdomain.com'; //(Sets the domain for your deployment so that visitors can navigate subdomains during a chat session)
+
+        // Settings for Live Agent
+embedded_svc.settings.chatbotAvatarImgURL = 'https://web.archive.org/web/20200527060155/https://c1.sfdcstatic.com/content/dam/web/en_us/www/images/live-agent/icon-chat-bot.png';
+        embedded_svc.settings.avatarImgURL = "https://web.archive.org/web/20200527060155/https://c2.sfdcstatic.com/content/dam/web/en_us/www/images/live-agent/snap-ins-agent-astro.png";
+        embedded_svc.settings.prechatBackgroundImgURL = "https://web.archive.org/web/20200527060155/https://c2.sfdcstatic.com/content/dam/web/en_us/www/images/live-agent/snap-ins-pre-chat-banner.png";
+
+        embedded_svc.settings.waitingStateBackgroundImgURL = '';
+        embedded_svc.settings.smallCompanyLogoImgURL = '';
+        embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+        embedded_svc.settings.entryFeature = 'LiveAgent';
+
+embedded_svc.settings.extraPrechatInfo = [{
+"entityFieldMaps":[{
+"doCreate":true,
+"doFind":false,
+"fieldName":"LastName",
+"isExactMatch":true,
+"label":"Last Name"},
+{"doCreate":true,
+"doFind":false,
+"fieldName":"FirstName",
+"isExactMatch":true,
+"label":"First Name"},
+{"doCreate":true,
+"doFind":false,
+"fieldName":"Email",
+"isExactMatch":true,
+"label":"Email"}],
+"entityName":"Lead"}];
+  
+
+      embedded_svc.init('https://web.archive.org/web/20200527060155/https://org62.my.salesforce.com', 'https://web.archive.org/web/20200527060155/https://store.salesforce.com/', gslbBaseURL, '00D000000000062', 'Sales', {
+            baseLiveAgentContentURL: 'https://web.archive.org/web/20200527060155/https://c.la1-c2-phx.salesforceliveagent.com/content',
+            deploymentId: '57230000000DmsR',
+            buttonId: '57330000000MBlR',
+            baseLiveAgentURL: 'https://web.archive.org/web/20200527060155/https://d.la1-c2-phx.salesforceliveagent.com/chat',
+            eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I0M000000PAsDUAW_15f4f60cb08'
+        });
+    };
+    if (!window.embedded_svc) {
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://web.archive.org/web/20200527060155/https://org62.my.salesforce.com/embeddedservice/3.0/esw.min.js');
+        s.onload = function() {
+            initESW(null);
+        };
+        document.body.appendChild(s);
+    } else {
+        initESW('https://web.archive.org/web/20200527060155/https://org62.my.salesforce.com');
+    }
+</script></div>
+</div></div>
+</div>
+<div class="btn-container" id="liveagent_button_offline_57330000000MBlR">
+<a class="btn btn-lg-rounded-top-corners bg-cirrus text-snow salesforce-sans-regular chat-trigger-v2-contact btn-lg" role="button" href="/web/20200527060155/https://www.salesforce.com/form/contact/contactme.jsp?d=70130000000Fm5e">
+CONTACT US
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="randomImageComponent list parbase section"><div class="randomImage " data-embeddedto=".embeddedServiceHelpButton .helpButton,.embeddedServiceSidebarMinimizedContainer" data-srcimage="/content/dam/web/en_us/shared/pilot/chat-rep-yakaira.jpg" data-embeddedimage="true">
+</div>
+</div>
+<div class="referenceComponent reference parbase section"><div class="cq-dd-paragraph"><div class="htmlcomponent htmlComponent parbase">
+<div><script>
+$( document ).ready(function() {
+$(".page-footer_legal > p:first").append('&nbsp;|&nbsp;<a data-ignore-geolocation="true" class="optanon-toggle-display" href="#">Cookie Preferences</a>');
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    var SfdcMaster = SfdcMaster || {};
+    SfdcMaster.config = {
+        liveAgentOrganizationId: "00D000000000062",
+        liveAgentButtonId: "57330000000MBlR",
+        liveAgentDeploymentId: "57230000000DmsR",
+        liveAgentEndpointUrl: "https:\/\/web.archive.org\/web\/20200527060155\/https:\/\/d.la1\u002dc2\u002dphx.salesforceliveagent.com\/chat",
+        liveChatWaterfallDisabled: "false" === "true",
+        liveChatWaterFallDelay: "30",
+        liveChatModalPath: ""
+    };
+</script>
+<script>
+    var SfdcWwwBase = SfdcWwwBase || {};
+    SfdcWwwBase.config = {
+        liveAgentOrganizationId: "00D000000000062",
+        liveAgentButtonId: "57330000000MBlR",
+        liveAgentDeploymentId: "57230000000DmsR",
+        liveAgentEndpointUrl: "https:\/\/web.archive.org\/web\/20200527060155\/https:\/\/d.la1\u002dc2\u002dphx.salesforceliveagent.com\/chat",
+        liveChatWaterfallDisabled: "false" === "true",
+        liveChatWaterFallDelay: "30",
+        liveChatModalPath: ""
+    };
+</script>
+<script>
+    var SfdcBlogsRedesign = SfdcBlogsRedesign || {};
+    SfdcBlogsRedesign.config = {
+        liveAgentOrganizationId: "00D000000000062",
+        liveAgentButtonId: "57330000000MBlR",
+        liveAgentDeploymentId: "57230000000DmsR",
+        liveAgentEndpointUrl: "https:\/\/web.archive.org\/web\/20200527060155\/https:\/\/d.la1\u002dc2\u002dphx.salesforceliveagent.com\/chat",
+        liveChatWaterfallDisabled: "false" === "true",
+        liveChatWaterFallDelay: "30",
+        liveChatModalPath: ""
+    };
+</script>
+<div class="cloudservice salesforce-dmp-tags">
+</div>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_analytics_bottom.min.f9008bdca3bae505c4f7a83e87e0d71f.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-www/clientlibs_sfdc_forms.min.d41d8cd98f00b204e9800998ecf8427e.js"></script>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc/clientlibs/sfdc-blogs-redesign/clientlibs_base.min.58272012fff06e3d79ed990b95862be2.js"></script>
+<div class="hidden" data-load-libs="yall, SfdcWwwGlobalNavigation, aemMasterSearch, aemMasterSfdcWwwBase"><div/>
+<script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/vendors~polyfills.bundle.2db1c82231445d7e633b.js"></script><script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/polyfills.bundle.2db1c82231445d7e633b.js"></script><script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/vendors~scriptloader.bundle.2db1c82231445d7e633b.js"></script><script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/scriptloader.bundle.2db1c82231445d7e633b.js"></script><script src="//web.archive.org/web/20200527060155js_/https://c1.sfdcstatic.com/etc.bundles/sfdc-blogs-redesign/bundles/all.bundle.2db1c82231445d7e633b.js"></script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 06:01:55 May 27, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:48:58 Jun 26, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 179.863 (11)
+  exclusion.robots: 0.215
+  exclusion.robots.policy: 0.205
+  RedisCDXSource: 0.568
+  esindex: 0.01
+  LoadShardBlock: 152.171 (3)
+  PetaboxLoader3.datanode: 70.665 (4)
+  load_resource: 60.187
+  PetaboxLoader3.resolve: 31.407
+-->
