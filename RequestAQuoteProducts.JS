@@ -1,4 +1,3 @@
-
 document.getElementById("quoteForm").onsubmit = function(event) {
     event.preventDefault(); // Prevent form from submitting via HTTP
   
@@ -10,6 +9,11 @@ document.getElementById("quoteForm").onsubmit = function(event) {
       product: document.getElementById("product").value,
       quantity: document.getElementById("quantity").value,
     };
+  
+    // Check if the "Blank Option" is selected and set the value to an empty string
+    if (formData.product === "Blank Option") {
+      formData.product = "";
+    }
   
     // Send email using EmailJS
     emailjs.send("default_service", "template_luhl7mo", formData)
@@ -36,4 +40,3 @@ document.getElementById("quoteForm").onsubmit = function(event) {
     messageContainer.style.color = "red";
     messageContainer.textContent = message;
   }
-  
