@@ -1,0 +1,70 @@
+/* Center the form container */
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#formContainer h1 {
+  margin-bottom: 20px;
+}
+
+#quoteForm {
+  width: 100%; /* Adjust the width of the form */
+  max-width: 1000px; /* Set a maximum width to prevent it from taking up the entire screen */
+  border: none;
+  font-size: 16px; /* Increase the font size for the form */
+}
+
+/* Arrange name and phone next to each other */
+#quoteForm label,
+#quoteForm input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#quoteForm label {
+  font-weight: bold;
+}
+
+#quoteForm input[type="text"],
+#quoteForm input[type="tel"],
+#quoteForm input[type="email"],
+#quoteForm select,
+#quoteForm input[type="number"] {
+  width: 100%;
+  padding: 10px; /* Increase the padding for the input elements */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Increase the font size for the input elements */
+}
+
+#quoteForm .inline-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+#quoteForm .inline-fields > div {
+  width: 48%;
+}
+
+/* Make the submit button red */
+#quoteForm .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#quoteForm button[type="submit"] {
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increase the font size for the button */
+}
